@@ -1,0 +1,54 @@
+/*
+
+VC Shortcode List
+-------------------------------------------------------
+*/
+ul.vc-mm-list, .main-navigation li ul.vc-mm-list{
+  margin: 0;
+  padding: 0;
+  position: initial;
+  top: initial;
+  left: initial;
+  height: initial;
+  width: initial;
+
+  li {
+      list-style: none;
+      padding: 10px 0;
+      @include clearfix;
+  }
+  .vc-list-subtitle {
+      display: block;
+      font-size: 80%;
+  }
+  .vc-list-icon {
+    margin-right: 5px;
+  }
+  .has-subtitle.has-icon {
+      .vc-list-title {
+        display: block;
+      }
+      .vc-list-icon {
+        float: left;
+        display: block;
+        padding-top: 2px;
+        font-size: 26px;
+        margin-right: 0px;
+      }
+      .vc-list-subtitle,
+      .vc-list-title {
+          margin-left: 40px;
+      }
+  }
+
+  &.hover-style {
+      li {
+          padding-top: 0px;
+          padding-bottom: 0px;
+          a {
+              display: block;
+              padding: 11px 10px;
+          }
+      }
+  }
+}

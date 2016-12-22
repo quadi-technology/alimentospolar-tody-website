@@ -1,0 +1,596 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mega Menu for Visual Composer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Fri Dec 18 2015 16:03:57 GMT+0700 (ICT)\n"
+"POT-Revision-Date: Fri Dec 18 2015 16:04:10 GMT+0700 (ICT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Mega Menu for Visual Composer"
+msgstr ""
+
+#. URI of the plugin
+msgid "#"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Drag and drop page builder for WordPress. Take full control over your "
+"WordPress site, build any layout you can imagine – no programming knowledge "
+"required."
+msgstr ""
+
+#. Author of the plugin
+msgid "Sa"
+msgstr ""
+
+#: ../vc-mega-menu.php:91
+msgctxt "post type general name"
+msgid "Mega Menu Items"
+msgstr ""
+
+#: ../inc/admin-nav.php:57 ../inc/admin-nav.php:674
+msgid "Mega Settings"
+msgstr ""
+
+#: ../inc/admin-nav.php:99
+msgid "Search Icon"
+msgstr ""
+
+#: ../inc/admin-nav.php:127
+msgid "Menu title"
+msgstr ""
+
+#: ../inc/admin-nav.php:131
+msgid "Hide menu title"
+msgstr ""
+
+#: ../inc/admin-nav.php:138
+msgid "Colors"
+msgstr ""
+
+#: ../inc/admin-nav.php:141 ../inc/admin-nav.php:256
+msgid "Background"
+msgstr ""
+
+#: ../inc/admin-nav.php:145 ../inc/admin-nav.php:724
+msgid "Text color"
+msgstr ""
+
+#: ../inc/admin-nav.php:149
+msgid "HOVER background color"
+msgstr ""
+
+#: ../inc/admin-nav.php:153
+msgid "HOVER text color"
+msgstr ""
+
+#: ../inc/admin-nav.php:157
+msgid "ACTIVE background color"
+msgstr ""
+
+#: ../inc/admin-nav.php:161
+msgid "ACTIVE text color"
+msgstr ""
+
+#: ../inc/admin-nav.php:169
+msgid "Layout (Horizontal only)"
+msgstr ""
+
+#: ../inc/admin-nav.php:173
+msgid "Center"
+msgstr ""
+
+#: ../inc/admin-nav.php:174 ../inc/admin-nav.php:688
+msgid "Full"
+msgstr ""
+
+#: ../inc/admin-nav.php:175
+msgid "Right edge item"
+msgstr ""
+
+#: ../inc/admin-nav.php:176
+msgid "Left edge item"
+msgstr ""
+
+#: ../inc/admin-nav.php:193
+msgid "Menu Align"
+msgstr ""
+
+#: ../inc/admin-nav.php:196 ../inc/admin-nav.php:750
+msgid "Default"
+msgstr ""
+
+#: ../inc/admin-nav.php:197 ../inc/admin-nav.php:211 ../inc/admin-nav.php:307
+msgid "Left"
+msgstr ""
+
+#: ../inc/admin-nav.php:198 ../inc/admin-nav.php:209 ../inc/admin-nav.php:305
+msgid "Right"
+msgstr ""
+
+#: ../inc/admin-nav.php:205
+msgid "Content Padding"
+msgstr ""
+
+#: ../inc/admin-nav.php:208 ../inc/admin-nav.php:304
+msgid "Top"
+msgstr ""
+
+#: ../inc/admin-nav.php:210 ../inc/admin-nav.php:306
+msgid "Bottom"
+msgstr ""
+
+#: ../inc/admin-nav.php:218
+msgid "Who can see this item"
+msgstr ""
+
+#: ../inc/admin-nav.php:221
+msgid "Anyone"
+msgstr ""
+
+#: ../inc/admin-nav.php:222
+msgid "None logged in users"
+msgstr ""
+
+#: ../inc/admin-nav.php:223
+msgid "Logged in users"
+msgstr ""
+
+#: ../inc/admin-nav.php:238
+msgid "Content Border"
+msgstr ""
+
+#: ../inc/admin-nav.php:244
+msgid "Border Default"
+msgstr ""
+
+#: ../inc/admin-nav.php:246
+#, php-format
+msgid "%s px"
+msgstr ""
+
+#: ../inc/admin-nav.php:260
+msgid "Color"
+msgstr ""
+
+#: ../inc/admin-nav.php:265
+msgid "Image"
+msgstr ""
+
+#: ../inc/admin-nav.php:283
+msgid "Remove"
+msgstr ""
+
+#: ../inc/admin-nav.php:289
+msgid "Style"
+msgstr ""
+
+#: ../inc/admin-nav.php:291
+msgid "Cover"
+msgstr ""
+
+#: ../inc/admin-nav.php:292
+msgid "Top left"
+msgstr ""
+
+#: ../inc/admin-nav.php:293
+msgid "Top right"
+msgstr ""
+
+#: ../inc/admin-nav.php:294
+msgid "Bottom right"
+msgstr ""
+
+#: ../inc/admin-nav.php:295
+msgid "Bottom left"
+msgstr ""
+
+#: ../inc/admin-nav.php:296
+msgid "No repeat"
+msgstr ""
+
+#: ../inc/admin-nav.php:297
+msgid "Repeat"
+msgstr ""
+
+#: ../inc/admin-nav.php:302
+msgid "Image Position"
+msgstr ""
+
+#: ../inc/admin-nav.php:323
+msgid "Custom Menu Width"
+msgstr ""
+
+#: ../inc/admin-nav.php:332 ../inc/vc-shortcodes.php:110 ../inc/vc-shortcodes.php:
+#: 248 ../inc/vc-shortcodes.php:265 ../inc/vc-shortcodes.php:281 ../inc/vc-
+#: shortcodes.php:297 ../inc/vc-shortcodes.php:312
+msgid "Icon"
+msgstr ""
+
+#: ../inc/admin-nav.php:346 ../inc/vc-shortcodes.php:187
+msgid "Extra class name"
+msgstr ""
+
+#: ../inc/admin-nav.php:439 ../inc/admin-nav.php:666
+msgid "Mega"
+msgstr ""
+
+#: ../inc/admin-nav.php:465
+msgid "Menu Settings"
+msgstr ""
+
+#: ../inc/admin-nav.php:466
+msgid "Save"
+msgstr ""
+
+#: ../inc/admin-nav.php:669
+msgid "Enable mega menu"
+msgstr ""
+
+#: ../inc/admin-nav.php:676
+msgid "Display"
+msgstr ""
+
+#: ../inc/admin-nav.php:679
+msgid "Horizontal"
+msgstr ""
+
+#: ../inc/admin-nav.php:680
+msgid "Vertical"
+msgstr ""
+
+#: ../inc/admin-nav.php:681
+msgid "Dropdown"
+msgstr ""
+
+#: ../inc/admin-nav.php:685
+msgid "Tab layout"
+msgstr ""
+
+#: ../inc/admin-nav.php:689
+msgid "align"
+msgstr ""
+
+#: ../inc/admin-nav.php:709
+msgid "Enable sticky menu"
+msgstr ""
+
+#: ../inc/admin-nav.php:714
+msgid "Add home icon in mobile mod"
+msgstr ""
+
+#: ../inc/admin-nav.php:719
+msgid "Background color"
+msgstr ""
+
+#: ../inc/admin-nav.php:729
+msgid "Hover item background"
+msgstr ""
+
+#: ../inc/admin-nav.php:733
+msgid "Hover item text"
+msgstr ""
+
+#: ../inc/admin-nav.php:738
+msgid "Active item background"
+msgstr ""
+
+#: ../inc/admin-nav.php:743
+msgid "Active item text"
+msgstr ""
+
+#: ../inc/admin-nav.php:748 ../inc/vc-shortcodes.php:179
+msgid "Border"
+msgstr ""
+
+#: ../inc/admin-nav.php:758
+msgid "Border color"
+msgstr ""
+
+#: ../inc/admin-nav.php:1003
+msgid "Menu not exists"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:77
+msgid "VC List"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:79
+msgid "Content"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:81 ../inc/vc-shortcodes.php:486
+msgid "Display number with count effect"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:85
+msgid "Count item"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:87
+msgid "Add link items"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:91 ../inc/vc-shortcodes.php:214
+msgid "Title"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:97
+msgid "Subtitle"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:103
+msgid "URL (Link)"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:105
+msgid "Add link to custom heading."
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:113
+msgid "Select custom icon."
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:128
+msgid "VC Vertical Tabs"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:152
+msgid "Tab Size"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:154
+msgid "1 column - 1/12"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:155
+msgid "2 columns - 1/6"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:156
+msgid "3 columns - 1/4"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:157
+msgid "4 columns - 1/3"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:158
+msgid "5 columns - 5/12"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:159
+msgid "6 columns - 1/2"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:160
+msgid "7 columns - 7/12"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:161
+msgid "8 columns - 2/3"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:162
+msgid "9 columns - 3/4"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:163
+msgid "10 columns - 5/6"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:164
+msgid "11 columns - 11/12"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:165
+msgid "12 columns - 1/1"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:177
+msgid "Tab border"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:180
+msgid "No Border"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:183 ../inc/vc-shortcodes.php:244
+msgid "Select icon library."
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:189
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:193
+msgid "CSS box"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:195
+msgid "Design Options"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:202
+msgid "Content Tab"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:221
+msgid "Is divider"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:223
+msgid "No"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:224
+msgid "Yes"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:229
+msgid "Tab Divider: apply for vertical mod only."
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:234
+msgid "Icon library"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:236
+msgid "Font Awesome"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:237
+msgid "Open Iconic"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:238
+msgid "Typicons"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:239
+msgid "Entypo"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:240
+msgid "Linecons"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:261 ../inc/vc-shortcodes.php:277 ../inc/vc-shortcodes.
+#: php:293 ../inc/vc-shortcodes.php:324
+msgid "Select icon from library."
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:482
+msgid "VC Product Categories"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:484 ../inc/vc-shortcodes.php:547 ../inc/vc-shortcodes.
+#: php:582 ../inc/vc-shortcodes.php:672
+msgid "WordPress Widgets"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:493 ../inc/vc-shortcodes.php:605
+msgid "Order by"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:495
+msgid "Category Order"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:496
+msgid "Name"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:503
+msgid "Show product counts"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:508
+msgid "Show hierarchy"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:513
+msgid "Only show children of the current category"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:545
+msgid "VC Cart"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:549
+msgid "Display WooCommerce cart"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:580
+msgid "VC Products"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:584
+msgid "Display WooCommerce Products"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:589 ../inc/vc-shortcodes.php:679
+msgid "Number of products to show"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:595
+msgid "Show"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:597
+msgid "All Products"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:598
+msgid "Featured Products"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:599
+msgid "On-sale Products"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:607
+msgid "Date"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:608
+msgid "Price"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:609
+msgid "Sales"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:610
+msgid "Random"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:618
+msgid "Order"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:620
+msgid "DESC"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:621
+msgid "ASC"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:629
+msgid "Hide free products"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:634
+msgid "Show hidden products"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:670
+msgid "VC Top Rated Products"
+msgstr ""
+
+#: ../inc/vc-shortcodes.php:674
+msgid "Display WooCommerce Top RatedProducts"
+msgstr ""

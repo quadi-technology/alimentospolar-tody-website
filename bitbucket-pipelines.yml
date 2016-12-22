@@ -1,0 +1,20 @@
+# for your build environment.
+image: qdata/qciagent
+pipelines:
+    branches: # The branch section is a container for all branch-specific pipelines
+        master:
+            - step:
+                script:
+                    - export HOST=$FTPHOST
+                    - export TARGETFOLDER=$FTPFOLDER
+                    - export FTPUSER=$FTPUSER
+                    - export FTPPSWD=$FTPPSWD
+                    #- mv -f .env.production .env
+                    #- composer install
+                    - python -V
+                    - python /cmdtools/deploytools/deploy.py -v -un -m ftp -u $FTPUSER -p $FTPPSWD -s $FTPHOST -f $FTPFOLDER -g .
+                    #- php artisan migrate --force
+    default:
+        - step:
+            script:
+                - echo "Running on the default job"

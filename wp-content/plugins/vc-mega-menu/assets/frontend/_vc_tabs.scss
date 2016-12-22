@@ -1,0 +1,210 @@
+/*
+
+VC Shortcode Tabs
+-------------------------------------------------------
+*/
+
+.vc-mm-tabs {
+  position: relative;
+  .vc-mm-tabs-nav {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    li {
+      list-style: none;
+    }
+  }
+  @include clearfix;
+
+  .vc-mobile-tab-title {
+    cursor: pointer;
+    font-size: 16px;
+    font-size: rem(16);
+    color: $menu_link_color;
+    border: 1px solid $secondary-color;
+    padding: 10px 20px 10px 7px;
+    margin-top: 10px;
+    position: relative;
+
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+
+    &:after {
+      @include sub-menu-arrow-icon( right );
+      position: absolute;
+      right: 7px;
+    }
+    margin-bottom: 10px;
+    display: none;
+    @include on-mobile{
+      display: block;
+    }
+    .vc-icon {
+      margin-right: 8px;
+    }
+  }
+
+  &.tabs-vertical {
+    display: block;
+    width: 100%;
+    @include on-mobile(){
+      width: auto;
+    }
+
+    .vc-mm-tabs-c-wrap, .vc-mm-tabs-nav {
+      display: block;
+    }
+
+    .vc-mm-tabs-nav {
+      float: left;
+
+      @include on-mobile(){
+        float: none;
+        width: 100%;
+        height: auto;
+        min-height: initial !important;
+        border-right: 0 none;
+      }
+      li {
+        padding: 0;
+        display: block;
+        &.vc-tab-active a {
+
+          @include on-mobile(){
+            background: none;
+          }
+        }
+        &:hover a {
+
+        }
+        &.vc-tab-divider {
+          &:last-child {
+            span {
+              border-bottom: 0 none;
+            }
+          }
+          &:first-child {
+            span {
+              border-top: 0 none;
+            }
+          }
+          span {
+            padding: 5px 20px;
+            display: block;
+          }
+          &.no-title {
+            height: 10px;
+            display: block;
+          }
+        }
+        &:last-child {
+            @include on-desktop(){
+              a {
+                border-bottom: 0 none !important;
+              }
+            }
+        }
+        a {
+          padding: 10px 20px;
+          display: block;
+          span {
+            display: inline-block;
+            width: 85%;
+            overflow: hidden;
+            white-space: nowrap;
+            -ms-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+          }
+
+          &:after {
+            @include sub-menu-arrow-icon( right );
+            float: right;
+          }
+          i {
+            margin-right: 5px;
+          }
+
+        }
+      }
+    }
+
+    .vc-mm-tabs-c-wrap {
+      @include on-mobile {
+        position: static;
+        .vc-mm-tab-cont {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          overflow-x: hidden;
+          overflow-y: auto;
+          padding: 15px !important;
+          display: block;
+          height: 100%;
+
+          &.is_divider {
+            display: none;
+          }
+
+          @include transform(translateX(100%));
+          @include transition(200ms ease);
+
+          &.vc-tab-mobile-active {
+            display: block;
+            height: auto;
+            @include transform(translateX(0));
+          }
+        }
+      }
+    }
+
+  }
+
+  &.tabs-horizontal{
+    .vc-mm-tabs-nav {
+      li {
+        list-style: none;
+        display: inline-block;
+        padding: 7px 0px;
+        a {
+          padding: 10px 20px;
+          i {
+            margin-right: 5px;
+          }
+
+        }
+        &.vc-tab-active a {
+
+        }
+        &:hover a {
+
+        }
+      }
+
+    }
+
+    .vc-mm-tabs-c-wrap {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+
+  .vc-mm-tabs-c-wrap {
+    padding: 15px 0px 15px 20px;
+    display: block;
+    .vc-mm-tab-cont{
+      display: none;
+      @include clearfix;
+      &.vc-tab-active {
+        display: block;
+      }
+      >.vc_row {
+
+      }
+    }
+  }
+
+}

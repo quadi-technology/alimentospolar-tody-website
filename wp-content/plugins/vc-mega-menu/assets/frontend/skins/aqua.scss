@@ -1,0 +1,468 @@
+/**
+Name: Aqua
+$primary_color: #22CFBB
+$secondary_color:  #ffffff
+$active_color: #f5f5f5
+$sub_bg: #dedede
+$sub_menu_color: #666
+$sub_menu_link_color: #333
+*/
+
+$primary_color: #22CFBB;
+$secondary_color:  #ffffff;
+$active_color: #1c9f8b;
+$sub_bg: #f5f5f5;
+$sub_menu_color: #aeaeae;
+$sub_menu_link_color: #136e5e;
+
+
+//$border_color: lighten( $sub_bg, 8% );
+$border_color: darken( $sub_bg, 5% );
+
+@import "../_mixins";
+
+.vc-mm-h-sticky-wrapper {
+  &.is-sticky {
+
+    @include on-desktop(){
+      .vc-transparent.vc-mm-menu-h {
+        background: $primary_color !important;
+
+      }
+    }
+  }
+}
+
+.vc-nav-on-mobile {
+  color: $secondary_color;
+  li a {
+    color:  $secondary_color;
+    &:hover {
+      color: $active_color;
+    }
+  }
+}
+
+.vc-mm-menu-h, .vc-mm-menu-v {
+
+  @include on-desktop(){
+    &.vc-transparent {
+      background: none;
+      .vc-menu-item {
+        &.vc-d-0 {
+          > .nav-link {
+            background: none !important;
+            color: $secondary_color;
+            &:after {
+              color: $secondary_color;
+            }
+          }
+          &:hover {
+            > .nav-link {
+              color: $active_color !important;
+              background: none !important;
+              &:after {
+                color: $active_color;
+              }
+            }
+          }
+        }
+
+        .vc-mm-search-form {
+          input {
+            background: darken( $secondary_color, 8% );
+            color: $primary_color;
+            border-color: $secondary_color;
+          }
+        }
+
+      }
+    }
+  }
+
+
+  background: $primary_color;
+  color: $secondary_color;
+  span {
+    text-decoration: none;
+  }
+
+  .vc_custom_heading{
+    @include on-mobile(){
+      color: darken( $secondary_color, 8% );
+      border-bottom: 1px solid lighten( $primary_color, 8% );
+    }
+
+    @include on-desktop(){
+      color: $sub_menu_color;
+    }
+    a {
+      color: $sub_menu_link_color;
+      &:hover {
+        color: $active_color;
+      }
+    }
+  }
+
+  .vc-mm-child-title {
+    border-bottom: 1px solid lighten( $primary_color, 8% );
+  }
+
+  .vc-mm-search-form {
+    input {
+      background: lighten( $primary_color, 8% );
+      color: $secondary_color;
+      border-color: lighten( $primary_color, 8% );;
+    }
+  }
+
+  .vc-nav-on-desktop {
+
+    @include on-mobile {
+      background: $primary_color;
+
+      .vc-mobile-tap {
+        background: lighten( $primary_color, 15% );
+      }
+      .vc-mm-mega-cont {
+        background: $primary_color;
+      }
+      .sub-menu {
+        background: $primary_color;
+        li {
+          a {
+            border-bottom: 1px solid lighten( $primary_color, 8% ) !important;
+          }
+        }
+      }
+      .vc-d-0 {
+        > .nav-link {
+          border-bottom: 1px solid lighten( $primary_color, 8% );
+        }
+      }
+    }
+
+    li{
+      &.vc-d-0 {
+        &:hover {
+          > .nav-link {
+            background: $active_color;
+          }
+        }
+        > .nav-link {
+          text-transform: uppercase;
+          &:after {
+            color: lighten( $primary_color, 15% );
+          }
+        }
+        &:hover {
+          > .nav-link {
+            &:after {
+              color: $secondary_color;
+            }
+          }
+        }
+
+        &:hover {
+          > a.nav-link {
+            color: $secondary_color ;
+          }
+        }
+      }
+      &.current-menu-item {
+        > a.nav-link {
+          color: $secondary_color ;
+          &:before {
+            color: $secondary_color;
+          }
+          &:after {
+            color: $secondary_color;
+          }
+        }
+      }
+    }
+    a, li a {
+      color: $secondary_color;
+      &:hover {
+        color: $active_color;
+      }
+    }
+
+    @include on-desktop(){
+      .vc-mm-mega-cont-inner {
+        background: $sub_bg;
+        border-color: $primary_color;
+        border-top: 3px solid $active_color;
+        li a {
+          color: $sub_menu_link_color;
+        }
+
+        .vc_custom_heading{
+          a {
+            color: $sub_menu_link_color;
+            &:hover {
+              color: $active_color;
+            }
+          }
+        }
+      }
+
+      .sub-menu-inner {
+        background: $sub_bg;
+        border-color: $primary_color;
+        border-top: 3px solid $active_color;
+        li a {
+          color: $sub_menu_link_color;
+        }
+      }
+      color: $sub_menu_color;
+
+      .current-menu-item {
+        >.nav-link {
+          background: $active_color;
+          color: $secondary_color;
+        }
+        &:hover {
+          >.nav-link {
+            background: $active_color;
+            color: $secondary_color;
+          }
+        }
+      }
+
+    }
+
+    li {
+      div.sub-menu {
+        li {
+          &:hover {
+            > a {
+              color: $active_color ;
+            }
+          }
+          a {
+            //border-color: lighten( $sub_bg, 8% );
+            border-color: $border_color;
+          }
+        }
+        div.sub-menu {
+          .sub-menu-inner {
+            margin-top: -3px;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+
+/* Vertical */
+.vc-btn, .vc-drop-down-btn {
+  background: $primary_color;
+  color: $secondary_color;
+}
+.vc-mm-menu-v {
+  &.vc-mm-container {
+    background: none;
+  }
+  .vc-nav-on-desktop {
+    background: $primary_color;
+  }
+  @include on-desktop(){
+    .vc-mm-mega-cont {
+      max-width: 900px;
+    }
+    .vc-d-0 {
+      > .nav-link {
+        border-bottom: 1px solid $border_color;
+      }
+      &:last-child {
+        > .nav-link {
+          border-bottom: 0px;
+        }
+      }
+    }
+    .sub-menu-inner {
+      li {
+        a {
+          border-bottom: 1px solid $border_color;
+        }
+        &:last-child {
+          a {
+            border-bottom: 0px;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+
+
+/*
+VC Shortcode List
+-------------------------------------------------------
+*/
+ul.vc-mm-list, .main-navigation li ul.vc-mm-list{
+
+  @include  on-mobile(){
+    .has-subtitle.has-icon {
+      .vc-list-icon {
+        color: $secondary_color;
+      }
+    }
+
+    &.hover-style {
+      li {
+        a {
+          &:hover {
+            .vc-list-icon {
+              color: $active_color;
+            }
+            color: $active_color;
+            background-color: lighten( $primary_color, 8% );
+          }
+        }
+      }
+    }
+  }
+
+
+  @include  on-desktop(){
+
+    .has-subtitle.has-icon {
+      .vc-list-icon {
+        color: $sub_menu_link_color;
+      }
+      a:hover {
+        .vc-list-icon {
+          color: $active_color;
+        }
+      }
+    }
+
+    &.hover-style {
+      li {
+        a {
+          &:hover {
+            .vc-list-icon {
+              color: $active_color;
+            }
+            color: $active_color;
+            background-color: $border_color;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+/*
+
+VC Shortcode Tabs
+-------------------------------------------------------
+*/
+
+.vc-mm-tabs {
+
+  .vc-mobile-tab-title {
+    color: $active_color;
+    border: 1px solid lighten( $primary_color, 8% );
+  }
+  &.tabs-vertical {
+
+    @include on-mobile(){
+      .vc-mm-tab-cont {
+        background: $primary_color;
+      }
+
+      .vc-mm-tabs-nav {
+
+        border-right: 1px solid lighten( $primary_color, 8% );
+
+        li {
+          a{
+            &:after {
+              color: lighten( $primary_color, 15% );
+            }
+            border-bottom: 1px solid lighten( $primary_color, 8% );
+          }
+
+          &.vc-tab-active a {
+            background: lighten( $primary_color, 8% );
+            @include on-mobile(){
+              background: none;
+            }
+          }
+          &:hover a {
+            background: lighten( $primary_color, 8% );
+          }
+          &.vc-tab-divider {
+            span {
+              border-top: 1px solid lighten( $primary_color, 8% );
+              border-bottom: 1px solid lighten( $primary_color, 8% );
+              color: darken( $secondary_color, 30% );
+              margin-top: -1px;
+              margin-bottom: -1px;
+            }
+            &.no-title {
+              border-top: 1px solid lighten( $primary_color, 8% );
+            }
+          }
+
+        }
+      }
+
+    }
+
+    @include on-desktop( ){
+      .vc-mm-tabs-nav {
+
+        border-right: 1px solid $border_color;
+
+        li {
+          a{
+            &:after {
+              color: $border_color;
+            }
+            border-bottom: 1px solid $border_color;
+          }
+
+          &.vc-tab-active a {
+            background: $border_color;
+            @include on-mobile(){
+              background: none;
+            }
+          }
+          &:hover a {
+            background: $border_color;
+          }
+          &.vc-tab-divider {
+            span {
+              border-top: 1px solid $border_color;
+              border-bottom: 1px solid $border_color;
+              color: $border_color;
+              margin-top: -1px;
+              margin-bottom: -1px;
+            }
+            &.no-title {
+              border-top: 1px solid $border_color;
+              border-bottom: 1px solid $border_color;
+              margin-top: -1px;
+              margin-bottom: -1px;
+            }
+          }
+
+        }
+      }
+    }
+
+
+  }
+
+}

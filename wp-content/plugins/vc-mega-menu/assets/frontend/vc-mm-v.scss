@@ -1,0 +1,208 @@
+@import "bourbon/_bourbon";
+@import "_variables";
+@import "_mixins";
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*
+Hide the style tag. i known it's crazy but some themes display block.
+*/
+.vc-nav-custom-css {
+  display: none !important;
+}
+
+.vc-mm-menu {
+
+  .vc-mobile-title {
+    display: inline-block;
+    span {
+      padding: $base_menu_item_padding;
+      display: inline-block;
+    }
+  }
+  border-color: $secondary-color;
+  border-width: 1px;
+  border-style: solid;
+  ul, ul ul, li ul {
+    position: static;
+    top: auto;left: auto;
+    margin: 0; padding: 0;
+
+  }
+
+  .vc-mm-child-title {
+    display: none;
+  }
+  font-size: 0px;
+  li {
+    line-height: 1.6;
+    font-size: 14px;
+    text-align: left;
+    a {
+      &.nav-link {
+        line-height: 1.6;
+      }
+    }
+  }
+
+  a, li a {
+    color: $menu_link_color;
+    line-height: 1.6;
+    font-size: 14px;
+    &:hover {
+      color: $menu_active_color;
+    }
+  }
+
+  .search-field {
+    line-height: 1.6;
+    font-size: 14px;
+    border-color:  $menu_link_color ;
+  }
+
+  // Cart item
+  .vc-mm-wc-cart {
+    >.nav-link {
+      .vc-icon {
+        position: relative;
+        .vc-noti {
+          background: $menu_active_color;
+          color: #FFFFFF;
+          @include border-top-radius(5px);
+          @include border-right-radius(5px);
+          @include border-bottom-radius(5px);
+          @include border-left-radius(5px);
+          line-height: 12px; font-size: 12px;
+          padding: 2px 4px;
+          display: inline-block;
+          @include transform(translateY(-10px));
+          font-family: arial, helvetica, sans-serif;
+        }
+      }
+    }
+  }
+
+  .vc-mm-mega-cont {
+    .widget {
+      background: none;
+    }
+    .vc_column_container  .vc_column-inner {
+      padding: 0;
+      .wpb_wrapper {
+        .wpb_content_element:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+    }
+  }
+
+
+  .vc-mm-mega-cont-inner {
+    .wpb_row {
+      margin-bottom: 30px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      > .wpb_column {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+
+  }
+
+  .vc_custom_heading {
+    font-size: 18px;
+    color: $menu_link_color;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    @include on-mobile(){
+      margin-top: 25px;
+      padding-bottom: 10px;
+    }
+  }
+
+  #{$all-text-inputs} {
+    border: $submenu_border;
+    width: 100%;
+    padding: 8px;
+  }
+
+  #{$all-buttons} {
+    background-color: #f47e7e;
+    border: 0px;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+}
+
+.vc-mm-mega-cont-inner {
+  .vc_custom_heading {
+    margin-bottom: 15px;
+  }
+  ul {
+    padding: 0;
+    ul {
+      padding-left: 25px;
+      padding-top: 5px;
+      padding-bottom: 0;
+    }
+  }
+  li {
+    display: block;
+    padding: 5px 0px;
+    &:last-child {
+      padding-bottom: 0px;
+    }
+  }
+
+}
+
+.vc-nav-on-mobile {
+  display: none;
+  @include on-mobile {
+    display: block;
+  }
+}
+
+// Sticky menu
+
+.vc-mm-menu-h.vc-sticky {
+  z-index: 9999;
+}
+
+
+@import "_vertical";
+@import "_dropdown";
+
+
+
+
+// Mega menu on mobile
+body{
+  overflow-x: hidden;
+}
+html.vc-body-mobile {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+html.vc-body-mobile  .vc-mm-menu.vc-nav-on-desktop {
+  @include transform( translateX(0) );
+  @include opacity(1);
+  width: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+@import "_vc_list";
+@import "_vc_tabs";
+@import "_woocommerce";
+@import "_misc";

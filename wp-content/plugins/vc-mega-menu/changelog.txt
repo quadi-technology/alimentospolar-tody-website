@@ -1,0 +1,33 @@
+Version 1.3.3 (25/07/2016)
+	- Add shortcode menu item for VC.
+	- Support tab click.
+	- Performance improvements.
+
+Version 1.3.1 (13/1/2016)
+	- Improve menu.
+
+Version 1.3 (10/1/2016)
+	- NEW: One click to Import/Export demo menus.
+	- Improve API for developer.
+	- NEW: White skin.
+	- Improve admin nav settings.
+	- Improve documents.
+	- Fix issue can't see VC Tabs item.
+
+Version 1.2 (9/1/2016)
+	- NEW: Background transparent top level option.
+	- NEW: 8 defined skins.
+	- NEW: add search form to top menu.
+	- NEW: add WooCommerce cart icon with notification.
+	- Improve mobile menu.
+	- Improve menu sticky header.
+
+Version 1.1 (1/1/2016)
+	- NEW: Say Hello with Mega Menu Customizer
+	- NEW: Logo uploader
+	- NEW: 5 Horizontal layouts
+	- Improve settings interface
+	- Improve menu style
+
+Version 1.0
+	- Initial

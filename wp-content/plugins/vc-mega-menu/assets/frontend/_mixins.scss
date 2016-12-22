@@ -1,0 +1,33 @@
+
+@mixin sub-menu-arrow-icon( $direction ){
+    font-family: "FontAwesome";
+    @if $direction == up {
+        content: "\f106";;
+    } @else if $direction == right {
+        content: "\f105";
+    } @else if $direction == down {
+        content: "\f107";
+    } @else if $direction == left {
+        content: "\f104";
+    }
+}
+
+@mixin on-desktop( ) {
+    @media only screen and (min-width: 768px) { @content; }
+}
+
+@mixin on-mobile( ) {
+    @media only screen and (max-width: 767px) { @content; }
+}
+
+@mixin on-small-mobile( ) {
+    @media only screen and (max-width: 480px) { @content; }
+}
+
+
+@mixin opacity ( $value ) {
+    opacity:$value;
+    filter:alpha(opacity=( $value*100 ));
+}
+
+

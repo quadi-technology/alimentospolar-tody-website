@@ -1,0 +1,319 @@
+.vc-mm-loading {
+    position: fixed;
+    height: 100%;
+    display: table;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 9999999999;
+     background: #FFFFFF;
+}
+
+.vc-mdl {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+.vc-mdl .spinner {
+    float: none;
+    visibility: visible;
+}
+.vc-show-whatever {
+    display: inline-block !important;
+}
+
+
+
+#vc_navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding-left: 0;
+}
+.metabox-composer-content {
+    margin-top: 70px;
+}
+
+#wpwrap {
+    background: #FFFFFF;
+}
+#wpb-edit-inline{ display: none; }
+.vc_navbar-nav .menu-label span,
+.vc_navbar-nav .onoffswitch {
+    margin-bottom: 12.5px;
+
+}
+.vc_navbar-nav .onoffswitch {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+.vc_navbar-nav .menu-label span {
+    margin-top: 12.5px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 58px;
+    padding: 7px 16px 0;
+    display: inline-block;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+#wpb_visual_composer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0 none !important;
+    box-shadow: none;
+}
+#wpcontent {
+    margin: 0;
+    padding:0 !important;
+}
+html.wp-toolbar {
+    padding-top: 0 !important;
+    overflow-x: hidden;
+}
+#wpbody-content .wrap {
+    margin: 0px !important;
+}
+#poststuff {
+    padding-top: 0px;
+}
+#notice {
+    display: none;
+}
+#post #poststuff #post-body.columns-2 {
+    margin-right: 0px;
+}
+#wpadminbar,
+#adminmenuback,
+#adminmenuwrap,
+#wpfooter,
+#titlediv,
+/*
+#post-body-content,
+
+ */
+#postdivrich,
+.wrap > h1,
+#screen-meta-links,
+
+#wpb_visual_composer .hndle,
+.vc_pull-right.vc_save-backend,
+#vc_windowed-button,
+#vc_fullscreen-button,
+.composer-switch
+{
+    display: none !important;
+}
+.vc_pull-right_ {
+    display: none
+}
+
+#wpcontent{
+    margin-left: 0px !important;
+}
+.postbox , #side-sortables {
+    display: none;
+}
+.postbox#wpb_visual_composer{
+    display: block;
+}
+#wpb_visual_composer {
+    margin-bottom: 0 !important;
+}
+
+
+
+.vc-mm-layouts h4 {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.image-radio {
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.image-radio input {
+    display: none;
+}
+.image-radio img {
+    width: 55px;
+    height: auto;
+}
+.image-radio label {
+    display: inline-block;
+    border: 2px solid #CCCCCC;
+}
+.image-radio input:checked + label {
+    border-color: #0073aa;
+}
+
+.fip-icons-container .hide{
+    display: none !important;
+}
+
+
+/*------------------------------------------- */
+
+.onoffswitch {
+    position: relative; width: 60px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch input {
+    display: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 28px; padding: 0; line-height: 28px;
+    border: 2px solid #CCCCCC; border-radius: 28px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 28px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 30px;
+    border: 2px solid #CCCCCC; border-radius: 28px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #73C02A;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    border-color: #73C02A;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before,
+.onoffswitch-checkbox:checked + .onoffswitch-label:before{
+    right: 0;
+}
+#vc-menu-settings-form {
+    margin-bottom: 20px;
+ }
+#vc-menu-settings-form:after { clear: both; content: " "; display: block; }
+#vc-menu-settings-form .vc-icons-selector .selector {
+    width: 140px;
+}
+
+.vc-mm-edit-bg-item {
+    margin-bottom: 15px;
+}
+.vc-mm-edit-bg-item:last-child {
+    margin-bottom: 0;
+}
+
+.vc-mm-edit-bg-item label{
+    display: block;
+    margin-bottom: 5px;
+}
+.item-media {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background: #F5F5F5;
+    position: relative;
+    border: 1px solid #CCCCCC;
+}
+.item-media .thumbnail-image {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background: #F5F5F5;
+    cursor: pointer;
+    overflow: hidden;
+}
+.item-media .vc-remove-button,
+.item-media .vc-add-button{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    text-decoration: none;
+    z-index: 60;
+}
+.item-media .dashicons {
+    content: " ";
+    display: block;
+    font-size: 30px;
+    height: 100%;
+    line-height: 75px;
+    text-align: center;
+    width: 100%;
+}
+.item-media .dashicons::before {
+    vertical-align: middle;
+    display: auto !important;
+}
+.item-media .vc-remove-button {
+    display: none;
+}
+
+.item-media.has-img .vc-remove-button {
+    display: block;
+}
+.item-media.has-img .vc-add-button {
+    display: none;
+}
+
+.item-media .vc-remove-button {
+    color: #f93218;
+}
+.item-media .vc-add-button {
+    color: #6b984c;
+}
+
+.item-media .thumbnail-image  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.vc-mm-4-css-units:after {
+    clear: both; content:  " "; display: block;
+}
+.vc_properties-list .vc-mm-4-css-units input {
+    width: 80px; display: inline-block;
+}
+.vc-mm-mg {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.vc-mm-mg::after {
+    clear: both; content: " "; display: block;
+}
+.vc-mm-mg .wp-picker-container, .vc-mm-mg > span {
+    float: left;
+    display: inline-block;
+}
+.vc-mm-mg > span {
+    margin-top: 3px;
+}
+
+.vc-mm-mg .wp-picker-holder, #vc-menu-settings-form .wp-picker-holder{
+    position: absolute;
+    z-index: 99999;
+}
+.vc-mm-mg .wp-picker-container.wp-picker-active + span
+{
+    display: none;
+}
