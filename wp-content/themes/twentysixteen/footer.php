@@ -11,7 +11,9 @@
 ?>
 
 		</div><!-- .site-content -->
-
+</div>
+</div>
+</div>
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			  <div class="footer_section clearfix">
 			  	  

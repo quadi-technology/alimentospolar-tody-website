@@ -4151,17 +4151,19 @@ p > video {
 
 .footer_section {
 	padding: 30px 0 65px;
+	max-width: 1023px;
+	margin: 0 auto;
 }
 .clearfix {
 	clear: both;
 }
 .social_icon {
 	float: left;
-	width: 14%;
+	width: 15%;
 }
 .terms_and_con_section {
 	float: left;
-	width: 73%;
+	width: 72%;
 	text-align: center;
 }
 .footer_logo {
@@ -4775,6 +4777,16 @@ input#dhvc_form_control_0_586356a55f2fb {
 }
 .model_box_form_3 {
 	display: none;
+}
+body {
+	min-height:100%;
+   position:relative;
+}
+#colophon {
+   position:relative;
+   bottom:0;
+   width:100%;
+   background:#ffffff;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {  }
  @media (max-width: 1024px) {
