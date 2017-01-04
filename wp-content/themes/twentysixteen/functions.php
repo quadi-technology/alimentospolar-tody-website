@@ -455,3 +455,18 @@ function dhvc_form_custom_validate_messages(){
             );
 }
 add_filter('dhvc_form_validate_messages', 'dhvc_form_custom_validate_messages');
+
+/* DON'T DELETE THIS CLOSING TAG */ 
+/*add_action('wp_enqueue_scripts', 'twentysixteen_fonts');
+*/
+    if (function_exists('acf_add_options_page')) {
+
+        acf_add_options_page(array(
+            'page_title' => 'General Options',
+            'menu_title' => 'Options',
+            'menu_slug' => 'options',
+            'capability' => 'edit_posts',
+            'redirect' => false
+        ));
+    } 
+

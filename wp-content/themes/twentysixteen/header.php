@@ -24,11 +24,41 @@
 <body <?php body_class(); ?>>
 <?php if(isset($_GET['res']) && $_GET['res'] == 'success'): ?>
 	<div class="alert success">
-	  <strong>Success!</strong> Thanks.. 
+	   <div id="overlay_form_4">
+  			<div id="inner_message_2">
+	  			<div class="wrapper_inner_1">
+	  			 	<h2>-¡Gracias por permitir el registro!-</h2>
+					<div class="msg3">! Ya que aceptó, aproveche para pedirle a su hijo un poco de su cremoso y delicioso sabor a Toddy!</div>
+					<div class="close_btn_cus"></div>
+				</div>
+  			</div>
+  		</div>
 	</div>
 <?php elseif(isset($_GET['res']) && $_GET['res'] == 'error'): ?>
 	<div class="alert error">
-	  <strong>Error</strong> Sorry..
+	  <div id="overlay_form_5">
+  			<div id="inner_message_3">
+	  			<div class="wrapper_inner_1">
+	  			 	<h2>-¡Gracias!-</h2>
+					<div class="msg4">ESPERAMOS QUE PUEDAS DISFRUTAR EL DELICIOSO  SABOR DE TODDY EN OTRA OCASIÓN.</div>
+					<div class="close_btn_cus"></div>
+				</div>
+
+  			</div>
+  		</div>
+	</div>
+<?php elseif(isset($_GET['res']) && $_GET['res'] == 'notexits'): ?>
+	<div class="alert error">
+	  <div id="overlay_form_5">
+  			<div id="inner_message_3">
+	  			<div class="wrapper_inner_1">
+	  			 	<h2>-¡Gracias!-</h2>
+					<div class="msg4">Not Exits</div>
+					<div class="close_btn_cus"></div>
+				</div>
+
+  			</div>
+  		</div>
 	</div>
 <?php endif; ?>
 <div id="page" class="site">

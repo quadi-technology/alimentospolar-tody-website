@@ -6,11 +6,11 @@
  */
 
 ( function( $ ) {
-	window.setTimeout(function() {
+	/*window.setTimeout(function() {
 	    $(".alert").fadeTo(500, 0).slideUp(500, function(){
 	        $(this).remove();
 	    });
-	}, 5000);
+	}, 5000);*/
 	var body, masthead, menuToggle, siteNavigation, socialNavigation, siteHeaderMenu, resizeTimer;
 
 	function initMainNavigation( container ) {
