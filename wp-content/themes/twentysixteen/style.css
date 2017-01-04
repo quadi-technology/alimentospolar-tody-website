@@ -4788,8 +4788,75 @@ body {
    width:100%;
    background:#ffffff;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1400px) {  }
+/* -------------------------Responsive----------------------------------------------*/
+@media only screen and (min-width: 1200px) and (max-width: 1400px) { 
+
+.sub-title .gradiant_text span.background-title {
+    background-color: #ffffff;
+    color: #000000;
+    display: inline-block;
+    font: 18px "oswalddemibold";
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(top, red, #000);
+    background: linear-gradient(top, red, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scaleX(1.4);
+    line-height: 24px;
+	padding: 10px 40px;
+}
+   	.sub-title .wpb_wrapper > p {
+       width: 100%;
+    padding: 0px 0px;
+}
+.gradiant_text {
+   width: 66%;
+}
+
+.sub-title .gradiant_text span.background-title {
+    transform: scaleX(1);
+    padding: 10px 0px;
+    font: 26px "oswalddemibold";
+}
+.ult-overlay-close {
+       height: 40px !important;
+    width: 40px !important;
+    right: 465px !important;
+    top: 60px !important;
+}
+ .responsive_none{
+ display:none !important;
+ }
+ }
  @media (max-width: 1024px) {
+ 
+
+ .select_class .hash_width {
+    width: 2% !important;
+}
+ 
+ .wpb_single_image.vc_align_center {
+    text-align: center;
+      display: block;
+}
+ .responsive_none{
+ display:none !important;
+ }
+ .sub-title .gradiant_text span.background-title {
+    background-color: #ffffff;
+    color: #000000;
+    display: inline-block;
+    font: 18px "oswalddemibold";
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(top, red, #000);
+    background: linear-gradient(top, red, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scaleX(1.4);
+    line-height: 24px;
+	padding: 10px 40px;
+}
+ 	
  			.rigth_btn {
  				 float: right !important;
  			} 
@@ -4813,11 +4880,11 @@ body {
 				width: 50%;
 			}
 			.ult-overlay-close {
-			    height: 40px !important;
-			    width: 40px !important;
-			    right: 242px !important;
-			    top: 65px !important;
-			}
+    height: 40px !important;
+    width: 40px !important;
+    right: 226px !important;
+    top: 50px !important;
+}
 			.ult_modal.ult-small {
    				 width: 100% !important;
 			}
@@ -4828,9 +4895,220 @@ body {
 			.btn {
 				margin-top: 50px;
 			}
-  }
- @media (max-width: 768px) {
+  .logo_form{
+text-align:center !important;
+}
+.form_section p.form_title {
+   font: 44px "oswaldmedium" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	    padding-left: 25px;
+    padding-right: 25px;
+}
 
+.form_section p.form_sub_title {
+    font: 16.58px "Arial" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0 !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.dhvc-form-group {
+    position: relative;
+   
+}
+
+.bg_text_form p.bg_text {
+    color: #ffffff;
+    font: 18px "Arial";
+    background-color: #a74410;
+   padding: 14px 12px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+    margin-left:21px;
+    margin-right: 20px;
+}
+.select_title p {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 45px !important;
+    text-transform: uppercase !important;
+    padding-top: 10px;
+}
+.radio_btn label.dhvc-form-label {
+    color: #ffffff;
+    font: 18.04px "Arial" !important;
+    padding-top: 50px;
+    margin: 0 !important;
+    font-weight: bold !important;
+    padding-left: 25px;
+}
+.dhvc-form-flat .dhvc-form-radio, .dhvc-form-flat .dhvc-form-checkbox {
+    padding-left: 25px;
+}
+.form_section .dhvc_form_text label {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 25px !important;
+    text-transform: uppercase !important;
+}
+
+.select_class .first_select {
+    width: 25% !important;
+    float: left;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.select_class .same_width {
+    width: 23% !important;
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.select_class .hash_width {
+   
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.form_section .dhvc_form_text, .form_section .dhvc_form_email, .form_section .dhvc_form_select, .form_section .check_box  {	
+	    padding: 0 20px;
+    
+	
+}
+.vc_custom_1482909155611 {
+	margin-left: 0 !important;
+}
+.select_class {
+	padding:0 20px;
+}
+.select_class .dhvc_form_select {
+	padding: 0 !important;
+}
+.same_width .dhvc_form_text {
+	padding: 0 !important;
+}
+.vc_row.vc_column-gap-20 {
+	margin:0 !important;
+}
+.dhvc-form-flat .dhvc-form-input input, .dhvc-form-flat .dhvc-form-file input[type="text"], .dhvc-form-flat .dhvc-form-captcha input, .dhvc-form-flat .dhvc-form-select select, .dhvc-form-flat .dhvc-form-textarea textarea {
+	padding-left: 10px;
+}
+.form_section .check_box  .dhvc-form-checkbox label {
+    padding-left: 25px;
+}
+.sub_btn {
+	text-align:center;
+}
+.wpb_single_image.wpb_content_element.vc_align_left.form_bottom_img {
+	margin-left: 0px;
+}
+.wpb_text_column.wpb_content_element.form_bottom_text {
+	margin-top: 0px;
+}
+p.bottom_detail {
+	font: 22px/20px "Arial";
+	font-weight: bold;
+}
+.form_bottom_img {
+    padding-left: 290px;
+}
+.form_bottom_text {
+	padding-top: 10px;
+}
+#dhvcform-60{
+width:100% !important;
+}
+.responsive_class{ 
+width:100% !important;
+}
+.responsive_none {
+    display: none;
+}
+.form_1_right {
+    margin-top: 0px !important;
+}
+.vc_col-sm-6 {
+    width: 100% !important;
+}
+
+
+
+
+ #overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 16%;
+}
+ 
+ #overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 16%;
+}
+
+#overlay_form_4 #inner_message_2{
+    top: 40%;
+    position: absolute;
+    left: 16%;
+}
+#overlay_form_4 #inner_message_2 h2 {
+    color: #ffffff;
+    font: 40px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 16%;
+}
+}
+
+
+  
+ @media (max-width: 768px) {
+ 
+
+ 
+    #registro1_txt_p{
+padding-left:0px ;
+    padding-right:100px;
+}
+.sub_btn.top_margin {
+    padding-top: 30px;
+    padding-right: 50px;
+}
+  .responsive_none{
+ display:none !important;
+ }
+ .select_class .hash_width {
+    width: 2% !important;
+}
+ 
+ .wpb_single_image.vc_align_center {
+    text-align: center;
+        display: block;
+}
+ .form_1_right {
+    margin-top:  0px !important;
+    margin-left: 0px !important;
+	    width: 100% !important;
+}
+	.responsive_none {
+		display: none;
+	}
  	.sub-title .wpb_wrapper > p {
  		width: 100%;
  		padding:0 190px; 
@@ -4882,4 +5160,2233 @@ body {
 				width: 100% !important;
 				margin: 0 auto;
 	}
+	.ult-overlay-close {
+    height: 40px !important;
+    width: 40px !important;
+    right: 35px !important;
+    top: 170px !important;
+}
+.logo_form{
+text-align:center !important;
+}
+.form_section p.form_title {
+   font: 44px "oswaldmedium" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.form_section p.form_sub_title {
+    font: 16.58px "Arial" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0 !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.dhvc-form-group {
+    position: relative;
+   
+}
+
+.bg_text_form p.bg_text {
+    color: #ffffff;
+    font: 18px "Arial";
+    background-color: #a74410;
+   padding: 14px 12px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+    margin-left:21px;
+    margin-right: 20px;
+}
+.select_title p {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 45px !important;
+    text-transform: uppercase !important;
+    padding-top: 10px;
+}
+.radio_btn label.dhvc-form-label {
+    color: #ffffff;
+    font: 18.04px "Arial" !important;
+    padding-top: 50px;
+    margin: 0 !important;
+    font-weight: bold !important;
+    padding-left: 25px;
+}
+.dhvc-form-flat .dhvc-form-radio, .dhvc-form-flat .dhvc-form-checkbox {
+    padding-left: 25px;
+}
+.form_section .dhvc_form_text label {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 25px !important;
+    text-transform: uppercase !important;
+}
+
+.select_class .first_select {
+    width: 25% !important;
+    float: left;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.select_class .same_width {
+    width: 23% !important;
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.select_class .hash_width {
+   
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.form_section .dhvc_form_text, .form_section .dhvc_form_email, .form_section .dhvc_form_select, .form_section .check_box  {	
+	    padding: 0 20px;
+    
+	
+}
+.vc_custom_1482909155611 {
+	margin-left: 0 !important;
+}
+.select_class {
+	padding:0 20px;
+}
+.select_class .dhvc_form_select {
+	padding: 0 !important;
+}
+.same_width .dhvc_form_text {
+	padding: 0 !important;
+}
+.vc_row.vc_column-gap-20 {
+	margin:0 !important;
+}
+.dhvc-form-flat .dhvc-form-input input, .dhvc-form-flat .dhvc-form-file input[type="text"], .dhvc-form-flat .dhvc-form-captcha input, .dhvc-form-flat .dhvc-form-select select, .dhvc-form-flat .dhvc-form-textarea textarea {
+	padding-left: 10px;
+}
+.form_section .check_box  .dhvc-form-checkbox label {
+    padding-left: 25px;
+}
+.sub_btn {
+	text-align:center;
+}
+.wpb_single_image.wpb_content_element.vc_align_left.form_bottom_img {
+	margin-left: 0px;
+}
+.wpb_text_column.wpb_content_element.form_bottom_text {
+	margin-top: 0px;
+}
+p.bottom_detail {
+	font: 22px/20px "Arial";
+	font-weight: bold;
+}
+.form_bottom_img {
+	padding-left:190px;
+}
+.form_bottom_text {
+	padding-top: 10px;
+}
+#dhvcform-60{
+width:100% !important;
+}
+.responsive_class{ 
+width:100% !important;
+}
+ #overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 8%;
  }
+ #overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 8%;
+}
+#overlay_form_4 #inner_message_2{
+    top: 40%;
+    position: absolute;
+    left: 7%;
+}
+#overlay_form_4 #inner_message_2 h2 {
+    color: #ffffff;
+    font: 35px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 7%;
+}
+ }
+ 
+   @media (max-width:736px) {
+ .responsive_none{
+ display:none !important;
+ }
+ 	.sub-title .wpb_wrapper > p {
+      width: 100%;
+    padding: 0px 160px;
+}
+.gradiant_text {
+    width: 55%;
+}
+.sub-title .gradiant_text span.background-title {
+    transform: scaleX(1);
+    padding: 10px 55px;
+    font: 26px "oswalddemibold";
+}
+.ult-overlay-close {
+    height: 40px !important;
+    width: 40px !important;
+    right: 20px !important;
+    top: 0px !important;
+}
+.wpb_text_column.wpb_content_element.form_bottom_text {
+    width: 22%;
+    float: left;
+    margin-top: 15px;
+}
+
+
+#overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_2 #inner_message h2 {
+color: #ffffff;
+    font:25px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 85px;
+}
+#inner_message .msg1 {
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 500px;
+    margin-left:115px;
+}
+
+
+
+#overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_3 #inner_message_1 h2 {
+color: #ffffff;
+    font:25px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 85px;
+}
+
+#inner_message_1 .msg2{
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 500px;
+    margin-left:115px;
+
+}
+
+#overlay_form_4 #inner_message_2{
+   top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+
+#overlay_form_4 #inner_message_2 h2{
+color: #ffffff;
+    font:25px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 85px;
+}
+#inner_message_2 .msg3{
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 500px;
+    margin-left:115px;
+}
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 5%;
+}
+ }
+ 
+ 
+ 
+  @media (max-width:732px) {
+   .responsive_none{
+ display:none !important;
+ }
+.select_class .hash_width {
+    width: 2% !important;
+    
+}
+ 	.sub-title .wpb_wrapper > p {
+    width: 100%;
+    padding: 0px 175px;
+}
+.gradiant_text {
+width: 52%;
+}
+.sub-title .gradiant_text span.background-title {
+       transform: scaleX(1);
+    padding: 10px 45px;
+    font: 26px "oswalddemibold";
+}
+.ult-overlay-close {
+    height: 40px !important;
+    width: 40px !important;
+    right: 20px !important;
+    top: 0px !important;
+}
+
+
+
+#overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_2 #inner_message h2 {
+color: #ffffff;
+    font: 30px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 85px;
+}
+#inner_message .msg1 {
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 530px;
+    margin-left: 100px;
+}
+
+
+#overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_3 #inner_message_1 h2 {
+color: #ffffff;
+    font: 30px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 85px;
+}
+
+#inner_message_1 .msg2{
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 530px;
+    margin-left: 100px;
+
+}
+
+#overlay_form_4 #inner_message_2{
+   top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#overlay_form_4 #inner_message_2 h2{
+color: #ffffff;
+    font: 30px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 85px;
+}
+#inner_message_2 .msg3{
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 530px;
+    margin-left: 100px;
+}
+
+
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#inner_message_3 .msg4{
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 530px;
+    margin-left: 100px;
+}
+#overlay_form_5 #inner_message_3 h2{
+color: #ffffff;
+    font: 30px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 85px;
+}
+ }
+ 
+   @media (max-width: 667px) {
+    .responsive_none{
+ display:none !important;
+ }
+
+ 	.sub-title .wpb_wrapper > p {
+       width: 100%;
+    padding: 0px 140px;
+}
+.gradiant_text {
+    width:53%;
+}
+.sub-title .gradiant_text span.background-title {
+    transform: scaleX(1);
+    padding: 10px 30px;
+    font: 26px "oswalddemibold";
+}
+
+
+#overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_2 #inner_message h2 {
+color: #ffffff;
+    font:25px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 85px;
+}
+#inner_message .msg1 {
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 500px;
+    margin-left: 75px;
+}
+
+#overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_3 #inner_message_1 h2 {
+color: #ffffff;
+    font:25px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 85px;
+}
+
+#inner_message_1 .msg2{
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 500px;
+    margin-left: 75px;
+
+}
+
+#overlay_form_4 #inner_message_2{
+   top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#overlay_form_4 #inner_message_2 h2{
+color: #ffffff;
+    font:25px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 85px;
+}
+#inner_message_2 .msg3{
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 500px;
+    margin-left: 75px;
+}
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#inner_message_3 .msg4{
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 500px;
+    margin-left: 75px;
+}
+#overlay_form_5 #inner_message_3 h2{
+color: #ffffff;
+    font:25px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 85px;
+}
+}
+ 
+  @media (max-width: 640px) {
+   .responsive_none{
+ display:none !important;
+ }
+
+ 	.sub-title .wpb_wrapper > p {
+		width: 100%;
+		padding: 0 125px;
+ 	}
+ 	.gradiant_text {
+ 		    width: 55%;
+ 	}
+ 	.sub-title .gradiant_text span.background-title {
+ 		   transform: scaleX(1);
+		   padding: 10px 11px;
+		   font: 26px "oswalddemibold";
+ 	}
+ 	
+ 	.none_class{
+ 		display: none !important;
+ 	}
+ 	.left_btn {
+ 		width: 100% !important;
+ 		text-align: center;
+ 	}
+ 	.rigth_btn {
+ 		width: 100% !important;
+ 	}
+ 	.thumb_up_image_2 button.btn-modal {
+ 		background-position: top center !important;
+ 	}
+ 	.social_icon {
+ 		float: none;
+ 		margin: 0 auto;
+ 		width: 100%;
+ 		text-align: center;
+ 		padding-bottom: 20px;
+ 	}
+ 	.terms_and_con_section {
+ 		float: none;
+ 		margin: 0 auto;
+ 		width: 100%;
+ 		text-align: center;
+ 	}
+
+ 	.footer_logo {
+ 		text-align: center;
+ 		float: none;
+ 		margin: 0 auto;
+ 		width: 100%;
+ 		padding-top: 20px;
+ 	}
+ 	.ult_modal-body.ult-responsive.ult-youtube iframe {
+				width: 100% !important;
+				margin: 0 auto;
+	}
+	.sub-title .gradiant_text span.background-title {
+    transform: scaleX(1);
+    padding: 10px 40px;
+    font: 26px "oswalddemibold";
+}
+.ult-overlay-close {
+    height: 40px !important;
+    width: 40px !important;
+    right: 20px !important;
+    top: 0px !important;
+}
+
+
+#overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_2 #inner_message h2 {
+color: #ffffff;
+    font: 30px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+#inner_message .msg1 {
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:530px;
+    margin-left: 55px;
+}
+
+
+#overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_3 #inner_message_1 h2 {
+color: #ffffff;
+    font: 30px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+
+#inner_message_1 .msg2{
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:530px;
+    margin-left: 55px;
+
+}
+#overlay_form_4 #inner_message_2{
+   top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_4 #inner_message_2 h2{
+color: #ffffff;
+    font: 30px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+#inner_message_2 .msg3{
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:530px;
+    margin-left: 55px;
+}
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#inner_message_3 .msg4{
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:530px;
+    margin-left: 55px;
+}
+#overlay_form_5 #inner_message_3 h2{
+color: #ffffff;
+    font: 30px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+ }
+
+ @media (max-width: 568px) {
+  .responsive_none{
+ display:none !important;
+ }
+ .wpb_text_column.wpb_content_element.form_bottom_text {
+    width: 30%;
+    float: left;
+    margin-top: 15px;
+}
+
+ 	.sub-title .wpb_wrapper > p {
+    width: 100%;
+    padding: 0px 105px;
+}
+.gradiant_text {
+    width: 62%;
+}
+.sub-title .gradiant_text span.background-title {
+    transform: scaleX(1);
+    padding: 10px 40px;
+    font: 26px "oswalddemibold";
+}
+.form_bottom_img {
+    padding-left: 120px;
+}
+
+#overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_2 #inner_message h2 {
+color: #ffffff;
+    font:25px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 85px;
+}
+#inner_message .msg1 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 400px;
+    margin-left: 80px;
+}
+
+#overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_3 #inner_message_1 h2 {
+color: #ffffff;
+    font:25px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 85px;
+}
+
+#inner_message_1 .msg2{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 400px;
+    margin-left: 80px;
+
+}
+#overlay_form_4 #inner_message_2{
+   top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_4 #inner_message_2 h2{
+color: #ffffff;
+    font:25px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 85px;
+}
+#inner_message_2 .msg3{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 400px;
+    margin-left: 80px;
+}
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#inner_message_3 .msg4{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 400px;
+    margin-left: 80px;
+}
+#overlay_form_5 #inner_message_3 h2{
+color: #ffffff;
+    font:25px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 85px;
+}
+ }
+ 
+  @media (max-width:414px) {
+     #registro1_txt_p{
+padding-left:0px ;
+    padding-right: 45px;
+}
+.sub_btn.top_margin {
+    padding-top: 30px;
+    padding-right: 50px;
+}
+   .responsive_none{
+ display:none !important;
+ }
+  .select_class .hash_width {
+    width: 4% !important;
+}
+
+.wpb_single_image.vc_align_center {
+    text-align: center;
+        display: block;
+}
+ 	.sub-title .wpb_wrapper > p {
+       width: 100%;
+    padding: 0px 25px;
+}
+.gradiant_text {
+   width: 85%;
+}
+.ult-overlay-close {
+    height: 30px !important;
+    width: 30px !important;
+    right: 30px !important;
+    top: 30px !important;
+}
+.logo_form{
+text-align:center !important;
+}
+.form_section p.form_title {
+   font: 35px "oswaldmedium" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.form_section p.form_sub_title {
+    font: 16.58px "Arial" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0 !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.dhvc-form-group {
+    position: relative;
+   
+}
+
+.bg_text_form p.bg_text {
+    color: #ffffff;
+    font: 15px "Arial";
+    background-color: #a74410;
+   padding: 14px 12px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+    margin-left:21px;
+    margin-right: 20px;
+}
+.select_title p {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 45px !important;
+    text-transform: uppercase !important;
+    padding-top: 10px;
+}
+.radio_btn label.dhvc-form-label {
+    color: #ffffff;
+    font: 18.04px "Arial" !important;
+    padding-top: 50px;
+    margin: 0 !important;
+    font-weight: bold !important;
+    padding-left: 25px;
+}
+.dhvc-form-flat .dhvc-form-radio, .dhvc-form-flat .dhvc-form-checkbox {
+    padding-left: 25px;
+}
+.form_section .dhvc_form_text label {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 25px !important;
+    text-transform: uppercase !important;
+}
+
+.select_class .first_select {
+    width: 25% !important;
+    float: left;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.select_class .same_width {
+    width: 23% !important;
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.select_class .hash_width {
+   
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.form_section .dhvc_form_text, .form_section .dhvc_form_email, .form_section .dhvc_form_select, .form_section .check_box  {	
+	    padding: 0 20px;
+    
+	
+}
+.vc_custom_1482909155611 {
+	margin-left: 0 !important;
+}
+.select_class {
+	padding:0 20px;
+}
+.select_class .dhvc_form_select {
+	padding: 0 !important;
+}
+.same_width .dhvc_form_text {
+	padding: 0 !important;
+}
+.vc_row.vc_column-gap-20 {
+	margin:0 !important;
+}
+.dhvc-form-flat .dhvc-form-input input, .dhvc-form-flat .dhvc-form-file input[type="text"], .dhvc-form-flat .dhvc-form-captcha input, .dhvc-form-flat .dhvc-form-select select, .dhvc-form-flat .dhvc-form-textarea textarea {
+	padding-left: 10px;
+}
+.form_section .check_box  .dhvc-form-checkbox label {
+    padding-left: 25px;
+}
+.sub_btn {
+	text-align:center;
+}
+.wpb_single_image.wpb_content_element.vc_align_left.form_bottom_img {
+	margin-left: 0px;
+}
+.wpb_text_column.wpb_content_element.form_bottom_text {
+	margin-top: 0px;
+}
+p.bottom_detail {
+	font: 22px/20px "Arial";
+	font-weight: bold;
+}
+.form_bottom_img {
+	padding-left: 70px;
+}
+.form_bottom_text {
+	padding-top: 10px;
+}
+.dhvc-form-flat .dhvc-form-input input, .dhvc-form-flat .dhvc-form-file input[type="text"], .dhvc-form-flat .dhvc-form-captcha input, .dhvc-form-flat .dhvc-form-select select, .dhvc-form-flat .dhvc-form-textarea textarea {
+    border-color: transparent !important;
+    border-radius: 20px !important;
+    background-color: #ffffff !important;
+    font: 10px "Arial" !important;
+    color: #b4b4b4 !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    padding-left: 10px;
+}
+
+ #overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_2 #inner_message h2 {
+color: #ffffff;
+    font: 22px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+}
+#inner_message .msg1 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 380px;
+ 
+    margin-left: 15px;
+}
+
+
+#overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_3 #inner_message_1 h2 {
+color: #ffffff;
+    font: 22px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+}
+
+#inner_message_1 .msg2{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 380px;
+ 
+    margin-left: 15px;
+
+}
+#overlay_form_4 #inner_message_2{
+   top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_4 #inner_message_2 h2{
+color: #ffffff;
+    font: 20px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 20px;
+}
+#inner_message_2 .msg3{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 380px;
+ 
+    margin-left: 15px;
+}
+
+
+
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#inner_message_3 .msg4{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 380px;
+ 
+    margin-left: 15px;
+}
+#overlay_form_5 #inner_message_3 h2{
+color: #ffffff;
+    font: 20px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 20px;
+}
+ }
+   @media (max-width:412px) {
+   #registro1_txt_p{
+padding-left:0px ;
+    padding-right: 45px;
+}
+.sub_btn.top_margin {
+    padding-top: 30px;
+    padding-right: 50px;
+}
+   
+    .responsive_none{
+ display:none !important;
+ }
+   .select_class .hash_width {
+    width: 4% !important;
+}
+.wpb_single_image.vc_align_center {
+    text-align: center;
+       display: block;
+}
+ 	.sub-title .wpb_wrapper > p {
+       width: 100%;
+    padding: 0px 25px;
+}
+.gradiant_text {
+   width: 85%;
+}
+.ult-overlay-close {
+    height: 40px !important;
+    width: 40px !important;
+    right: 25px !important;
+    top: 10px !important;
+}
+
+.ult_modal-header h3.ult_modal-title {
+    display: block;
+    color: #ffffff;
+    font:25px "oswaldmedium";
+    text-transform: uppercase;
+	    padding-top: 45px;
+}
+
+.ult_modal-header h3.ult_modal-title {
+    display: block;
+    color: #ffffff;
+    font:25px "oswaldmedium";
+    text-transform: uppercase;
+	    padding-top: 45px;
+}
+
+.logo_form{
+text-align:center !important;
+}
+.form_section p.form_title {
+   font: 44px "oswaldmedium" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.form_section p.form_sub_title {
+    font: 16.58px "Arial" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0 !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.dhvc-form-group {
+    position: relative;
+   
+}
+
+.bg_text_form p.bg_text {
+    color: #ffffff;
+    font: 18px "Arial";
+    background-color: #a74410;
+   padding: 14px 12px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+    margin-left:21px;
+    margin-right: 20px;
+}
+.select_title p {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 45px !important;
+    text-transform: uppercase !important;
+    padding-top: 10px;
+}
+.radio_btn label.dhvc-form-label {
+    color: #ffffff;
+    font: 18.04px "Arial" !important;
+    padding-top: 50px;
+    margin: 0 !important;
+    font-weight: bold !important;
+    padding-left: 25px;
+}
+.dhvc-form-flat .dhvc-form-radio, .dhvc-form-flat .dhvc-form-checkbox {
+    padding-left: 25px;
+}
+.form_section .dhvc_form_text label {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 25px !important;
+    text-transform: uppercase !important;
+}
+
+.select_class .first_select {
+    width: 25% !important;
+    float: left;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.select_class .same_width {
+    width: 23% !important;
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.select_class .hash_width {
+   
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.form_section .dhvc_form_text, .form_section .dhvc_form_email, .form_section .dhvc_form_select, .form_section .check_box  {	
+	    padding: 0 20px;
+    
+	
+}
+.vc_custom_1482909155611 {
+	margin-left: 0 !important;
+}
+.select_class {
+	padding:0 20px;
+}
+.select_class .dhvc_form_select {
+	padding: 0 !important;
+}
+.same_width .dhvc_form_text {
+	padding: 0 !important;
+}
+.vc_row.vc_column-gap-20 {
+	margin:0 !important;
+}
+.dhvc-form-flat .dhvc-form-input input, .dhvc-form-flat .dhvc-form-file input[type="text"], .dhvc-form-flat .dhvc-form-captcha input, .dhvc-form-flat .dhvc-form-select select, .dhvc-form-flat .dhvc-form-textarea textarea {
+	padding-left: 10px;
+}
+.form_section .check_box  .dhvc-form-checkbox label {
+    padding-left: 25px;
+}
+.sub_btn {
+	text-align:center;
+}
+.wpb_single_image.wpb_content_element.vc_align_left.form_bottom_img {
+	margin-left: 0px;
+}
+.wpb_text_column.wpb_content_element.form_bottom_text {
+	    margin-top: 0px;
+    margin-left: 15px;
+}
+p.bottom_detail {
+	font: 22px/20px "Arial";
+	font-weight: bold;
+}
+.form_bottom_img {
+	padding-left:39px;
+}
+.form_bottom_text {
+	padding-top: 10px;
+}
+
+#overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_2 #inner_message h2 {
+color: #ffffff;
+    font: 22px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+#inner_message .msg1 {
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:375px;
+    margin-left: 15px;
+}
+
+#overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_3 #inner_message_1 h2 {
+color: #ffffff;
+    font: 22px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+
+#inner_message_1 .msg2{
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:375px;
+    margin-left: 15px;
+
+}
+#overlay_form_4 #inner_message_2{
+   top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_4 #inner_message_2 h2{
+color: #ffffff;
+    font: 22px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+#inner_message_2 .msg3{
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:375px;
+    margin-left: 15px;
+}
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#inner_message_3 .msg4{
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:375px;
+    margin-left: 15px;
+}
+#overlay_form_5 #inner_message_3 h2{
+color: #ffffff;
+    font: 22px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+ }
+ @media (max-width:375px) {
+  .responsive_none{
+ display:none !important;
+ }
+
+ 	.sub-title .wpb_wrapper > p {
+       width: 100%;
+    padding: 0px 0px;
+}
+.gradiant_text {
+   width: 94%;
+}
+
+.sub-title .gradiant_text span.background-title {
+    transform: scaleX(1);
+    padding: 10px 30px;
+    font: 26px "oswalddemibold";
+}
+.ult-overlay-close {
+    height: 30px !important;
+    width: 30px !important;
+    right: 25px !important;
+    top: 15px !important;
+}
+
+
+#overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_2 #inner_message h2 {
+color: #ffffff;
+    font: 20px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+#inner_message .msg1 {
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:330px;
+    margin-left: 15px;
+}
+
+
+#overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_3 #inner_message_1 h2 {
+color: #ffffff;
+    font: 20px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+
+#inner_message_1 .msg2{
+  background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:330px;
+    margin-left: 15px;
+
+}
+#overlay_form_4 #inner_message_2{
+   top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#overlay_form_4 #inner_message_2 h2{
+color: #ffffff;
+    font: 20px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+#inner_message_2 .msg3{
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 330px;
+    margin-left: 18px;
+}
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#inner_message_3 .msg4{
+background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 330px;
+    margin-left: 18px;
+}
+#overlay_form_5 #inner_message_3 h2{
+color: #ffffff;
+    font: 20px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+ }
+ 
+  @media (max-width:360px) {
+   .responsive_none{
+ display:none !important;
+ }
+.select_class .hash_width {
+    width: 4% !important;
+}
+.wpb_single_image.vc_align_center {
+    text-align: center;
+       display: block;
+}
+
+
+ 	.sub-title .wpb_wrapper > p {
+       width: 100%;
+    padding: 0px 0px;
+}
+.gradiant_text {
+   width: 91%;
+}
+
+.sub-title .gradiant_text span.background-title {
+    transform: scaleX(1);
+    padding: 10px 30px;
+    font: 26px "oswalddemibold";
+}
+.sub-title p span.sub-title_logo {
+    font: 26.5px "oswalddemibold";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+.ult-overlay-close {
+    height: 25px !important;
+    width: 25px !important;
+    right: 25px !important;
+    top: 20px !important;
+}
+.ult_modal-header h3.ult_modal-title {
+    display: block;
+    color: #ffffff;
+    font:25px "oswaldmedium";
+    text-transform: uppercase;
+	    padding-top: 45px;
+}
+
+.logo_form{
+text-align:center !important;
+}
+#registro1_txt_p{
+padding-left:0px ;
+    padding-right: 45px;
+}
+.sub_btn.top_margin {
+    padding-top: 30px;
+    padding-right: 50px;
+}
+.form_section p.form_title {
+   font: 44px "oswaldmedium" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.form_section p.form_sub_title {
+    font: 16.58px "Arial" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0 !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.dhvc-form-group {
+    position: relative;
+   
+}
+
+.bg_text_form p.bg_text {
+    color: #ffffff;
+    font: 18px "Arial";
+    background-color: #a74410;
+   padding: 14px 12px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+    margin-left:21px;
+    margin-right: 20px;
+}
+.select_title p {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 45px !important;
+    text-transform: uppercase !important;
+    padding-top: 10px;
+}
+.radio_btn label.dhvc-form-label {
+    color: #ffffff;
+    font: 18.04px "Arial" !important;
+    padding-top: 50px;
+    margin: 0 !important;
+    font-weight: bold !important;
+    padding-left: 25px;
+}
+.dhvc-form-flat .dhvc-form-radio, .dhvc-form-flat .dhvc-form-checkbox {
+    padding-left: 25px;
+}
+.form_section .dhvc_form_text label {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 25px !important;
+    text-transform: uppercase !important;
+}
+
+.select_class .first_select {
+    width: 25% !important;
+    float: left;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.select_class .same_width {
+    width: 23% !important;
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.select_class .hash_width {
+   
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.form_section .dhvc_form_text, .form_section .dhvc_form_email, .form_section .dhvc_form_select, .form_section .check_box  {	
+	    padding: 0 20px;
+    
+	
+}
+.vc_custom_1482909155611 {
+	margin-left: 0 !important;
+}
+.select_class {
+	padding:0 20px;
+}
+.select_class .dhvc_form_select {
+	padding: 0 !important;
+}
+.same_width .dhvc_form_text {
+	padding: 0 !important;
+}
+.vc_row.vc_column-gap-20 {
+	margin:0 !important;
+}
+.dhvc-form-flat .dhvc-form-input input, .dhvc-form-flat .dhvc-form-file input[type="text"], .dhvc-form-flat .dhvc-form-captcha input, .dhvc-form-flat .dhvc-form-select select, .dhvc-form-flat .dhvc-form-textarea textarea {
+	padding-left: 10px;
+}
+.form_section .check_box  .dhvc-form-checkbox label {
+    padding-left: 25px;
+}
+.sub_btn {
+	text-align:center;
+}
+.wpb_single_image.wpb_content_element.vc_align_left.form_bottom_img {
+	margin-left: 0px;
+}
+.wpb_text_column.wpb_content_element.form_bottom_text {
+	margin-top: 0px;
+}
+p.bottom_detail {
+	font: 22px/20px "Arial";
+	font-weight: bold;
+}
+.form_bottom_img {
+	padding-left:39px;
+}
+.form_bottom_text {
+	padding-top: 10px;
+}
+
+
+#overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_2 #inner_message h2 {
+color: #ffffff;
+    font: 22px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+#inner_message .msg1 {
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 320px;
+    margin-left: 15px;
+}
+
+
+#overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_3 #inner_message_1 h2 {
+color: #ffffff;
+    font: 22px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+
+#inner_message_1 .msg2{
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 320px;
+    margin-left: 15px;
+
+}
+#overlay_form_4 #inner_message_2{
+   top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#overlay_form_4 #inner_message_2 h2{
+color: #ffffff;
+    font: 22px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+}
+#inner_message_2 .msg3{
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 320px;
+    margin-left: 15px;
+}
+
+
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#inner_message_3 .msg4{
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 320px;
+    margin-left: 15px;
+}
+#overlay_form_5 #inner_message_3 h2{
+color: #ffffff;
+    font: 22px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+}
+ }
+ 
+ 
+   @media (max-width:320px) {
+  .responsive_none{
+ display:none !important;
+ }
+   .select_class .hash_width {
+    width: 4% !important;
+}
+ 	.sub-title .wpb_wrapper > p {
+       width: 100%;
+    padding: 0px 0px;
+}
+.gradiant_text {
+   width: 91%;
+}
+
+.sub-title .gradiant_text span.background-title {
+    transform: scaleX(1);
+    padding: 10px 0px;
+    font: 26px "oswalddemibold";
+}
+.sub-title p span.sub-title_logo {
+       font: 23.5px "oswalddemibold";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+ .ult-overlay-close {
+       height: 25px !important;
+    width: 25px !important;
+    right: 25px !important;
+    top: 10px !important;
+}
+.ult_modal-header h3.ult_modal-title {
+    display: block;
+    color: #ffffff;
+    font:25px "oswaldmedium";
+    text-transform: uppercase;
+	    padding-top: 45px;
+}
+
+.logo_form{
+text-align:center !important;
+}
+.form_section p.form_title {
+   font: 35px "oswaldmedium" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.form_section p.form_sub_title {
+    font: 16.58px "Arial" !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0 !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.dhvc-form-group {
+    position: relative;
+   
+}
+
+.bg_text_form p.bg_text {
+    color: #ffffff;
+    font: 15px "Arial";
+    background-color: #a74410;
+   padding: 14px 12px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+    margin-left:21px;
+    margin-right: 20px;
+}
+.select_title p {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 45px !important;
+    text-transform: uppercase !important;
+    padding-top: 10px;
+}
+.radio_btn label.dhvc-form-label {
+    color: #ffffff;
+    font: 18.04px "Arial" !important;
+    padding-top: 50px;
+    margin: 0 !important;
+    font-weight: bold !important;
+    padding-left: 25px;
+}
+.dhvc-form-flat .dhvc-form-radio, .dhvc-form-flat .dhvc-form-checkbox {
+    padding-left: 25px;
+}
+.form_section .dhvc_form_text label {
+    color: #ffffff !important;
+    font: 13px "Arial" !important;
+    font-weight: bold !important;
+    padding-left: 25px !important;
+    text-transform: uppercase !important;
+}
+
+.select_class .first_select {
+    width: 25% !important;
+    float: left;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.select_class .same_width {
+    width: 23% !important;
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.select_class .hash_width {
+   
+    float: left;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.form_section .dhvc_form_text, .form_section .dhvc_form_email, .form_section .dhvc_form_select, .form_section .check_box  {	
+	    padding: 0 20px;
+    
+	
+}
+.vc_custom_1482909155611 {
+	margin-left: 0 !important;
+}
+.select_class {
+	padding:0 20px;
+}
+.select_class .dhvc_form_select {
+	padding: 0 !important;
+}
+.same_width .dhvc_form_text {
+	padding: 0 !important;
+}
+.vc_row.vc_column-gap-20 {
+	margin:0 !important;
+}
+.dhvc-form-flat .dhvc-form-input input, .dhvc-form-flat .dhvc-form-file input[type="text"], .dhvc-form-flat .dhvc-form-captcha input, .dhvc-form-flat .dhvc-form-select select, .dhvc-form-flat .dhvc-form-textarea textarea {
+	padding-left: 10px;
+}
+.form_section .check_box  .dhvc-form-checkbox label {
+    padding-left: 25px;
+}
+.sub_btn {
+	text-align:center;
+}
+.wpb_single_image.wpb_content_element.vc_align_left.form_bottom_img {
+	margin-left: 0px;
+}
+.wpb_text_column.wpb_content_element.form_bottom_text {
+	margin-top: 0px;
+}
+p.bottom_detail {
+	font: 22px/20px "Arial";
+	font-weight: bold;
+}
+.form_bottom_img {
+	padding-left:25px;
+}
+.form_bottom_text {
+	padding-top: 10px;
+}
+.dhvc-form-flat .dhvc-form-input input, .dhvc-form-flat .dhvc-form-file input[type="text"], .dhvc-form-flat .dhvc-form-captcha input, .dhvc-form-flat .dhvc-form-select select, .dhvc-form-flat .dhvc-form-textarea textarea {
+    border-color: transparent !important;
+    border-radius: 20px !important;
+    background-color: #ffffff !important;
+    font: 10px "Arial" !important;
+    color: #b4b4b4 !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    padding-left: 10px;
+}
+
+#overlay_form_2 #inner_message {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_2 #inner_message h2 {
+color: #ffffff;
+    font: 20px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+#inner_message .msg1 {
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:280px;
+    margin-left: 15px;
+}
+
+#overlay_form_3 #inner_message_1{
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+
+#overlay_form_3 #inner_message_1 h2 {
+    font: 20px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+
+#inner_message_1 .msg2{
+   background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width:280px;
+    margin-left: 15px;
+
+}
+#overlay_form_4 #inner_message_2{
+   top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#overlay_form_4 #inner_message_2 h2{
+       color: #ffffff;
+    font: 20px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+#inner_message_2 .msg3{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 290px;
+    margin-left: 12px;
+}
+
+
+
+#overlay_form_5 #inner_message_3 {
+    top: 40%;
+    position: absolute;
+    left: 0%;
+}
+#inner_message_3 .msg4{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 26px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 290px;
+    margin-left: 12px;
+}
+#overlay_form_5 #inner_message_3 h2{
+       color: #ffffff;
+    font: 20px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+     text-align: center;
+   padding-bottom: 25px;
+       padding-left: 20px;
+}
+ }
+ 
