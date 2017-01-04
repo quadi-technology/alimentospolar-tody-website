@@ -59,7 +59,7 @@
 
 <?php wp_footer(); ?>
 
-<script type='text/javascript' src='/alimentospolar-tody-website/wp-content/themes/twentysixteen/js/enscroll-0.6.2.min.js'></script>
+<script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/enscroll-0.6.2.min.js'></script>
 <script>
 jQuery(document).ready(function() {
      jQuery('.scrollbox').enscroll();
@@ -84,7 +84,6 @@ jQuery(document).ready(function() {
      	jQuery('#overlay_form_3 #inner_message_1 .wrapper_inner_1 h2').html(message_array[0]);
      	jQuery('#overlay_form_3 #inner_message_1 .wrapper_inner_1 .msg2').html(message_array[1]);
      	jQuery('#overlay_form_3').show();
-
      	setTimeout(function(){
 	     	jQuery('.dhvc-form-show').attr('style', 'visibility: hidden !important');
      	}, 1000);
