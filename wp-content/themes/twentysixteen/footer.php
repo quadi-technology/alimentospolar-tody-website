@@ -62,6 +62,9 @@
 <script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/enscroll-0.6.2.min.js'></script>
 <script>
 jQuery(document).ready(function() {
+  if(jQuery('.form_section .dhvc_form_text .dhvc-form-input input.dhvc-form-control.dhvc-form-control-name.dhvc-form-value.dhvc-form-required-entry').hasClass('dhvc-form-error')) {
+        alert("123");
+   }
      jQuery('.scrollbox').enscroll();
 
      jQuery('#dhvc_form_message_60').bind('DOMNodeInserted', function(e) {
@@ -101,6 +104,7 @@ jQuery(document).ready(function() {
      jQuery('#overlay_form_5').click(function(){
      	jQuery(this).fadeOut();	
      });
+   
 });
 </script>
   <div id="overlay_form_2">

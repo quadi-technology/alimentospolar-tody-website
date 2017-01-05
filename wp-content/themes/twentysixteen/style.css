@@ -4057,6 +4057,17 @@ p > video {
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'oswalddemibold';
+    src: url('fonts/oswald-demibold-webfont.eot');
+    src: url('fonts/oswald-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald-demibold-webfont.woff2') format('woff2'),
+         url('fonts/oswald-demibold-webfont.woff') format('woff'),
+         url('fonts/oswald-demibold-webfont.svg#oswalddemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .site {
   background-color: #ffffff !important;
   margin: 0 !important;
@@ -5092,6 +5103,18 @@ width:100% !important;
 
   
  @media (max-width: 768px) {
+ .bg_text_form p.bg_text {
+ 	font: 18.5px "oswalddemibold";
+ }
+ .custom_css .ult_modal .ult_modal-content .btn a.button_link {
+ 	padding: 15px 10px;
+ }
+ .thumb_up_image button.btn-modal {
+ 	background-position: top center !important;
+ }
+ .thumb_up_image  {
+ 	margin-bottom: 0 !important;
+ }
  .terms_logo {
     padding-bottom: 40px !important;
     padding-top: 60px !important;
@@ -5173,6 +5196,7 @@ width:100% !important;
  		margin: 0 auto;
  		width: 100%;
  		text-align: center;
+ 		text-transform: uppercase;
  	}
 
  	.footer_logo {
@@ -5223,7 +5247,7 @@ text-align:center !important;
 
 .bg_text_form p.bg_text {
     color: #ffffff;
-    font: 18px "Arial";
+   
     background-color: #a74410;
    padding: 14px 12px;
     text-transform: uppercase;
@@ -5976,7 +6000,7 @@ color: #ffffff;
 }
 .sub-title .gradiant_text span.background-title {
     transform: scaleX(1);
-    padding: 10px 40px;
+    padding: 10px 40px 0px;
     font: 26px "oswalddemibold";
 }
 /*.form_bottom_img {
@@ -6094,7 +6118,17 @@ color: #ffffff;
     padding-left: 85px;
 }
  }
- 
+ @media only screen and (min-width: 450px) and (max-width: 480px) { 
+.sub-title .wpb_wrapper > p{
+	padding: 0 20px;
+}
+.gradiant_text {
+    width: 87%;
+}
+.sub-title .gradiant_text span.background-title {
+	padding: 10px 62px 0px;
+}
+}
 @media (max-width:414px) {
 .form_bottom_img {
     margin-left: 60px;
@@ -6131,8 +6165,8 @@ color: #ffffff;
 .ult-overlay-close {
     height: 30px !important;
     width: 30px !important;
-    right: 30px !important;
-    top: 30px !important;
+    right: 23px !important;
+    top: 86px !important;
 }
 .logo_form{
 text-align:center !important;
@@ -6144,7 +6178,7 @@ text-align:center !important;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
-	    padding-left: 25px;
+	  padding-left: 25px;
     padding-right: 25px;
 }
 
@@ -6165,9 +6199,9 @@ text-align:center !important;
 
 .bg_text_form p.bg_text {
     color: #ffffff;
-    font: 15px "Arial";
+ 	font: 18.5px "oswalddemibold";
     background-color: #a74410;
-   padding: 14px 12px;
+ 	 padding: 14px 12px;
     text-transform: uppercase;
     text-align: center;
     border-radius: 20px;
@@ -6475,7 +6509,7 @@ text-align:center !important;
 
 .bg_text_form p.bg_text {
     color: #ffffff;
-    font: 18px "Arial";
+    
     background-color: #a74410;
    padding: 14px 12px;
     text-transform: uppercase;
@@ -6706,7 +6740,7 @@ color: #ffffff;
 
 .sub-title .gradiant_text span.background-title {
     transform: scaleX(1);
-    padding: 10px 30px;
+    padding: 10px 30px 0px;
     font: 26px "oswalddemibold";
 }
 .ult-overlay-close {
@@ -6857,7 +6891,7 @@ color: #ffffff;
 
 .sub-title .gradiant_text span.background-title {
     transform: scaleX(1);
-    padding: 10px 30px;
+    padding: 10px 30px 0px;
     font: 26px "oswalddemibold";
 }
 .sub-title p span.sub-title_logo {
@@ -6919,7 +6953,7 @@ padding-left:0px ;
 
 .bg_text_form p.bg_text {
     color: #ffffff;
-    font: 18px "Arial";
+   font: 16.5px "oswalddemibold";
     background-color: #a74410;
    padding: 14px 12px;
     text-transform: uppercase;
@@ -7157,7 +7191,7 @@ color: #ffffff;
 
 .sub-title .gradiant_text span.background-title {
     transform: scaleX(1);
-    padding: 10px 0px;
+    padding: 10px 0px 0px;
     font: 26px "oswalddemibold";
 }
 .sub-title p span.sub-title_logo {
@@ -7211,7 +7245,7 @@ text-align:center !important;
 
 .bg_text_form p.bg_text {
     color: #ffffff;
-    font: 15px "Arial";
+    font: 16.5px "oswalddemibold";
     background-color: #a74410;
    padding: 14px 12px;
     text-transform: uppercase;

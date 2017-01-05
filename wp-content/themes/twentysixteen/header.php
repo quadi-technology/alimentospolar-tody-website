@@ -53,7 +53,7 @@
   			<div id="inner_message_3">
 	  			<div class="wrapper_inner_1">
 	  			 	<h2>-¡Gracias!-</h2>
-					<div class="msg4">Not Exits</div>
+					<div class="msg4">La información de su hijo fue borrada previamente de la base de datos. </div>
 					<div class="close_btn_cus"></div>
 				</div>
 
