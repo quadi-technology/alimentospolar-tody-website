@@ -5467,10 +5467,11 @@ background-color: #ffffff;
  
  
  
-  @media (max-width:732px) {
-   .responsive_none{
- display:none !important;
- }
+@media (max-width:732px) {
+
+.responsive_none{
+	 display:none !important;
+}
 .select_class .hash_width {
     width: 2% !important;
     
@@ -5929,8 +5930,20 @@ color: #ffffff;
  }
 
  @media (max-width: 568px) {
-  .responsive_none{
- display:none !important;
+  .terms_popup .ult_modal-body{
+  	    padding: 40px 20px 20px 20px;
+  }
+  .vertical-handle {
+  	right: -19px;
+  }
+ .terms_popup .ult_modal .ult_modal-content .ult_modal-header h3.ult_modal-title {
+    padding: 33px 0 27px 27px;
+}
+.ult_modal-header h3.ult_modal-title {
+	font-size: 37px;
+}
+ .responsive_none{
+ 	display:none !important;
  }
  .wpb_text_column.wpb_content_element.form_bottom_text {
     width: 30%;
@@ -6066,9 +6079,15 @@ color: #ffffff;
 }
  }
  
-  @media (max-width:414px) {
-     #registro1_txt_p{
-padding-left:0px ;
+@media (max-width:414px) {
+.form_bottom_img {
+    margin-left: 60px;
+}
+.ult_modal-header h3.ult_modal-title {
+	font-size:  27px;
+}
+ #registro1_txt_p{
+	padding-left:0px ;
     padding-right: 45px;
 }
 .sub_btn.top_margin {
@@ -6798,21 +6817,22 @@ color: #ffffff;
 }
  }
  
-  @media (max-width:360px) {
-   .responsive_none{
- display:none !important;
+@media (max-width:360px) {
+.form_bottom_img {
+    margin-left: 32px;
+}
+ .responsive_none{
+ 	display:none !important;
  }
 .select_class .hash_width {
     width: 4% !important;
 }
 .wpb_single_image.vc_align_center {
     text-align: center;
-       display: block;
+    display: block;
 }
-
-
- 	.sub-title .wpb_wrapper > p {
-       width: 100%;
+.sub-title .wpb_wrapper > p {
+    width: 100%;
     padding: 0px 0px;
 }
 .gradiant_text {
@@ -7101,9 +7121,12 @@ color: #ffffff;
  }
  
  
-   @media (max-width:320px) {
+@media (max-width:320px) {
+.form_bottom_img {
+    margin-left: 16px;
+}
   .responsive_none{
- display:none !important;
+	 display:none !important;
  }
    .select_class .hash_width {
     width: 4% !important;
@@ -7136,9 +7159,9 @@ color: #ffffff;
 .ult_modal-header h3.ult_modal-title {
     display: block;
     color: #ffffff;
-    font:25px "oswaldmedium";
+    font:20px "oswaldmedium";
     text-transform: uppercase;
-	    padding-top: 45px;
+	padding-top: 45px;
 }
 
 .logo_form{
