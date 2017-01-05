@@ -4803,7 +4803,9 @@ body {
 /* -------------------------Responsive----------------------------------------------*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) { 
-
+.terms_popup .ult-overlay-close {
+    left: 1021px !important;
+}
 .sub-title .gradiant_text span.background-title {
     background-color: #ffffff;
     color: #000000;
