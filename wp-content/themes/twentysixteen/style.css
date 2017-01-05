@@ -4741,6 +4741,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     max-width: 1023px;
     background-color: #ffffff;
     padding: 30px 150px  !important;
+    width: 100% !important;
 }
 .white_bg {
 	width: 100% !important;
@@ -5089,7 +5090,9 @@ width:100% !important;
 
   
  @media (max-width: 768px) {
-
+.terminos_page_3 {
+	padding: 10px 50px;
+}
 .wpb_text_column.wpb_content_element.form_bottom_text {
 	width: 23%;
 }
