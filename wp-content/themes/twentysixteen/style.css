@@ -4214,11 +4214,11 @@ p > video {
 	text-align: center;
 }
 .custom_css .ult_modal .ult_modal-content .btn a.button_link {
-	font: 12px "oswaldmedium";
+	font: 18px "oswaldmedium";
 	color: #ffffff;
-	padding: 15px 10px; 
+	padding: 5px 10px; 
 	border: 3px solid #af4f2d;
-	border-radius: 12px; 
+	border-radius: 9px; 
 background: rgba(255,255,255,1);
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(122,46,25,1) 50%, rgba(122,46,25,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(0%, rgba(255,255,255,1)), color-stop(0%, rgba(255,255,255,1)), color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(122,46,25,1)), color-stop(100%, rgba(122,46,25,1)));
@@ -4831,10 +4831,10 @@ body {
     font: 26px "oswalddemibold";
 }
 .ult-overlay-close {
-       height: 40px !important;
+    height: 40px !important;
     width: 40px !important;
-    right: 465px !important;
-    top: 60px !important;
+    right: 403px !important;
+    top: 273px !important;
 }
  .responsive_none{
  display:none !important;
