@@ -4788,6 +4788,17 @@ body {
    width:100%;
    background:#ffffff;
 }
+.form_1_right {
+	margin-top: 217px !important;
+	margin-left: 0px !important;
+}
+.form_bottom_img {
+	float: left;
+	margin-left: 110px;
+}
+.first_select {
+	margin-left: 15px;
+}
 /* -------------------------Responsive----------------------------------------------*/
 @media only screen and (min-width: 1200px) and (max-width: 1400px) { 
 
@@ -4807,7 +4818,7 @@ body {
 }
    	.sub-title .wpb_wrapper > p {
        width: 100%;
-    padding: 0px 0px;
+       padding: 0px 0px;
 }
 .gradiant_text {
    width: 66%;
@@ -5019,9 +5030,7 @@ p.bottom_detail {
 	font: 22px/20px "Arial";
 	font-weight: bold;
 }
-.form_bottom_img {
-    padding-left: 290px;
-}
+
 .form_bottom_text {
 	padding-top: 10px;
 }
@@ -5079,11 +5088,12 @@ width:100% !important;
 
   
  @media (max-width: 768px) {
- 
 
- 
-    #registro1_txt_p{
-padding-left:0px ;
+.wpb_text_column.wpb_content_element.form_bottom_text {
+	width: 23%;
+}
+ #registro1_txt_p{
+	padding-left:0px ;
     padding-right:100px;
 }
 .sub_btn.top_margin {
@@ -5232,11 +5242,10 @@ text-align:center !important;
     padding-left: 25px !important;
     text-transform: uppercase !important;
 }
-
 .select_class .first_select {
     width: 25% !important;
     float: left;
-    margin: 0 !important;
+    margin: 0 20px 0 0 !important;
     padding: 0 !important;
 }
 .select_class .same_width {
@@ -5291,7 +5300,7 @@ p.bottom_detail {
 	font-weight: bold;
 }
 .form_bottom_img {
-	padding-left:190px;
+	margin-left:200px;
 }
 .form_bottom_text {
 	padding-top: 10px;
@@ -5941,9 +5950,9 @@ color: #ffffff;
     padding: 10px 40px;
     font: 26px "oswalddemibold";
 }
-.form_bottom_img {
+/*.form_bottom_img {
     padding-left: 120px;
-}
+}*/
 
 #overlay_form_2 #inner_message {
     top: 40%;
@@ -6214,9 +6223,9 @@ p.bottom_detail {
 	font: 22px/20px "Arial";
 	font-weight: bold;
 }
-.form_bottom_img {
+/*.form_bottom_img {
 	padding-left: 70px;
-}
+}*/
 .form_bottom_text {
 	padding-top: 10px;
 }
@@ -6525,9 +6534,9 @@ p.bottom_detail {
 	font: 22px/20px "Arial";
 	font-weight: bold;
 }
-.form_bottom_img {
+/*.form_bottom_img {
 	padding-left:39px;
-}
+}*/
 .form_bottom_text {
 	padding-top: 10px;
 }
@@ -6967,9 +6976,9 @@ p.bottom_detail {
 	font: 22px/20px "Arial";
 	font-weight: bold;
 }
-.form_bottom_img {
+/*.form_bottom_img {
 	padding-left:39px;
-}
+}*/
 .form_bottom_text {
 	padding-top: 10px;
 }
@@ -7256,9 +7265,9 @@ p.bottom_detail {
 	font: 22px/20px "Arial";
 	font-weight: bold;
 }
-.form_bottom_img {
+/*.form_bottom_img {
 	padding-left:25px;
-}
+}*/
 .form_bottom_text {
 	padding-top: 10px;
 }
