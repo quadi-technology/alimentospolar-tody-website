@@ -34,7 +34,7 @@
   			</div>
   		</div>
 	</div>
-<?php elseif(isset($_GET['res']) && $_GET['res'] == 'error'): ?>
+<?php elseif(isset($_GET['res']) && $_GET['res'] == 'decline'): ?>
 	<div class="alert error">
 	  <div id="overlay_form_5">
   			<div id="inner_message_3">
