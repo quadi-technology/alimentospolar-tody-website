@@ -4740,7 +4740,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     margin: 0 auto;
     max-width: 1023px;
     background-color: #ffffff;
-    padding: 30px 150px  !important;
+    padding: 30px 150px 200px !important;
     width: 100% !important;
 }
 .white_bg {
@@ -5090,8 +5090,18 @@ width:100% !important;
 
   
  @media (max-width: 768px) {
+ .terms_logo {
+    padding-bottom: 40px !important;
+    padding-top: 60px !important;
+}
+.white_bg p.termas_title  {
+	text-align: center;
+}
+.white_bg p strong {
+	font-size: 25px;
+}
 .terminos_page_3 {
-	padding: 10px 50px;
+	padding: 10px 50px 200px !important;
 }
 .wpb_text_column.wpb_content_element.form_bottom_text {
 	width: 23%;
