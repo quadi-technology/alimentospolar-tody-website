@@ -4775,6 +4775,10 @@ input#dhvc_form_control_0_586356a55f2fb {
 	position: absolute;
 	height: 260px;
 }*/
+
+.middle_img figure{
+	margin-top: -200px !important;
+}
 .shadow-bottom:after{
 	background: url('images/shadow.png') no-repeat center !important;
 	content: "";
@@ -5103,6 +5107,9 @@ width:100% !important;
 
   
  @media (max-width: 768px) {
+.middle_img figure{
+	margin-top: -21px !important;
+}
  .bg_text_form p.bg_text {
  	font: 18.5px "oswalddemibold";
  }
