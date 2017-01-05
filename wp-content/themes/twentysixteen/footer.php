@@ -32,7 +32,7 @@
 
 			  	        		 <?php foreach($socials as $social) {  ?>
 
-			  	        			<img src="<?php echo $social['image_icon']; ?>" alt="">
+			  	        			<a href="<?php echo $social['image_icon_link']; ?>"><img src="<?php echo $social['image_icon']; ?>" alt=""></a>
 
 			  	        		<?php } ?>
 			  	        	
