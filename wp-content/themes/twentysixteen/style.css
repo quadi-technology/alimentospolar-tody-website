@@ -4800,6 +4800,7 @@ body {
 	margin-left: 15px;
 }
 /* -------------------------Responsive----------------------------------------------*/
+
 @media only screen and (min-width: 1200px) and (max-width: 1400px) { 
 
 .sub-title .gradiant_text span.background-title {
@@ -4816,12 +4817,12 @@ body {
     line-height: 24px;
 	padding: 10px 40px;
 }
-   	.sub-title .wpb_wrapper > p {
-       width: 100%;
+.sub-title .wpb_wrapper > p {
+       width: 36%;
        padding: 0px 0px;
 }
 .gradiant_text {
-   width: 66%;
+   width: 36%;
 }
 
 .sub-title .gradiant_text span.background-title {
