@@ -5131,6 +5131,9 @@ width:100% !important;
 
   
  @media (max-width: 768px) {
+ .form_full_width_1 .vc_col-sm-6 {
+ 	width: 100% !important;
+ }
  .form_1_right {
  	padding-bottom: 25px;
  }
