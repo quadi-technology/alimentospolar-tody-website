@@ -4692,7 +4692,7 @@ input#dhvc_form_control_0_586356a55f2fb {
 #inner_message .bot_msg {
 	background-color: #714705;
 	padding: 10px;
-	font: 22px !important;
+	font-size: 22px !important;
 	font-family: "oswald_regularregular" !important;
 	color: #ffffff !important;
 	width: 200px;
@@ -5146,6 +5146,9 @@ width:100% !important;
 
   
  @media (max-width: 768px) {
+ .form_1_right {
+ 	padding-bottom: 25px;
+ }
 .reg_1_logo {
 	margin: 0  !important;
 }
