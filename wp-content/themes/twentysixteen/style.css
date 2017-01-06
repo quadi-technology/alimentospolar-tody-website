@@ -4303,6 +4303,9 @@ body {
         right: 377px !important;
         top: 48px !important;
     }
+     .terms_popup .ult-overlay-close {
+    	top: 38px !important;
+    }
 }
 @media only screen and (min-width: 1232px) and (max-width: 1358px) {
     .gradiant_text {
