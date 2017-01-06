@@ -4130,7 +4130,7 @@ input#dhvc_form_control_0_586356a55f2fb {
 }
 #inner_message .bot_msg {
     background-color: #714705;
-    padding: 10px;
+    padding: 0 10px;
     font-size: 22px !important;
     font-family: "oswald_regularregular" !important;
     color: #ffffff !important;
@@ -4141,11 +4141,12 @@ input#dhvc_form_control_0_586356a55f2fb {
     border-left: 2px solid #a2865b;
     float: right;
     text-align: center;
+    margin-top: -6px;
 }
 #inner_message_1 .bot_msg_1 {
     background-color: #714705;
-    padding: 10px;
-    font: 22px !important;
+    padding: 0  10px;
+    font-size: 22px !important;
     font-family: "oswald_regularregular" !important;
     color: #ffffff !important;
     width: 200px;
@@ -4155,6 +4156,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     border-left: 2px solid #a2865b;
     float: right;
     text-align: center;
+    margin-top: -6px;
 }
 .close_btn_cus {} .home_logo {
     padding-top: 40px;
