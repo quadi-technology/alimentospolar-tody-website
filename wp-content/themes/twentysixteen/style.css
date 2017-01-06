@@ -4473,7 +4473,7 @@ input#dhvc_form_control_0_586356a55f2fb {
 	background-color: transparent !important;
 	border-radius: 22px !important;
 	border: 3px solid #ffffff !important; 
-	padding: 0 50px !important;
+	padding: 12px 50px !important;
 	height: 47px !important;
 }
 .sub_btn button span {
@@ -4803,6 +4803,7 @@ body {
    bottom:0;
    width:100%;
    background:#ffffff;
+   box-shadow: 5px 10px 121px 80px #000;
 }
 .form_1_right {
 	margin-top: 217px !important;
