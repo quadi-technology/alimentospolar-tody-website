@@ -4854,10 +4854,22 @@ body {
     right: 403px !important;
     top: 273px !important;
 }
- .responsive_none{
- display:none !important;
+ 
  }
- }
+ @media only screen and (min-width: 1232px) and (max-width: 1358px) { 
+ 		.gradiant_text {
+   			 width: 39%;
+	}
+	.sub-title .wpb_wrapper > p {
+		width: 39%;
+	}
+	.ult-overlay-close {
+	    height: 40px !important;
+	    right: 310px !important;
+	    top: 192px !important;
+	    width: 40px !important;
+	}
+  }
  @media (max-width: 1024px) {
  
 
