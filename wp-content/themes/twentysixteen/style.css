@@ -5131,6 +5131,12 @@ width:100% !important;
 
   
  @media (max-width: 768px) {
+ .thumb_up_image button.btn-modal {
+ 	height: 185px;
+ }
+ .thumb_up_image_2 button.btn-modal {
+ 	height: 185px;
+ }
  .form_full_width_1 .vc_col-sm-6 {
  	width: 100% !important;
  }
