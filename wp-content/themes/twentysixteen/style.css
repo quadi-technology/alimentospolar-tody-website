@@ -4819,6 +4819,10 @@ body {
 .reg_1_form .form_section .radio_btn .dhvc-form-radio label {
 	padding: 3px 0 0 20px;
 }
+.form_1 {
+	margin-top: -95px !important;
+	margin-bottom: -95px !important;
+}
 /* -------------------------Responsive----------------------------------------------*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) { 
@@ -5433,7 +5437,11 @@ width:100% !important;
 }
  }
  
-   @media (max-width:736px) {
+ @media (max-width:736px) {
+ .form_1 {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
  .responsive_none{
  display:none !important;
  }
