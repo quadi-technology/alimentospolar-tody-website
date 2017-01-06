@@ -4305,7 +4305,7 @@ body {
         top: 48px !important;
     }
      .terms_popup .ult-overlay-close {
-    	top: 154px !important;
+    	top: 30px !important;
     }
 }
 @media only screen and (min-width: 1232px) and (max-width: 1358px) {
@@ -4327,8 +4327,8 @@ body {
 }
 @media only screen and (min-width: 1260px) and (max-width: 1280px) { 
 	.terms_popup .ult-overlay-close{
-		top: 167px !important;
-		left: 974px !important;
+		left: 944px !important;
+    	top: 44px !important;
 	}
 }
 @media (max-width: 1024px) {
