@@ -6746,6 +6746,9 @@ color: #ffffff;
 }
  }
  @media (max-width:375px) {
+.custom_css .ult_modal .ult_modal-content .btn a.button_link {
+	font-size: 14px; 
+}
   .responsive_none{
  display:none !important;
  }
@@ -7192,6 +7195,9 @@ color: #ffffff;
  
  
 @media (max-width:320px) {
+.custom_css .ult_modal .ult_modal-content .btn a.button_link {
+	font-size: 12px; 
+}
 .form_bottom_img {
     margin-left: 16px;
 }
