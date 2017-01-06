@@ -5142,6 +5142,16 @@ width:100% !important;
 
   
  @media (max-width: 768px) {
+.reg_1_logo {
+	margin: 0  !important;
+}
+.reg_1_logo figure {
+	float: left !important;
+}
+.reg_1_form .sub_btn button.dhvc-form-submit {
+	float: left;
+	margin: 0 25px !important; 
+}
 .middle_img figure{
 	margin-top: -21px !important;
 }
@@ -7217,6 +7227,10 @@ color: #ffffff;
  
  
 @media (max-width:320px) {
+.reg_1_form .sub_btn button.dhvc-form-submit {
+	float: none;
+	margin: 0  !important; 
+}
 .custom_css .ult_modal .ult_modal-content .btn a.button_link {
 	font-size: 12px; 
 }
