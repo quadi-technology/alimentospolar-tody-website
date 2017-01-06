@@ -4307,12 +4307,6 @@ body {
     	top: 38px !important;
     }
 }
-@media only screen and (min-width: 1260px) and (max-width: 1280px) { 
-	.terms_popup .ult-overlay-close{
-		top: 167px !important;
-		left: 974px !important;
-	}
-}
 @media only screen and (min-width: 1232px) and (max-width: 1358px) {
     .gradiant_text {
         width: 39%;
@@ -4329,6 +4323,12 @@ body {
     .terms_popup .ult-overlay-close {
     	top: 38px !important;
     }
+}
+@media only screen and (min-width: 1260px) and (max-width: 1280px) { 
+	.terms_popup .ult-overlay-close{
+		top: 167px !important;
+		left: 974px !important;
+	}
 }
 @media (max-width: 1024px) {
     .reg_1_logo {
