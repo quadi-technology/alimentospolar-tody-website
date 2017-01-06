@@ -71,14 +71,14 @@ img.emoji {
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://define.qdata.io/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://define.qdata.io/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><style type="text/css" media="print">#wpadminbar { display:none; }</style>
-<style type="text/css" media="screen">
+<!-- <style type="text/css" media="screen">
 	html { margin-top: 32px !important; }
 	* html body { margin-top: 32px !important; }
 	@media screen and ( max-width: 782px ) {
 		html { margin-top: 46px !important; }
 		* html body { margin-top: 46px !important; }
 	}
-</style>
+</style> -->
 <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
 
 <body class="page page-id-6 page-template-default logged-in admin-bar no-customize-support wpb-js-composer js-comp-ver-4.12.1 vc_responsive">
