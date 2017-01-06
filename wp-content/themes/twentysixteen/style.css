@@ -3954,7 +3954,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     background-repeat: no-repeat;
 }
 .terms_popup .ult_modal .ult_modal-content .ult_modal-header h3.ult_modal-title {
-    padding: 84px 0 27px 27px;
+    padding: 84px 0 27px 50px;
 }
 .terms_popup .ult_modal-body {
     background-color: rgba(0, 0, 0, 0.5);
@@ -4316,6 +4316,9 @@ body {
         right: 310px !important;
         top: 192px !important;
         width: 40px !important;
+    }
+    .terms_popup .ult-overlay-close {
+    	top: 38px !important;
     }
 }
 @media (max-width: 1024px) {
