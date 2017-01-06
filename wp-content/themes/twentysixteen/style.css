@@ -4822,6 +4822,16 @@ body {
 /* -------------------------Responsive----------------------------------------------*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) { 
+.reg_1_logo {
+	margin: 0 25px !important;
+}
+.reg_1_logo figure {
+	float: left !important;
+}
+.reg_1_logo button .dhvc-form-submit {
+	float: left;
+	margin: 0 25px !important; 
+}
 .terms_popup .ult-overlay-close {
     left: 1021px !important;
 }
@@ -4875,7 +4885,16 @@ body {
 	}
   }
  @media (max-width: 1024px) {
- 
+ .reg_1_logo {
+	margin: 0 25px !important;
+}
+.reg_1_logo figure {
+	float: left !important;
+}
+.reg_1_logo button .dhvc-form-submit {
+	float: left;
+	margin: 0 25px !important; 
+}
 
  .select_class .hash_width {
     width: 2% !important;
