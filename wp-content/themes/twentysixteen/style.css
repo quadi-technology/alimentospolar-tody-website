@@ -4076,7 +4076,7 @@ p > video {
 	/*display: none;*/
 }
 .background #home_top {
-	background: url("../../uploads/2016/12/mian_bg.png") !important;
+	background: url("images/mian_bg.png") !important;
 	background-size: cover !important; 
 	background-position: center !important;
 	background-repeat: no-repeat !important; 
@@ -5963,6 +5963,7 @@ color: #ffffff;
     margin-left: 55px;
 
 }
+
 #overlay_form_4 #inner_message_2{
    top: 40%;
     position: absolute;
