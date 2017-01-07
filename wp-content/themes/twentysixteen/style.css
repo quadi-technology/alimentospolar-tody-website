@@ -4650,12 +4650,6 @@ body {
     }
 }
 @media (max-width: 768px) {
-	.rigth_btn .vc_column-inner {
-		background-position: top center !important; 
-	}
-	.left_btn .vc_column-inner {
-    	background-position: top center !important;
-	}
 	.custom_css .ult-overlay-close {
 	    height: 24px !important;
 	    right: 20% !important;
@@ -4670,6 +4664,15 @@ body {
     }
     .thumb_up_image_2 button.btn-modal {
         display: inline;
+    }
+    .thumb_up_image_2 {
+    	text-align: center !important;
+    }
+    .thumb_up_image_2 button.ult-align-right {
+    	float: none !important;
+    }
+    .thumb_up_image button.ult-align-left {
+    	float: none !important;
     }
     .form_full_width_1 .vc_col-sm-6 {
         width: 100% !important;
