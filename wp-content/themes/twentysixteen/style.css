@@ -3957,7 +3957,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     padding: 84px 0 27px 50px;
 }
 .terms_popup .ult_modal-body {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .terms_popup .ult_modal-body {
     color: #ffffff !important;
@@ -4257,6 +4257,17 @@ body {
 .form_1 {
     margin-top: -95px !important;
     margin-bottom: -95px !important;
+}
+.scrollbox.terms_content {
+    max-height: 575px !important;
+    width: 100% !important;
+}
+.white_bg .vertical-handle {
+    background-color: #b7b7b7;
+    height: 90.966px !important;
+    right: -37px;
+    transition: width 250ms ease 0s;
+    width: 10px;
 }
 /* -------------------------Responsive----------------------------------------------*/
 
