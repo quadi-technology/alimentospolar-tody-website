@@ -4758,15 +4758,15 @@ body {
     }
     .sub-title .wpb_wrapper > p {
         width: 100%;
-        padding: 0 190px;
+        padding: 0 138px;
     }
     .gradiant_text {
-        width: 45%;
+        width: 64%;
     }
     .sub-title .gradiant_text span.background-title {
         transform: scaleX(1);
         padding: 10px 40px;
-        font: 26px "oswalddemibold";
+        font: 21px "oswalddemibold";
     }
     .none_class {
         display: none !important;
@@ -4821,14 +4821,18 @@ body {
         padding-right: 25px;
     }
     .form_section p.form_sub_title {
-        font: 16.58px "Arial" !important;
-        color: #ffffff;
-        padding: 0;
-        margin: 0 !important;
-        text-transform: uppercase;
-        font-weight: bold !important;
-        padding-left: 25px;
-        padding-right: 25px;
+        font: 28px "oswalddemibold" !important;
+	    color: #ffffff;
+	    padding: 0;
+	    margin: 0 !important;
+	    text-transform: uppercase;
+	    font-weight: bold !important;
+	    /* padding-left: 25px; */
+	    /* padding-right: 25px; */
+	    width: 49%;
+	    line-height: 33px !important;
+	    text-align: center;
+	    margin: 0 auto !important;
     }
     .dhvc-form-group {
         position: relative;
@@ -5718,14 +5722,15 @@ body {
         padding-right: 25px;
     }
     .form_section p.form_sub_title {
-        font: 16.58px "Arial" !important;
-        color: #ffffff;
-        padding: 0;
-        margin: 0 !important;
-        text-transform: uppercase;
-        font-weight: bold !important;
-        padding-left: 25px;
-        padding-right: 25px;
+        font: 28px "oswalddemibold" !important;
+	    color: #ffffff;
+	    padding: 0;
+	    margin: 0 !important;
+	    text-transform: uppercase;
+	    font-weight: bold !important;
+	    padding-left: 25px;
+	    padding-right: 25px;
+	    width: 100%;
     }
     .dhvc-form-group {
         position: relative;
@@ -6010,14 +6015,15 @@ body {
         padding-right: 25px;
     }
     .form_section p.form_sub_title {
-        font: 16.58px "Arial" !important;
-        color: #ffffff;
-        padding: 0;
-        margin: 0 !important;
-        text-transform: uppercase;
-        font-weight: bold !important;
-        padding-left: 25px;
-        padding-right: 25px;
+        font: 28px "oswalddemibold" !important;
+	    color: #ffffff;
+	    padding: 0;
+	    margin: 0 !important;
+	    text-transform: uppercase;
+	    font-weight: bold !important;
+	    padding-left: 25px;
+	    padding-right: 25px;
+	    width: 100%;
     }
     .dhvc-form-group {
         position: relative;
@@ -6431,14 +6437,14 @@ body {
         padding-right: 25px;
     }
     .form_section p.form_sub_title {
-        font: 16.58px "Arial" !important;
-        color: #ffffff;
-        padding: 0;
-        margin: 0 !important;
-        text-transform: uppercase;
-        font-weight: bold !important;
-        padding-left: 25px;
-        padding-right: 25px;
+        font: 28px "oswalddemibold" !important;
+	    color: #ffffff;
+	    padding: 0;
+	    margin: 0 !important;
+	    text-transform: uppercase;
+	    font-weight: bold !important;
+	    padding-left: 25px;
+	    width: 100%;
     }
     .dhvc-form-group {
         position: relative;
@@ -6713,14 +6719,15 @@ body {
         padding-right: 25px;
     }
     .form_section p.form_sub_title {
-        font: 16.58px "Arial" !important;
-        color: #ffffff;
-        padding: 0;
-        margin: 0 !important;
-        text-transform: uppercase;
-        font-weight: bold !important;
-        padding-left: 25px;
-        padding-right: 25px;
+        font: 26px "oswalddemibold" !important;
+	    color: #ffffff;
+	    padding: 0;
+	    margin: 0 !important;
+	    text-transform: uppercase;
+	    font-weight: bold !important;
+	    padding-left: 25px;
+	    padding-right: 25px;
+	    width: 100%;
     }
     .dhvc-form-group {
         position: relative;
