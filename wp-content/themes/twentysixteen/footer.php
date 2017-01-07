@@ -62,7 +62,7 @@
 <script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/enscroll-0.6.2.min.js'></script>
 <script>
 jQuery(document).ready(function() {
-  if(jQuery('.form_section .dhvc_form_text .dhvc-form-input input.dhvc-form-control.dhvc-form-control-name.dhvc-form-value.dhvc-form-required-entry').hasClass('dhvc-form-error')) {
+  if(jQuery('#dhvcform-60').hasClass('dhvc-form-error')) {
         alert("123");
    }
      jQuery('.scrollbox').enscroll();
