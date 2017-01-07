@@ -4650,6 +4650,12 @@ body {
     }
 }
 @media (max-width: 768px) {
+	.rigth_btn .vc_column-inner {
+		background-position: top center !important; 
+	}
+	.left_btn .vc_column-inner {
+    	background-position: top center !important;
+	}
 	.custom_css .ult-overlay-close {
 	    height: 24px !important;
 	    right: 20% !important;
@@ -4699,9 +4705,9 @@ body {
     .custom_css .ult_modal .ult_modal-content .btn a.button_link {
         padding: 15px 10px;
     }
-    .thumb_up_image button.btn-modal {
+    /*.thumb_up_image button.btn-modal {
         background-position: top center !important;
-    }
+    }*/
     .thumb_up_image {
         margin-bottom: 0 !important;
     }
@@ -4766,9 +4772,9 @@ body {
     .rigth_btn {
         width: 100% !important;
     }
-    .thumb_up_image_2 button.btn-modal {
+   /* .thumb_up_image_2 button.btn-modal {
         background-position: top center !important;
-    }
+    }*/
     .social_icon {
         float: none;
         margin: 0 auto;
