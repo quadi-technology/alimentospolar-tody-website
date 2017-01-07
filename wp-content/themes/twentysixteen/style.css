@@ -4612,6 +4612,9 @@ body {
     }
 }
 @media (max-width: 768px) {
+	.terms_logo .wpb_single_image.wpb_content_element.vc_align_left {
+		text-align: center !important;
+	}
     .thumb_up_image button.btn-modal {
         height: 185px;
     }
