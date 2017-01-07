@@ -4212,9 +4212,11 @@ input#dhvc_form_control_0_586356a55f2fb {
 	position: absolute;
 	height: 260px;
 }*/
-
+#xyz {
+	margin-top: 57px !important;
+}
 .middle_img figure {
-    margin-top: -200px !important;
+    margin-top: -123px !important;
 }
 .shadow-bottom:after {
     background: url('images/shadow.png') no-repeat center !important;
