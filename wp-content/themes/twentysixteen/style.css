@@ -3556,10 +3556,10 @@ p > video {
 ul.wpb_thumbnails-fluid > li {
     margin-bottom: 0 !important;
 }
-.left_btn .vc_column-inner.vc_custom_1483782383678 {
+.left_btn .vc_column-inner {
 	background-position: 28% 35% !important
 }
-.rigth_btn .vc_column-inner.vc_custom_1483783157492{
+.rigth_btn .vc_column-inner{
 	background-position: 69% 40% !important
 }
 .thumb_up_image button.btn-modal {
