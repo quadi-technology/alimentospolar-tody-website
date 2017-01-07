@@ -3627,6 +3627,7 @@ ul.wpb_thumbnails-fluid > li {
     font: 12.8px "oswald_regularregular";
     color: #ca0023;
     margin: 0;
+    text-transform: uppercase;
 }
 .terms_and_con_section .terms_link {
     text-align: center;
@@ -4270,14 +4271,16 @@ body {
     width: 10px;
 }
 .back_button {
-	margin-top: 30px;
+	margin-top: 50px;
 }
 .back_button button {
 	background-color: #714705 !important;
-    border-radius: 8px;
-    color: #ffffff;
+    border-radius: 12px !important;
+    color: #ffffff !important;
     font: 22px "oswald_regularregular" !important;
-    padding: 6px 40px !important;
+    padding: 9px 40px 5px !important;
+    border: none !important; 
+    background-image:  none !important; 
 }
 /* -------------------------Responsive----------------------------------------------*/
 
