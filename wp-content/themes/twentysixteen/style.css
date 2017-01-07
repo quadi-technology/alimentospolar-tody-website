@@ -3557,10 +3557,12 @@ ul.wpb_thumbnails-fluid > li {
     margin-bottom: 0 !important;
 }
 .left_btn .vc_column-inner {
-	background-position: 28% 35% !important
+	background-position: 28% 35% !important;
+	
 }
 .rigth_btn .vc_column-inner{
-	background-position: 69% 40% !important
+	background-position: 75% 40% !important;
+	
 }
 .thumb_up_image button.btn-modal {
     background-image: url("images/text_1.png") !important;
@@ -3571,7 +3573,7 @@ ul.wpb_thumbnails-fluid > li {
     width: 225px;
     display: table;
     background-color: transparent !important;
-    transform: scale(1);
+    
 }
 .thumb_up_image_2 button.btn-modal {
     background-image: url("images/text_2.png") !important;
@@ -3584,13 +3586,19 @@ ul.wpb_thumbnails-fluid > li {
     background-color: transparent !important;
     transform: scale(1);
 }
-/*.thumb_up_image button.btn-modal:hover {
-    background-image: url("images/thumb-up-left_hover.png") !important;
-    
-    transform: scale(1);
-}*/
+
+ .left_btn:hover .vc_column-inner {
+	  background-image: url("images/thumb_img_hover.png") !important;
+	  background-repeat: no-repeat !important;
+	  background-position: 20% 35% !important;
+}
+ .rigth_btn:hover .vc_column-inner {
+	   background-image: url("images/thumb_img_hover.png") !important;
+	   background-repeat: no-repeat !important;
+	   background-position: 90% 40% !important;
+}
 /*.thumb_up_image_2 button.btn-modal:hover {
-    background-image: url("images/thumb-up-right_hover.png") !important;
+   
     
     transform: scale(1);
 }*/
