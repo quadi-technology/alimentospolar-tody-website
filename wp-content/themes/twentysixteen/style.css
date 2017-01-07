@@ -4650,6 +4650,12 @@ body {
     }
 }
 @media (max-width: 768px) {
+	.left_btn:hover .vc_column-inner {
+		background-position: top center !important;
+	}
+	.rigth_btn:hover .vc_column-inner {
+		background-position: top center !important;	
+	}
 	.rigth_btn .vc_column-inner {
 		background-position: top center !important; 
 	}
@@ -4697,7 +4703,7 @@ body {
         margin: 0 25px !important;
     }
     .middle_img figure {
-        margin-top: -21px !important;
+        margin-top: 0px !important;
     }
     .bg_text_form p.bg_text {
         font: 18.5px "oswalddemibold";
@@ -5365,9 +5371,9 @@ body {
     .rigth_btn {
         width: 100% !important;
     }
-    .thumb_up_image_2 button.btn-modal {
+  /*  .thumb_up_image_2 button.btn-modal {
         background-position: top center !important;
-    }
+    }*/
     .social_icon {
         float: none;
         margin: 0 auto;
