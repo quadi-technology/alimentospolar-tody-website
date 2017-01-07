@@ -4278,12 +4278,30 @@ body {
     border-radius: 9px !important;
     color: #ffffff !important;
     font: 22px "oswald_regularregular" !important;
-    padding: 9px 40px 5px !important;
+    padding: 11px 40px 6px !important;
     border: none !important; 
-    background-image:  none !important; 
+    background-image:  none !important;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000; 
 }
 /* -------------------------Responsive----------------------------------------------*/
 
+@media only screen and (min-width: 1650px) and (max-width: 1700px) { 
+
+			.sub-title .wpb_wrapper > p {
+				width: 30%;
+			}
+			 .gradiant_text {
+			 	width: 30%;
+			 }
+			 .ult-overlay-close {
+			 	right: 494px !important;
+			 }
+			 .terms_popup .ult-overlay-close {
+			    left: 1164px !important;
+			    top: 166px !important;
+			}
+}
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .reg_1_logo {
         margin: 0 25px !important;
@@ -4355,6 +4373,9 @@ body {
 	.terms_popup .ult-overlay-close{
 		left: 944px !important;
     	top: 44px !important;
+	}
+	.ult_modal-header h3.ult_modal-title {
+		font: 43px "oswaldmedium";
 	}
 }
 @media (max-width: 1024px) {
@@ -5607,6 +5628,7 @@ body {
 @media (max-width: 414px) {
     .form_bottom_img {
         margin-left: 60px;
+
     }
     .ult_modal-header h3.ult_modal-title {
         font-size: 27px;
@@ -6685,7 +6707,7 @@ body {
     }
     .bg_text_form p.bg_text {
         color: #ffffff;
-        font: 16.5px "oswalddemibold";
+        font: 13.5px "oswalddemibold";
         background-color: #a74410;
         padding: 14px 12px;
         text-transform: uppercase;
