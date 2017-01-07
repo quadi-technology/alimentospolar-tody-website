@@ -3673,12 +3673,7 @@ ul.wpb_thumbnails-fluid > li {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(122, 46, 25, 1) 50%, rgba(122, 46, 25, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7a2e19', GradientType=0);
 }
-.ult-overlay-close {
-    height: 40px !important;
-    width: 40px !important;
-    right: 577px !important;
-    top: 250px !important;
-}
+
 .vc_custom_1480606785212 {
     display: none !important;
 }
@@ -4342,12 +4337,7 @@ body {
         padding: 10px 0px;
         font: 26px "oswalddemibold";
     }
-    .ult-overlay-close {
-        height: 40px !important;
-        width: 40px !important;
-        right: 377px !important;
-        top: 48px !important;
-    }
+    
      .terms_popup .ult-overlay-close {
     	top: 30px !important;
     }
@@ -4359,12 +4349,7 @@ body {
     .sub-title .wpb_wrapper > p {
         width: 39%;
     }
-    .ult-overlay-close {
-        height: 40px !important;
-        right: 310px !important;
-        top: 192px !important;
-        width: 40px !important;
-    }
+   
     .terms_popup .ult-overlay-close {
     	top: 38px !important;
     }
@@ -4432,12 +4417,7 @@ body {
     .gradiant_text {
         width: 50%;
     }
-    .ult-overlay-close {
-        height: 40px !important;
-        width: 40px !important;
-        right: 226px !important;
-        top: 50px !important;
-    }
+ 
     .ult_modal.ult-small {
         width: 100% !important;
     }
@@ -4744,12 +4724,7 @@ body {
         width: 100% !important;
         margin: 0 auto;
     }
-    .ult-overlay-close {
-        height: 40px !important;
-        width: 40px !important;
-        right: 35px !important;
-        top: 170px !important;
-    }
+   
     .logo_form {
         text-align: center !important;
     }
@@ -4935,12 +4910,7 @@ body {
         padding: 10px 55px;
         font: 26px "oswalddemibold";
     }
-    .ult-overlay-close {
-        height: 40px !important;
-        width: 40px !important;
-        right: 20px !important;
-        top: 0px !important;
-    }
+ 
     .wpb_text_column.wpb_content_element.form_bottom_text {
         width: 22%;
         float: left;
@@ -5055,12 +5025,7 @@ body {
         padding: 10px 45px;
         font: 26px "oswalddemibold";
     }
-    .ult-overlay-close {
-        height: 40px !important;
-        width: 40px !important;
-        right: 20px !important;
-        top: 0px !important;
-    }
+ 
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
@@ -5356,12 +5321,7 @@ body {
         padding: 10px 40px;
         font: 26px "oswalddemibold";
     }
-    .ult-overlay-close {
-        height: 40px !important;
-        width: 40px !important;
-        right: 20px !important;
-        top: 0px !important;
-    }
+   
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
@@ -5661,12 +5621,7 @@ body {
     .gradiant_text {
         width: 85%;
     }
-    .ult-overlay-close {
-        height: 30px !important;
-        width: 30px !important;
-        right: 23px !important;
-        top: 86px !important;
-    }
+   
     .logo_form {
         text-align: center !important;
     }
@@ -5944,12 +5899,7 @@ body {
     .gradiant_text {
         width: 85%;
     }
-    .ult-overlay-close {
-        height: 40px !important;
-        width: 40px !important;
-        right: 25px !important;
-        top: 10px !important;
-    }
+   
     .ult_modal-header h3.ult_modal-title {
         display: block;
         color: #ffffff;
@@ -6227,12 +6177,7 @@ body {
         padding: 10px 30px 0px;
         font: 26px "oswalddemibold";
     }
-    .ult-overlay-close {
-        height: 30px !important;
-        width: 30px !important;
-        right: 25px !important;
-        top: 15px !important;
-    }
+  
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
@@ -6374,12 +6319,7 @@ body {
         letter-spacing: 1px;
         display: inline-block;
     }
-    .ult-overlay-close {
-        height: 25px !important;
-        width: 25px !important;
-        right: 25px !important;
-        top: 20px !important;
-    }
+  
     .ult_modal-header h3.ult_modal-title {
         display: block;
         color: #ffffff;
@@ -6669,12 +6609,7 @@ body {
         letter-spacing: 1px;
         display: inline-block;
     }
-    .ult-overlay-close {
-        height: 25px !important;
-        width: 25px !important;
-        right: 25px !important;
-        top: 10px !important;
-    }
+   
     .ult_modal-header h3.ult_modal-title {
         display: block;
         color: #ffffff;
