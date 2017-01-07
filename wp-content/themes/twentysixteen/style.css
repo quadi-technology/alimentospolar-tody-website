@@ -4279,6 +4279,11 @@ body {
     border-bottom: 1px solid #000;
     border-left: 1px solid #000; 
 }
+.custom_css .ult-overlay-close {
+    position: absolute !important;
+    right: 28% !important;
+    top: 20% !important;
+}
 /* -------------------------Responsive----------------------------------------------*/
 
 @media only screen and (min-width: 1650px) and (max-width: 1700px) { 
@@ -4364,6 +4369,11 @@ body {
 	}
 }
 @media (max-width: 1024px) {
+	.custom_css .ult-overlay-close {
+	    position: absolute !important;
+	    right: 13% !important;
+	    top: 13% !important;
+	}
     .reg_1_logo {
         margin: 0 25px !important;
     }
@@ -4592,6 +4602,12 @@ body {
     }
 }
 @media (max-width: 768px) {
+	.custom_css .ult-overlay-close {
+	    height: 24px !important;
+	    right: 20% !important;
+	    top: 20% !important;
+	    width: 24px !important;
+	}
 	.terms_logo .wpb_single_image.wpb_content_element.vc_align_left {
 		text-align: center !important;
 	}
