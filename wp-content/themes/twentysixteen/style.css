@@ -3708,7 +3708,7 @@ ul.wpb_thumbnails-fluid > li {
     background-color: transparent !important;
     padding: 0 !important;
 }
-.background > div {
+.background > div:first-child {
     background: url("images/inner_bg.png") !important;
     background-size: cover !important;
     background-position: 100% center !important;
