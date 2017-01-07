@@ -4269,6 +4269,16 @@ body {
     transition: width 250ms ease 0s;
     width: 10px;
 }
+.back_button {
+	margin-top: 30px;
+}
+.back_button button {
+	background-color: #714705 !important;
+    border-radius: 8px;
+    color: #ffffff;
+    font: 22px "oswald_regularregular" !important;
+    padding: 6px 40px !important;
+}
 /* -------------------------Responsive----------------------------------------------*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
