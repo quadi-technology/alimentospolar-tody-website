@@ -61,10 +61,15 @@
 
 <script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/enscroll-0.6.2.min.js'></script>
 <script>
+
 jQuery(document).ready(function() {
-  if(jQuery('#dhvcform-60').hasClass('dhvc-form-error')) {
-        alert("123");
-   }
+  //  jQuery('.f1 .dhvc-form-input input').focusin( function() {
+  //     jQuery('.f1  span#dhvc_form_control_name-error').hide();
+  // });
+  // jQuery('.f1 .dhvc-form-input input').focusout( function() {
+  //     jQuery('.f1 span#dhvc_form_control_name-error').hide();
+  // });
+
      jQuery('.scrollbox').enscroll();
 
      jQuery('#dhvc_form_message_60').bind('DOMNodeInserted', function(e) {
@@ -104,8 +109,25 @@ jQuery(document).ready(function() {
      jQuery('#overlay_form_5').click(function(){
      	jQuery(this).fadeOut();	
      });
-   
+
+     jQuery(".dhvc-form-submit").bind( "click", function(){
+      setTimeout(validate_form_msg, 500);
+     });
+
 });
+
+function validate_form_msg(){
+  jQuery('input.dhvc-form-error').each(function(index, value) {
+    /*jQuery("#"+value.id+"-error").css('visibility', 'hidden')*/
+    var message = jQuery("#"+value.id+"-error").html();
+    jQuery("#"+value.id+"-error").html('');
+    /*jQuery("#"+value.id+"-error").hide();*/
+    value.placeholder = message;
+
+
+
+  });
+}
 </script>
   <div id="overlay_form_2">
   		<div id="inner_message">
