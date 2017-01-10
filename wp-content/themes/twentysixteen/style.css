@@ -4543,6 +4543,9 @@ span.dhvc-form-valid {
 		}
 }
 @media (max-width: 1024px) {
+	.background #home_top {
+		height: auto !important; 
+	}
 	.custom_css .ult-overlay-close {
 	    position: absolute !important;
 	    right: 13% !important;
