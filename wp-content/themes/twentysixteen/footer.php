@@ -113,19 +113,18 @@ jQuery(document).ready(function() {
      jQuery(".dhvc-form-submit").bind( "click", function(){
       setTimeout(validate_form_msg, 500);
      });
-
 });
 
 function validate_form_msg(){
   jQuery('input.dhvc-form-error').each(function(index, value) {
-    /*jQuery("#"+value.id+"-error").css('visibility', 'hidden')*/
     var message = jQuery("#"+value.id+"-error").html();
     jQuery("#"+value.id+"-error").html('');
-    /*jQuery("#"+value.id+"-error").hide();*/
     value.placeholder = message;
+  });
 
-
-
+  jQuery('input.dhvc-form-valid').each(function(index, value) {
+    jQuery("#"+value.id+"-error").show();
+    jQuery("#"+value.id+"-error").removeClass('dhvc-form-error').addClass('dhvc-form-valid');
   });
 }
 </script>

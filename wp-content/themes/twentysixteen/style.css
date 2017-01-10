@@ -4383,7 +4383,32 @@ span.dhvc-form-error {
     position: absolute;
     right: -23px;
     top: 31px;
-    width: 100% !important;
+    width: auto !important;
+    text-transform: uppercase;
+    font: 13px "Arial" !important;
+    font-weight: bold !important; 
+    color: #ffffff !important;
+    padding-left: 21px !important;
+    padding-top: 8px !important;
+    margin-top: 7px !important;
+}
+span.dhvc-form-valid {
+	background-image: url(images/right_sign.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 100%;
+	height: 15px !important;
+	width: 15px !important;
+    clear: both;
+    color: #ffffff !important;
+    display: block;
+    float: none;
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 5px;
+    position: absolute;
+    right: -23px;
+    top: 31px;
+    width: auto !important;
     text-transform: uppercase;
     font: 13px "Arial" !important;
     font-weight: bold !important; 
