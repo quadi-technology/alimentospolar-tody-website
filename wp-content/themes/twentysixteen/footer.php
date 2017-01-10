@@ -118,6 +118,7 @@ jQuery(document).ready(function() {
 function validate_form_msg(){
   jQuery('input.dhvc-form-error').each(function(index, value) {
     var message = jQuery("#"+value.id+"-error").html();
+    /*jQuery("#"+value.id+"-error").hide();.css('visibility', 'hidden !important');*/
     jQuery("#"+value.id+"-error").html('');
     value.placeholder = message;
   });

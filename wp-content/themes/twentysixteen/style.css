@@ -3766,7 +3766,7 @@ p.bottom_detail span.small_font {
     padding: 0;
     margin: 0;
     text-transform: uppercase;
-    letter-spacing: 13px;
+    letter-spacing: 12px;
 }
 .form_section p.form_sub_title {
     font: 14.58px "Arial" !important;
@@ -4011,12 +4011,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     margin: 0 !important;
     padding: 0 !important;
 }
-.terms_popup .ult-overlay-close {
-    left: 1280px !important;
-    top: 107px !important;
-    height: 40px !important;
-    width: 40px !important;
-}
+
 .terms_popup .ult_modal-body .scrollbox {
     width: 100% !important;
     max-height: 500px;
@@ -4444,7 +4439,15 @@ span.dhvc-form-valid {
 	text-transform: lowercase !important; 
 }
 
-
+.terms_popup  .ult-overlay-close {
+    background-position: 69% !important;
+    position: absolute !important;
+    right: 0;
+    text-indent: 200%;
+    top: 84px;
+    width: 100% !important;
+    z-index: 9999;
+}
 
 
 /* -------------------------Responsive----------------------------------------------*/
@@ -4460,10 +4463,7 @@ span.dhvc-form-valid {
 			 .ult-overlay-close {
 			 	right: 494px !important;
 			 }
-			 .terms_popup .ult-overlay-close {
-			    left: 1164px !important;
-			    top: 166px !important;
-			}
+		
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
 	.sub-title .wpb_wrapper > p {
@@ -4482,9 +4482,7 @@ span.dhvc-form-valid {
         float: left;
         margin: 0 25px !important;
     }
-    .terms_popup .ult-overlay-close {
-        left: 1021px !important;
-    }
+   
     .sub-title .gradiant_text span.background-title {
         background-color: #ffffff;
         color: #000000;
@@ -4512,9 +4510,7 @@ span.dhvc-form-valid {
         font: 26px "oswalddemibold";
     }
     
-     .terms_popup .ult-overlay-close {
-    	top: 30px !important;
-    }
+  
 }
 @media only screen and (min-width: 1232px) and (max-width: 1358px) {
     .gradiant_text {
@@ -4524,15 +4520,10 @@ span.dhvc-form-valid {
         width: 39%;
     }
    
-    .terms_popup .ult-overlay-close {
-    	top: 38px !important;
-    }
+   
 }
 @media only screen and (min-width: 1260px) and (max-width: 1280px) { 
-	.terms_popup .ult-overlay-close{
-		left: 944px !important;
-    	top: 44px !important;
-	}
+	
 	.ult_modal-header h3.ult_modal-title {
 		font: 43px "oswaldmedium";
 	}
@@ -4543,6 +4534,9 @@ span.dhvc-form-valid {
 		}
 }
 @media (max-width: 1024px) {
+	.terms_popup  .ult-overlay-close  {
+		display: none !important;
+	}
 	.background #home_top {
 		height: auto !important; 
 	}
