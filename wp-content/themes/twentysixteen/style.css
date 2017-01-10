@@ -4779,6 +4779,9 @@ span.dhvc-form-valid {
 	span.dhvc-form-error {
 		right: 0 !important;
 	}
+	span.dhvc-form-valid {
+		right: 0 !important;
+	}
 	#xyz {
 		margin-top: 25px !important;
 	}
