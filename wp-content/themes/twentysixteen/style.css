@@ -4773,7 +4773,15 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 768px) {
+	.terms_text {
+	    margin: 0 auto;
+	    width: 40%;
+	}
+	.terms_and_con_section .terms_link {
+		margin-top: -7px;
+	}
 	span.dhvc-form-error {
+
 		right: 0 !important;
 	}
 	span.dhvc-form-valid {
@@ -5477,6 +5485,9 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 640px) {
+	.terms_text {
+		width: 48%;
+	}
     .responsive_none {
         display: none !important;
     }
@@ -5806,6 +5817,9 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 414px) {
+	.terms_text {
+    	width: 74%;
+	}
     .form_bottom_img {
         margin-left: 60px;
 
@@ -6092,6 +6106,9 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 412px) {
+	.terms_text {
+    	width: 75%;
+	}
     #registro1_txt_p {
         padding-left: 0px;
         padding-right: 45px;
@@ -6507,6 +6524,9 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 360px) {
+	.terms_text {
+    	width: 86%;
+	}
     .form_bottom_img {
         margin-left: 32px;
     }
@@ -6794,6 +6814,9 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 320px) {
+	.terms_text {
+    	width: 100%;
+	}
     .reg_1_form .sub_btn button.dhvc-form-submit {
         float: none;
         margin: 0 !important;
