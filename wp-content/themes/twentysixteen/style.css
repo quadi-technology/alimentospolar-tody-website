@@ -4776,6 +4776,9 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 768px) {
+	span.dhvc-form-error {
+		right: 0 !important;
+	}
 	#xyz {
 		margin-top: 25px !important;
 	}
