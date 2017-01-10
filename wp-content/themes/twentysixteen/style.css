@@ -4399,7 +4399,7 @@ span.dhvc-form-valid {
 	height: 15px !important;
 	width: 15px !important;
     clear: both;
-    color: #ffffff !important;
+    color: red !important;
     display: block;
     float: none;
     font-size: 12px;
@@ -4536,6 +4536,11 @@ span.dhvc-form-valid {
 	.ult_modal-header h3.ult_modal-title {
 		font: 43px "oswaldmedium";
 	}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {  
+		.rigth_btn {
+			float: right !important;
+		}
 }
 @media (max-width: 1024px) {
 	.custom_css .ult-overlay-close {
