@@ -4776,6 +4776,9 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 768px) {
+	#xyz {
+		margin-top: 25px !important;
+	}
 	.background #home_top {
 		height: auto;
 	}
