@@ -4596,6 +4596,9 @@ span.dhvc-form-valid {
     	right: -89px;
     	top: 23px;
     }
+    .middle_img figure {
+    	margin-top: -116px !important;
+	}
     
    
 }
