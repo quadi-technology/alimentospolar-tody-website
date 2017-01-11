@@ -4460,7 +4460,8 @@ span.dhvc-form-valid {
 @media only screen and (min-width: 1844px) and (max-width: 1875px) { 
 
 	.sub-title p span.sub-title_logo {
-		
+
+
 		font: 27.5px "oswalddemibold";
 	}
 }
@@ -4478,6 +4479,8 @@ span.dhvc-form-valid {
 		
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+	
+	
 	.sub-title p span.sub-title_logo {
 		font: 20.5px "oswalddemibold";
 	}
@@ -4548,12 +4551,47 @@ span.dhvc-form-valid {
   
 }
 @media only screen and (min-width: 1232px) and (max-width: 1358px) {
+	.custom_css .ult-overlay-close {
+		top: 4% !important;
+	}
     .gradiant_text {
-        width: 39%;
+        width: 30%;
     }
     .sub-title .wpb_wrapper > p {
-        width: 39%;
+        width: 30%;
     }
+    .sub-title .gradiant_text span.background-title {
+    		font: 19px "oswalddemibold";
+    		padding: 5px 0;
+    }
+    .home_logo figure .vc_single_image-wrapper img {
+    	height: 77px;
+    	width: 120px;
+    }
+    .thumb_up_image button.btn-modal {
+    	height: 173px;
+    	width: 150px;
+    }
+  
+	.thumb_up_image_2 button.btn-modal {
+		height: 179px;
+    	width: 157px;
+	}
+	.rigth_btn .vc_column-inner {
+    	background-position: 82% 40% !important;
+	}
+	.left_btn .vc_column-inner {
+    	background-position: 16% 35% !important;
+	}
+	.left_btn .vc_column-inner:hover {
+		background-position: 0 17% !important;
+	}
+	.rigth_btn .vc_column-inner:hover{
+		background-position: 140% 32% !important;
+	}
+	.left_btn .vc_column-inner {
+		margin-left: 59px;
+	}
    
    
 }
@@ -4567,6 +4605,7 @@ span.dhvc-form-valid {
 		.rigth_btn {
 			float: right !important;
 		}
+
 }
 @media (max-width: 1024px) {
 	.terms_popup  .ult-overlay-close  {
