@@ -4378,7 +4378,7 @@ span.dhvc-form-error {
     position: absolute;
     right: -23px;
     top: 31px;
-    width: auto !important;
+    width: 40% !important;
     text-transform: uppercase;
     font: 13px "Arial" !important;
     font-weight: bold !important; 
@@ -4417,6 +4417,7 @@ span.dhvc-form-valid {
 }
 .same_width .vc_column-inner .wpb_wrapper .dhvc_form_text span {
 	background-image: none !important;
+	display: none;
 }
 .same_width.show .vc_column-inner .wpb_wrapper .dhvc_form_text span{
 	background-image: url(images/wring_sign.png) !important;
