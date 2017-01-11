@@ -4324,7 +4324,7 @@ body {
     border-left: 1px solid #000; 
 }
 .custom_css .ult-overlay-close {
-    position: absolute !important;
+    position: fixed !important;
     right: 28% !important;
     top: 20% !important;
 }
@@ -5043,14 +5043,13 @@ span.dhvc-form-valid {
         padding: 0 !important;
     }
     .select_class .same_width {
-        width: 23% !important;
+        width: 21% !important;
         float: left;
-        margin: 0 auto !important;
         padding: 0 !important;
+        margin-left: 14px !important;
     }
     .select_class .hash_width {
         float: left;
-        margin: 0 auto !important;
         padding: 0 !important;
     }
     .form_section .dhvc_form_text,
@@ -5139,6 +5138,12 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 736px) {
+	.custom_css .ult-overlay-close {
+	    height: 24px !important;
+	    right: 16% !important;
+	    top: 6% !important;
+	    width: 24px !important;
+	}	
     .form_1 {
         margin-top: 0px !important;
         margin-bottom: 0px !important;
