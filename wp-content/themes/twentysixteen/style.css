@@ -4493,10 +4493,7 @@ span.dhvc-form-valid {
 	#xyz .left_btn .vc_column-inner .wpb_wrapper #modal-trg-txt-wrap-3024 {
 		margin-bottom: 0 !important;
 	}
-	.middle_img figure .vc_single_image-wrapper img {
-		height: 300px;
-   		width: 281px;
-	}
+	
 	.shadow-bottom::after {
 		display: none !important;
 	}
@@ -4596,9 +4593,7 @@ span.dhvc-form-valid {
     	right: -89px;
     	top: 23px;
     }
-    .middle_img figure {
-    	margin-top: -116px !important;
-	}
+  
     
    
 }
