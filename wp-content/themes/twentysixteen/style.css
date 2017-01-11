@@ -3754,7 +3754,7 @@ p.bottom_detail span.yellow_clr {
     color: #ffaa00;
 }
 p.bottom_detail span.small_font {
-    font-size: 19px;
+    font-size: 12px;
 }
 .form_section {
     margin: 0 !important;
@@ -4457,7 +4457,13 @@ span.dhvc-form-valid {
 }
 
 /* -------------------------Responsive----------------------------------------------*/
+@media only screen and (min-width: 1844px) and (max-width: 1875px) { 
 
+	.sub-title p span.sub-title_logo {
+		
+		font: 27.5px "oswalddemibold";
+	}
+}
 @media only screen and (min-width: 1650px) and (max-width: 1700px) { 
 
 			.sub-title .wpb_wrapper > p {
@@ -4604,6 +4610,7 @@ span.dhvc-form-valid {
         transform: scaleX(1.4);
         line-height: 24px;
         padding: 10px 40px;
+        width: 100%;
     }
     .rigth_btn {
         float: right !important;
