@@ -3558,11 +3558,11 @@ ul.wpb_thumbnails-fluid > li {
     margin-bottom: 0 !important;
 }
 .left_btn .vc_column-inner {
-	background-position: 28% 35% !important;
+	background-position: 54% 35% !important;
 	
 }
 .rigth_btn .vc_column-inner{
-	background-position: 75% 40% !important;
+	background-position: 53% 40% !important;
 	
 }
 .thumb_up_image button.btn-modal {
@@ -3588,12 +3588,12 @@ ul.wpb_thumbnails-fluid > li {
     transform: scale(1);
 }
 
- .left_btn:hover .vc_column-inner {
+ .left_btn .vc_column-inner:hover  {
 	  background-image: url("images/thumb_img_hover.png") !important;
 	  background-repeat: no-repeat !important;
-	  background-position: 29% 17% !important;
+	  background-position: 46% 17% !important;
 }
- .rigth_btn:hover .vc_column-inner {
+ .rigth_btn .vc_column-inner:hover  {
 	   background-image: url("images/thumb_img_hover.png") !important;
 	   background-repeat: no-repeat !important;
 	   background-position: 90% 32% !important;
@@ -4449,7 +4449,12 @@ span.dhvc-form-valid {
     width: 100% !important;
     z-index: 9999;
 }
-
+.left_btn .vc_column-inner {
+	width: 225px !important;
+}
+.rigth_btn .vc_column-inner {
+	width: 225px !important;
+}
 
 /* -------------------------Responsive----------------------------------------------*/
 
@@ -5177,7 +5182,7 @@ span.dhvc-form-valid {
     .wpb_text_column.wpb_content_element.form_bottom_text {
         width: 22%;
         float: left;
-        margin-top: 15px;
+       
     }
     #overlay_form_2 #inner_message {
         top: 40%;
@@ -6742,7 +6747,7 @@ span.dhvc-form-valid {
         margin-top: 0px;
     }
     p.bottom_detail {
-        font: 22px/20px "Arial";
+        font: 20px/20px "Arial";
         font-weight: bold;
     }
     .form_bottom_text {
