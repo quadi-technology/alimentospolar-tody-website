@@ -4466,6 +4466,29 @@ span.dhvc-form-valid {
 		
 }
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+	.sub-title p span.sub-title_logo {
+		font: 20.5px "oswalddemibold";
+	}
+	.gradiant_text {
+    		width: 30%;
+	}
+	#xyz .left_btn .vc_column-inner, #xyz .rigth_btn ..vc_column-inner{
+			height:159px; 
+	}
+	#xyz .left_btn .vc_column-inner .wpb_wrapper #modal-trg-txt-wrap-3024 {
+		margin-bottom: 0 !important;
+	}
+	.middle_img figure .vc_single_image-wrapper img {
+		height: 300px;
+   		width: 281px;
+	}
+	.shadow-bottom::after {
+		display: none !important;
+	}
+	.sub-title .gradiant_text span.background-title{
+		font: 19.5px "oswalddemibold";
+		padding: 6px 0;
+	}
 	.sub-title .wpb_wrapper > p {
 		width: 41%;
 	}
