@@ -4797,6 +4797,12 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 768px) {
+	#inner_message .bot_msg {
+		font-style: italic;
+	}
+	#inner_message_1 .bot_msg_1{
+		font-style: italic;
+	}
 	p.bottom_detail span.small_font {
     		font-size: 17px;
 	}
