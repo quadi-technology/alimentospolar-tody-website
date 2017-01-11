@@ -4592,7 +4592,11 @@ span.dhvc-form-valid {
 	.left_btn .vc_column-inner {
 		margin-left: 59px;
 	}
-   
+    .terms_popup .ult-overlay-close {
+    	right: -89px;
+    	top: 23px;
+    }
+    
    
 }
 @media only screen and (min-width: 1260px) and (max-width: 1280px) { 
