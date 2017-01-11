@@ -6425,6 +6425,13 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 375px) {
+	.bg_text_form p.bg_text {
+		font: 16.5px "oswalddemibold";
+	}
+	p.bottom_detail {
+	    font: 20px/20px "Arial";
+	    font-weight: bold;
+	}
     .select_class .same_width {
         margin: 0 0 0 5px !important;
     }
