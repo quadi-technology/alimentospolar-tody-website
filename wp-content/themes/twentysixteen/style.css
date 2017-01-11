@@ -3860,9 +3860,7 @@ input#dhvc_form_control_0_586356a55f2fb {
   font-weight: bold;
 
 }
-.dhvc-form-flat .dhvc-form-input input#dhvc_form_control_address {
-	text-transform: capitalize !important;
-}
+
 .dhvc-form-flat .dhvc-form-radio i,
 .dhvc-form-flat .dhvc-form-checkbox i {
     border-color: transparent !important;
@@ -4130,6 +4128,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     text-align: center;
     width: 587px;
     margin: 0 auto;
+    line-height: 32px;
 }
 #inner_message_1 .msg2 {
     background-color: #ffffff;
