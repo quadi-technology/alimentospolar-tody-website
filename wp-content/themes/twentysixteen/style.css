@@ -4417,13 +4417,15 @@ span.dhvc-form-valid {
 }
 .same_width .vc_column-inner .wpb_wrapper .dhvc_form_text span {
 	background-image: none !important;
-	display: none;
+	display: none !important;
+	width: auto !important;
 }
 .same_width.show .vc_column-inner .wpb_wrapper .dhvc_form_text span{
 	background-image: url(images/wring_sign.png) !important;
 	background-repeat: no-repeat !important;
 	background-position: 100%;
 	margin-top: -18px !important;
+	width: auto !important;
 }
 .dhvc-form-flat .dhvc-form-input input:focus {
 		background-color: #ffffff !important;
