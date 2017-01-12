@@ -4605,6 +4605,13 @@ body.page-id-1153 footer.site-footer {
   
 }
 @media only screen and (min-width: 1232px) and (max-width: 1358px) {
+	.middle_img figure {
+    	margin-top: -177px !important;
+	}
+	.middle_img figure img {
+		width: 100% !important;
+		height: 53vh !important;
+	}
 	.custom_css .ult-overlay-close {
 		top: 4% !important;
 	}
