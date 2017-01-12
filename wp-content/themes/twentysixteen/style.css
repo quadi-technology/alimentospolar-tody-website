@@ -4420,12 +4420,19 @@ span.dhvc-form-valid {
 		background-color: #ffffff !important;
 		border: none !important;
 }
-.dhvc-form-input input.dhvc-form-valid span.dhvc-form-error  {
+.dhvc-form-input input.dhvc-form-valid span.dhvc-form-valid  {
 	background-image: url(images/right_sign.png) !important;
 	background-repeat: no-repeat !important;
 	background-position: 100%;
 	margin-top: -18px !important;
 	display: block !important;
+}
+.same_width.show .vc_column-inner .wpb_wrapper .dhvc_form_text span.dhvc-form-valid {
+    background-image: url("images/right_sign.png") !important;
+    background-position: 100% center;
+    background-repeat: no-repeat !important;
+    display: block !important;
+    margin-top: -24px !important;
 }
 .dhvc-form-flat .dhvc-form-input input[type="email"] {
 	text-transform: lowercase !important; 
