@@ -3914,7 +3914,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     font-weight: bold !important;
     padding-left: 20px !important;
     text-transform: uppercase !important;
-    padding-top: 10px;
+    padding-top: 6px;
 }
 .hash > div {
     color: #ffffff !important;
@@ -4170,7 +4170,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     width: 587px;
     margin: 0 auto;
 }
-#inner_message .bot_msg {
+#inner_message .bot_msg a {
     background-color: #714705;
     padding: 0 10px;
     font-size: 22px !important;
@@ -4185,7 +4185,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     text-align: center;
     margin-top: -6px;
 }
-#inner_message_1 .bot_msg_1 {
+#inner_message_1 .bot_msg_1 a {
     background-color: #714705;
     padding: 0  10px;
     font-size: 22px !important;
@@ -4863,10 +4863,10 @@ span.dhvc-form-valid {
     }
 }
 @media (max-width: 768px) {
-	#inner_message .bot_msg {
+	#inner_message .bot_msg a{
 		font-style: italic;
 	}
-	#inner_message_1 .bot_msg_1{
+	#inner_message_1 .bot_msg_1 a{
 		font-style: italic;
 	}
 	p.bottom_detail span.small_font {
