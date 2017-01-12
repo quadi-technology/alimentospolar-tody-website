@@ -407,7 +407,7 @@ class DHVCForm {
 	public function frontend_assets(){
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 		wp_register_style('dhvc-form',DHVC_FORM_URL.'/assets/css/style.css', array(), DHVC_FORM_VERSION);
-		wp_register_script('dhvc-form',DHVC_FORM_URL.'/assets/js/script.js',array('jquery','dhvc-form-validate'),DHVC_FORM_VERSION,true);
+		wp_register_script('dhvc-form',DHVC_FORM_URL.'/assets/js/script.js',array('jquery','dhvc-form-validate','dhvc-form-validate-methods'),DHVC_FORM_VERSION,true);
 		
 		if(apply_filters('dhvc_form_custom_css_in_head', false)){
 			$args = array(
