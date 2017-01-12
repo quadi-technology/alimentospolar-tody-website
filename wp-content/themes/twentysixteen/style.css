@@ -4611,8 +4611,8 @@ body.page-id-646 footer.site-footer  {
     	margin-top: -177px !important;
 	}
 	.middle_img figure img {
-		width: 100% !important;
-		height: 53vh !important;
+		width: 90% !important;
+		height: 90% !important; /* 53vh !important;*/
 	}
 	.custom_css .ult-overlay-close {
 		top: 4% !important;
