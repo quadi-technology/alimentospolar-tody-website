@@ -3649,6 +3649,7 @@ ul.wpb_thumbnails-fluid > li {
 }
 .responsive_none {
 	margin-bottom: 36px !important;
+	float: right !important;
 }
 /*------------------------------------ left and right-video--------------------------------*/
 
@@ -4334,7 +4335,7 @@ body {
 }
 
 .dhvc-form-flat .dhvc-form-input input.dhvc-form-error{
-	background-color: red !important;
+	background-color: #ec1c24 !important;
 	position: relative;
 }
 
@@ -4389,7 +4390,7 @@ span.dhvc-form-error {
     color: #ffffff !important;
     padding-left: 21px !important;
     padding-top: 8px !important;
-    margin-top: 7px !important;
+    margin-top: 2px !important;
 }
 span.dhvc-form-valid {
 	background-image: url(images/right_sign.png) !important;
@@ -4427,7 +4428,7 @@ span.dhvc-form-valid {
 	background-image: url(images/wring_sign.png) !important;
 	background-repeat: no-repeat !important;
 	background-position: 100%;
-	margin-top: -18px !important;
+	margin-top: -24px !important;
     display: block !important;
 }
 .dhvc-form-flat .dhvc-form-input input:focus {
