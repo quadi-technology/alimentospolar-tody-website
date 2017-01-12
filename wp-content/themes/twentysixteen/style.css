@@ -4914,6 +4914,9 @@ body.page-id-1153 footer.site-footer {
     }
 }
 @media (max-width: 768px) {
+	.full-width_1 .radio_btn {
+		padding-left: 40px !important;
+	}
 	.reg_1_form .sub_btn button.dhvc-form-submit {
         float: none;
         margin: 0 auto !important;
