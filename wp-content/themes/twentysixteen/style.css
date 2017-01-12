@@ -4571,7 +4571,7 @@ body.page-id-1153 footer.site-footer {
         float: left !important;
     }
     .reg_1_form .sub_btn button.dhvc-form-submit {
-        float: left;
+        
         margin: 0 25px !important;
     }
    
@@ -4914,6 +4914,9 @@ body.page-id-1153 footer.site-footer {
     }
 }
 @media (max-width: 768px) {
+	.radio_btn {
+		padding-left: 0 !important;
+	}
 	.left_btn .vc_column-inner {
     	width: auto !important;
 	}
@@ -4998,7 +5001,7 @@ body.page-id-1153 footer.site-footer {
         float: left !important;
     }
     .reg_1_form .sub_btn button.dhvc-form-submit {
-        float: left;
+       
         margin: 0 25px !important;
     }
     .middle_img figure {
@@ -5156,11 +5159,11 @@ body.page-id-1153 footer.site-footer {
         padding-top: 50px;
         margin: 0 !important;
         font-weight: bold !important;
-        padding-left: 25px;
+        padding-left: 0px;
     }
     .dhvc-form-flat .dhvc-form-radio,
     .dhvc-form-flat .dhvc-form-checkbox {
-        padding-left: 25px;
+        padding-left: 0px;
     }
     .form_section .dhvc_form_text label {
         color: #ffffff !important;
@@ -6066,12 +6069,9 @@ body.page-id-1153 footer.site-footer {
         padding-top: 50px;
         margin: 0 !important;
         font-weight: bold !important;
-        padding-left: 25px;
+       
     }
-    .dhvc-form-flat .dhvc-form-radio,
-    .dhvc-form-flat .dhvc-form-checkbox {
-        padding-left: 25px;
-    }
+   
     .form_section .dhvc_form_text label {
         color: #ffffff !important;
         font: 13px "Arial" !important;
@@ -6362,12 +6362,9 @@ body.page-id-1153 footer.site-footer {
         padding-top: 50px;
         margin: 0 !important;
         font-weight: bold !important;
-        padding-left: 25px;
+       
     }
-    .dhvc-form-flat .dhvc-form-radio,
-    .dhvc-form-flat .dhvc-form-checkbox {
-        padding-left: 25px;
-    }
+  
     .form_section .dhvc_form_text label {
         color: #ffffff !important;
         font: 13px "Arial" !important;
@@ -6794,12 +6791,9 @@ body.page-id-1153 footer.site-footer {
         padding-top: 50px;
         margin: 0 !important;
         font-weight: bold !important;
-        padding-left: 25px;
+      
     }
-    .dhvc-form-flat .dhvc-form-radio,
-    .dhvc-form-flat .dhvc-form-checkbox {
-        padding-left: 25px;
-    }
+  
     .form_section .dhvc_form_text label {
         color: #ffffff !important;
         font: 13px "Arial" !important;
@@ -7076,12 +7070,9 @@ body.page-id-1153 footer.site-footer {
         padding-top: 50px;
         margin: 0 !important;
         font-weight: bold !important;
-        padding-left: 25px;
+        
     }
-    .dhvc-form-flat .dhvc-form-radio,
-    .dhvc-form-flat .dhvc-form-checkbox {
-        padding-left: 25px;
-    }
+  
     .form_section .dhvc_form_text label {
         color: #ffffff !important;
         font: 13px "Arial" !important;
