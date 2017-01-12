@@ -5282,8 +5282,14 @@ body.page-id-1153 footer.site-footer {
     #inner_message .msg1 {
     	    line-height: 21px !important
     }
+    #dhvcform-60 .dhvc-form-inner {
+    	margin-bottom: 30px;
+	}
 }
 @media (max-width: 736px) {
+	.background > div:first-child {
+		background-position: center center !important;
+	}
 	.custom_css .ult-overlay-close {
 	    height: 24px !important;
 	    right: 16% !important;
