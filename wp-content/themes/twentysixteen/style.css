@@ -4340,21 +4340,6 @@ body {
 }
 
 
-::-webkit-input-placeholder {
-    color: #FFFFFF !important;
-   /* padding-left: 10px !important;*/
-}
-:-moz-placeholder {
-     color: #FFFFFF !important;
-     padding-top: 10px !important;
-}
-::-moz-placeholder {
-    color: #FFFFFF !important;
-}
-:-ms-input-placeholder {
-     color: #FFFFFF !important;
-}
-
 span#dhvc_form_control_name-error:after{
 	/*background-image: url(images/wring_sign.png) !important;
 	background-repeat: no-repeat !important;*/
@@ -4468,6 +4453,21 @@ span.dhvc-form-valid {
 }
 #dhvcform-60 .dhvc-form-inner {
     margin-bottom: 120px;
+}
+
+
+.dhvc-form-flat .dhvc-form-input input.dhvc-form-error::-webkit-input-placeholder {
+    color: #FFFFFF !important;
+}
+.dhvc-form-flat .dhvc-form-input input.dhvc-form-error:-moz-placeholder {
+     color: #FFFFFF !important;
+     padding-top: 10px !important;
+}
+.dhvc-form-flat .dhvc-form-input input.dhvc-form-error::-moz-placeholder {
+    color: #FFFFFF !important;
+}
+.dhvc-form-flat .dhvc-form-input input.dhvc-form-error:-ms-input-placeholder {
+     color: #FFFFFF !important;
 }
 /* -------------------------Responsive----------------------------------------------*/
 @media only screen and (min-width: 1844px) and (max-width: 1875px) { 
