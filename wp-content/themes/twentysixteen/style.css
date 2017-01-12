@@ -4466,12 +4466,12 @@ span.dhvc-form-valid {
 }
 
 .terms_popup  .ult-overlay-close {
-    background-position: 69% !important;
+     background-position: 69% center !important;
+    height: 40px !important;
     position: absolute !important;
-    right: 0;
+    right: 29%;
     text-indent: 200%;
-    top: 84px;
-    width: 100% !important;
+    top: 102px;
     z-index: 9999;
 }
 .left_btn .vc_column-inner {
