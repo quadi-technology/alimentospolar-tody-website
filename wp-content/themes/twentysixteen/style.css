@@ -3508,7 +3508,7 @@ p > video {
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    height: calc(100vh - 96px);
+    height: calc(100vh - 80px);
 }
 .vc_row.wpb_row.vc_row-fluid.vc_custom_1481110290328.vc_row-has-fill.vc_row-no-padding.ult-vc-hide-row {
     box-shadow: 0 0 81px 49px black;
@@ -3519,18 +3519,18 @@ p > video {
     margin-top: 20px !important;
 }
 .sub-title p span.sub-title_logo {
-    font: 28.50px "oswalddemibold";
+    font: 22px "oswalddemibold";
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
 }
 .sub-title .wpb_wrapper > p {
     margin: 0 auto;
-    width: 26%;
+    width: 22%;
 }
 .gradiant_text {
     text-align: center;
-    width: 25.5%;
+    width: 20%;
     margin: 0 auto;
     background-color: #ffffff;
 }
@@ -3538,7 +3538,7 @@ p > video {
     background-color: #ffffff;
     color: #000000;
     display: inline-block;
-    font: 25px "oswalddemibold";
+    font: 20px "oswalddemibold";
     text-transform: uppercase;
     background: -webkit-linear-gradient(top, red, #000);
     background: linear-gradient(top, red, #000);
@@ -3608,7 +3608,7 @@ ul.wpb_thumbnails-fluid > li {
     padding: 0 !important;
 }
 .footer_section {
-    padding: 30px 0 65px;
+    padding: 22px 0 45px;
     max-width: 1023px;
     margin: 0 auto;
 }
@@ -3639,7 +3639,7 @@ ul.wpb_thumbnails-fluid > li {
 }
 .terms_and_con_section .terms_text .terms_texts,
 .terms_and_con_section .terms_link a {
-    font: 12.8px "oswald_regularregular";
+    font: 11px "oswald_regularregular";
     color: #ca0023;
     margin: 0;
     text-transform: uppercase;
@@ -3670,7 +3670,7 @@ ul.wpb_thumbnails-fluid > li {
 .ult_modal-header h3.ult_modal-title {
     display: block;
     color: #ffffff;
-    font: 45px "oswaldmedium";
+    font: 35px "oswaldmedium";
     text-transform: uppercase;
 }
 .custom_css .ult_modal .ult_modal-content {
@@ -4324,8 +4324,10 @@ body {
 }
 .custom_css .ult-overlay-close {
     position: fixed !important;
-    right: 28% !important;
-    top: 20% !important;
+    right: 30% !important;
+    top: 25% !important;
+    height: 40px !important;
+    width: 40px !important;
 }
 
 .dhvc-form-flat .dhvc-form-input input.dhvc-form-error{
@@ -6232,7 +6234,7 @@ span.dhvc-form-valid {
         color: #ffffff;
         font: 25px "oswaldmedium";
         text-transform: uppercase;
-        padding-top: 45px;
+        padding-top: 35px;
     }
     .ult_modal-header h3.ult_modal-title {
         display: block;
