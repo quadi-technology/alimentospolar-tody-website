@@ -3534,6 +3534,33 @@ p > video {
     margin: 0 auto;
     background-color: #ffffff;
 }
+/*.background-title::before {
+	
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: linear-gradient(to bottom, red, #000000, blue, green);
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    mix-blend-mode: screen;
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+}
+.sub-title .gradiant_text span.background-title {
+	background: transparent;
+	text-transform: uppercase;
+	background-color:#FFF;
+	background-image: none;
+	mix-blend-mode: multiply;
+	position:relative;
+	font: 20px "oswalddemibold";
+}*/
 .sub-title .gradiant_text span.background-title {
     background-color: #ffffff;
     color: #000000;
@@ -4476,6 +4503,16 @@ span.dhvc-form-valid {
 .dhvc-form-flat .dhvc-form-input input.dhvc-form-error:-ms-input-placeholder {
      color: #FFFFFF !important;
 }
+body.home footer.site-footer {
+	 box-shadow: 6px 32px 68px 57px #000000;
+}
+body.page-id-662 footer.site-footer {
+	 box-shadow: 6px 32px 68px 57px #000000;
+}
+body.page-id-1153 footer.site-footer {
+	 box-shadow: 6px 32px 68px 57px #000000;
+}
+
 /* -------------------------Responsive----------------------------------------------*/
 @media only screen and (min-width: 1844px) and (max-width: 1875px) { 
 
