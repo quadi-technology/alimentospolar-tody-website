@@ -3508,7 +3508,7 @@ p > video {
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 75px);
 }
 .vc_row.wpb_row.vc_row-fluid.vc_custom_1481110290328.vc_row-has-fill.vc_row-no-padding.ult-vc-hide-row {
     box-shadow: 0 0 81px 49px black;
@@ -3833,7 +3833,8 @@ input#dhvc_form_control_0_586356a55f2fb {
     text-transform: uppercase !important;
     font-weight: bold !important;
     padding-left: 14px;
-    padding-top: 7px;
+    padding-top: 4px;
+    height: 30px !important;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #aeaeae;
@@ -3904,6 +3905,7 @@ input#dhvc_form_control_0_586356a55f2fb {
 .fa.fa-caret-down {
     color: grey !important;
     z-index: 9999 !important;
+    top: -5px !important; 
 }
 .select_title p {
     color: #ffffff !important;
@@ -3966,6 +3968,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     border: 3px solid #ffffff !important;
     padding: 11px 50px !important;
     height: 47px !important;
+    opacity: 1 !important;
 }
 .sub_btn button span {
     font: 20px "oswald_regularregular" !important;
@@ -4280,7 +4283,7 @@ body {
     background: #ffffff;
 }
 .form_1_right {
-    margin-top: 217px !important;
+    margin-top: 150px !important;
     margin-left: 0px !important;
 }
 .form_bottom_img {
@@ -4457,7 +4460,14 @@ span.dhvc-form-valid {
 .rigth_btn .vc_column-inner {
 	width: 225px !important;
 }
-
+.register_2 .radio_btn label.dhvc-form-label {
+	
+		padding-top: 20px;
+	
+}
+#dhvcform-60 .dhvc-form-inner {
+    margin-bottom: 120px;
+}
 /* -------------------------Responsive----------------------------------------------*/
 @media only screen and (min-width: 1844px) and (max-width: 1875px) { 
 
