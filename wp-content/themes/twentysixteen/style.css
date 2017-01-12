@@ -5279,6 +5279,9 @@ body.page-id-1153 footer.site-footer {
         position: absolute;
         left: 7%;
     }
+    #inner_message .msg1 {
+    	    line-height: 21px !important
+    }
 }
 @media (max-width: 736px) {
 	.custom_css .ult-overlay-close {
