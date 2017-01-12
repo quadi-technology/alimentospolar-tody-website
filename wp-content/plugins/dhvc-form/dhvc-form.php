@@ -769,13 +769,13 @@ class DHVCForm {
 		parse_str($_POST['form_data'],$form_data);
 		$form_id = $form_data['dhvc_form'];
 		$unique_key = $_POST['unique_key'];
-		$unique_value = $form_data[$unique_key];
+		$unique_value =  strtolower($form_data[$unique_key]);
 		
 		$unique_entry = array();
 		$entries = $dhvcform_db->get_entries(0,'submitted','desc',0);
 		foreach ($entries as $i=>$entry){
 			$entry_data = (array) maybe_unserialize($entry->entry_data);
-			$unique_entry[] = $entry_data[$unique_key];
+			$unique_entry[] = strtolower($entry_data[$unique_key]);
 		}
 		$response_value = 1;
 		if(!empty($unique_entry) && in_array($unique_value, $unique_entry)){
