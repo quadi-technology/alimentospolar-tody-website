@@ -4512,9 +4512,9 @@ body.page-id-662 footer.site-footer {
 body.page-id-1153 footer.site-footer {
 	 box-shadow: 6px 66px 73px 57px #000000;
 }
-/*body.page-id-646 footer.site-footer  {
+body.page-id-646 footer.site-footer  {
 	position: fixed !important;
-}*/
+}
 /* -------------------------Responsive----------------------------------------------*/
 @media only screen and (min-width: 1844px) and (max-width: 1875px) { 
 
@@ -4676,6 +4676,9 @@ body.page-id-1153 footer.site-footer {
 
 }
 @media (max-width: 1024px) {
+	body.page-id-646 footer.site-footer  {
+		position: relative !important;
+	}
 	.terms_popup  .ult-overlay-close  {
 		display: none !important;
 	}
