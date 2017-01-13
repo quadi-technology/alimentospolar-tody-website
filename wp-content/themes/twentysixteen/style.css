@@ -4159,7 +4159,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     text-align: center;
     width: 587px;
     margin: 0 auto;
-    line-height: 32px;
+    line-height: 31px !important;
 }
 #inner_message_1 .msg2 {
     background-color: #ffffff;
@@ -4172,6 +4172,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     text-align: center;
     width: 587px;
     margin: 0 auto;
+    line-height: 31px !important;
 }
 #inner_message_2 .msg3 {
     background-color: #ffffff;
@@ -5375,6 +5376,7 @@ body.page-id-646 footer.site-footer  {
         text-align: center;
         width: 500px;
         margin-left: 115px;
+        line-height: 31px !important;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
