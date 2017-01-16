@@ -4228,7 +4228,6 @@ input#dhvc_form_control_0_586356a55f2fb {
 }
 #inner_message .bot_msg a {
     background-color: #714705;
-    padding: 0 10px;
     font-size: 22px !important;
     font-family: "oswald_regularregular" !important;
     color: #ffffff !important;
@@ -4240,16 +4239,13 @@ input#dhvc_form_control_0_586356a55f2fb {
     border-left: 3px solid #2e1f07;*/
     float: right;
     text-align: center;
-    margin-top: -6px;
-    position: relative;
-    overflow: hidden;
 
 
     border: 10px solid transparent;
-    padding: 15px;
-    -webkit-border-image: url(images/boton.png) 30 round; /* Safari 3.1-5 */
-    -o-border-image: url(images/boton.png) 30 round; /* Opera 11-12.1 */
-    border-image: url(images/boton.png) 30 round;
+    padding: 0px;
+    -webkit-border-image: url(images/boton-bg.png) 11 round; /* Safari 3.1-5 */
+    -o-border-image: url(images/boton-bg.png) 11 round; /* Opera 11-12.1 */
+    border-image: url(images/boton-bg.png) 11 round;
 }
 
 
