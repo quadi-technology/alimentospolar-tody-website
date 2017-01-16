@@ -4110,9 +4110,12 @@ input#dhvc_form_control_0_586356a55f2fb {
     z-index: 99999;
 }
 #overlay_form_2 #inner_message {
-    top: 40%;
+    top: 30%;
     position: absolute;
-    left: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 587px;
 }
 #overlay_form_3 #inner_message_1 {
     top: 40%;
