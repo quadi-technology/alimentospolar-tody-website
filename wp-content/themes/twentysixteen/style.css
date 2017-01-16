@@ -4247,6 +4247,28 @@ input#dhvc_form_control_0_586356a55f2fb {
     line-height: 0;
 }
 
+
+
+.wrapper_inner_1 .bot_msg_1 a{
+    background-color: #714705;
+    font-size: 22px !important;
+    font-family: "oswald_regularregular" !important;
+    color: #ffffff !important;
+    width: auto;
+    text-transform: uppercase;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+    border: 11px solid transparent;
+    padding: 10px 13px;
+    -webkit-border-image: url(images/boton-bg.png) 11 round;
+    -o-border-image: url(images/boton-bg.png) 11 round;
+    border-image: url(images/boton-bg.png) 11 round;
+    line-height: 0;
+}
+
+
+
 /*#inner_message .bot_msg a:first-child:before {
     content: '';
     position: absolute;
@@ -4342,7 +4364,7 @@ body {
 }
 #colophon {
     position: relative;
-    bottom: 0;
+    bottom: -7px;
     width: 100%;
     background: #ffffff;
 }
