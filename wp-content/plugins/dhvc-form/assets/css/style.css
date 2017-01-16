@@ -59,6 +59,7 @@ span.dhvc-form-error{
     width: 100%;
     font-weight: normal;
     padding-top:5px;
+    color: transparent !important;
 }
 @media (max-width: 768px) {
 	.dhvc-form-container .wpb_row .wpb_column{

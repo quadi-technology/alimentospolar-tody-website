@@ -350,6 +350,7 @@ if(!class_exists('Ultimate_Modals'))
 			$html .= "\n\t\t".'<div id="'.$modal_uid.'" class="ult_modal-content ult-hide" style="'.$border_style.'">';
 			if($modal_title !== ''){
 				$html .= "\n\t\t\t".'<div class="ult_modal-header" style="'.$header_style.'">';
+			$html .= "\n\t".'<div class="ult-overlay-close">Close</div>';
 				$html .= "\n\t\t\t\t".$box_icon.'<h3 '.$madal_heading_data_list.' class="ult_modal-title ult-responsive">'.$modal_title.'</h3>';
 				$html .= "\n\t\t\t".'</div>';
 			}
@@ -358,7 +359,6 @@ if(!class_exists('Ultimate_Modals'))
 			$html .= "\n\t\t\t".'</div>';
 			$html .= "\n\t".'</div>';
 			$html .= "\n\t".'</div>';
-			$html .= "\n\t".'<div class="ult-overlay-close">Close</div>';
 			$html .= "\n".'</div>';
 
 			$is_preset = false; //Display settings for Preset

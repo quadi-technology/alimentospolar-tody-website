@@ -4368,9 +4368,14 @@ body {
     min-height: 100%;
     position: relative;
 }
+
+.page-id-1153 #colophon {
+    bottom: -7px;
+}
+
 #colophon {
     position: relative;
-    bottom: -7px;
+    bottom: 0;
     width: 100%;
     background: #ffffff;
 }
@@ -4533,9 +4538,7 @@ span.dhvc-form-valid {
      background-position: 69% center !important;
     height: 40px !important;
     position: absolute !important;
-    right: 29%;
     text-indent: 200%;
-    top: 102px;
     z-index: 9999;
 }
 .left_btn .vc_column-inner {
@@ -4602,6 +4605,15 @@ body.page-id-646 footer.site-footer  {
 
 .desk-f {display: block;}
 .desk-m {display: none;}
+
+
+.terms_popup .ult-overlay-close {
+    right: 33px;
+    top: 33px !important;
+    width: 48px;
+    background-size: 100%;
+}
+
 
 
 
@@ -4730,12 +4742,7 @@ body.page-id-646 footer.site-footer  {
     .left_btn .vc_column-inner {
         margin-left: 55px;
     }
-    .terms_popup .ult-overlay-close {
-        right: 18%;
-        top: 23px;
-    }
-  
-    
+
    
 }
 
@@ -4768,13 +4775,6 @@ body.page-id-646 footer.site-footer  {
         transform: none;
     }
 
-    .terms_popup .ult-overlay-close {
-        right: 16% !important;
-        top: 11px !important;
-        width: 48px;
-        background-size: 100%;
-    }
-
 
 }
 
@@ -4795,8 +4795,6 @@ body.page-id-646 footer.site-footer  {
         position: relative !important;
     }
     .terms_popup  .ult-overlay-close  {
-    right: 10%;
-    top: 5%;
     width: 49px;
 }
     .background #home_top {
@@ -5820,6 +5818,18 @@ body.page-id-646 footer.site-footer  {
 @media (max-width: 640px) {
 
 
+.terms_popup .ult-overlay-close {
+    margin-top: 9px !important;
+    margin-right: 15px !important;
+    position: relative !important;
+    float: right !important;
+    width: 31px;
+    background-size: 100%;
+    top: 0 !important;
+    right: 0 !important;
+}
+
+
     #dhvcform-60 .dhvc-form-inner{
             margin-bottom: 19px;
     }
@@ -5880,13 +5890,6 @@ body.page-id-646 footer.site-footer  {
         margin: 0 0px 0 15px !important;
     }
 
-
-    .terms_popup .ult-overlay-close {
-        right: 10%;
-        top: 12px;
-        width: 34px;
-        background-size: 100%;
-    }
 
     .terms_popup .ult_modal {
     top: 69px;
