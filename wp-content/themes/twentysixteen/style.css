@@ -4702,7 +4702,10 @@ body.page-id-646 footer.site-footer  {
 
 
     .custom_css .ult-overlay-close {
-        top: 4% !important;
+        top: -45px !important;
+        right: 0 !important;
+        left: 0;
+        margin: auto;
     }
     .gradiant_text {
         /*width: 30%;*/
@@ -5439,12 +5442,15 @@ body.page-id-646 footer.site-footer  {
     .background > div:first-child {
         background-position: center center !important;
     }
-    .custom_css .ult-overlay-close {
-        height: 24px !important;
-        right: 16% !important;
-        top: 6% !important;
-        width: 24px !important;
-    }   
+.custom_css .ult-overlay-close {
+    height: 24px !important;
+    right: 0 !important;
+    top: -16px !important;
+    width: 24px !important;
+    left: 0;
+    margin: auto;
+    background-size: 100%;
+}  
     .form_1 {
         margin-top: 0px !important;
         margin-bottom: 0px !important;
