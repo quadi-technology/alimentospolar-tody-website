@@ -4498,7 +4498,7 @@ span.dhvc-form-valid {
     margin-top: -24px !important;
 }
 .dhvc-form-flat .dhvc-form-input input[type="email"] {
-    text-transform: lowercase !important; 
+    text-transform: uppercase !important; 
 }
 
 .terms_popup  .ult-overlay-close {
@@ -4649,10 +4649,16 @@ body.page-id-646 footer.site-footer  {
     
   
 }
-@media only screen and (min-width: 1232px) and (max-width: 1358px) {
+
+@media only screen and ( max-height: 900px ) and (max-width: 1358px) {
     .middle_img figure {
         margin-top: -177px !important;
     }
+
+    }
+
+@media only screen and (min-width: 1232px) and (max-width: 1358px) {
+
     .middle_img figure img {
         width: 80% !important;
         height: 80% !important; /* 53vh !important;*/
