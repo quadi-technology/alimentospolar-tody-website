@@ -4948,7 +4948,7 @@ body.page-id-646 footer.site-footer  {
         padding: 0 !important;
     }
     .select_class .same_width {
-        width: 20% !important;
+        width: 19% !important;
         float: left;
         margin-left: 17px !important;
         padding: 0 !important;
@@ -5041,6 +5041,13 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
+
+
+.terms_popup .ult_modal.ult-fade.ult-container {
+    margin: 0 auto;
+    max-width: 720px;
+}
+
 
 
 .desk-f {display: none;}
@@ -5824,6 +5831,13 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 640px) {
+
+
+
+.terms_popup .ult_modal.ult-fade.ult-container {
+    margin: 0 auto;
+    max-width: 320px;
+}
 
 
 .terms_popup .ult-overlay-close {
