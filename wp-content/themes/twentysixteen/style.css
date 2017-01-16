@@ -4118,9 +4118,12 @@ input#dhvc_form_control_0_586356a55f2fb {
     width: 587px;
 }
 #overlay_form_3 #inner_message_1 {
-    top: 40%;
+    top: 30%;
     position: absolute;
-    left: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 587px;
 }
 #overlay_form_4 #inner_message_2 {
     top: 40%;
@@ -4228,6 +4231,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     float: right;
     text-align: center;
     margin-top: -6px;
+    font-style: italic;
 }
 #inner_message .bot_msg a  {
     background-color: #714705;
@@ -4245,6 +4249,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     -o-border-image: url(images/boton-bg.png) 11 round;
     border-image: url(images/boton-bg.png) 11 round;
     line-height: 0;
+    font-style: italic;
 }
 
 
@@ -4265,6 +4270,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     -o-border-image: url(images/boton-bg.png) 11 round;
     border-image: url(images/boton-bg.png) 11 round;
     line-height: 0;
+    font-style: italic;
 }
 
 
