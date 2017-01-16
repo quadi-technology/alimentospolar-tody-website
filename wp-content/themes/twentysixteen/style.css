@@ -4426,8 +4426,8 @@ body {
 }
 .custom_css .ult-overlay-close {
     position: fixed !important;
-    right: 30% !important;
-    top: 25% !important;
+    right: 18px !important;
+    top: -22px !important;
     height: 40px !important;
     width: 40px !important;
 }
@@ -4703,8 +4703,7 @@ body.page-id-646 footer.site-footer  {
 
     .custom_css .ult-overlay-close {
         top: -45px !important;
-        right: 0 !important;
-        left: 0;
+        right: 25px !important;
         margin: auto;
     }
     .gradiant_text {
@@ -5014,12 +5013,16 @@ body.page-id-646 footer.site-footer  {
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
-        left: 16%;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
         position: absolute;
-        left: 16%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
@@ -5415,17 +5418,26 @@ body.page-id-646 footer.site-footer  {
     #overlay_form_3 #inner_message_1 {
         top: 40%;
         position: absolute;
-        left: 8%;
+        left: 0;
+        width: 90%;
+        right: 0;
+        margin: 0 auto;
     }
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
-        left: 8%;
+        left: 0;
+        width: 90%;
+        right: 0;
+        margin: 0 auto;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
         position: absolute;
-        left: 7%;
+        left: 0;
+        width: 90%;
+        right: 0;
+        margin: 0 auto;
     }
     #overlay_form_4 #inner_message_2 h2 {
         color: #ffffff;
@@ -5449,15 +5461,14 @@ body.page-id-646 footer.site-footer  {
     .background > div:first-child {
         background-position: center center !important;
     }
-.custom_css .ult-overlay-close {
-    height: 24px !important;
-    right: 0 !important;
-    top: -16px !important;
-    width: 24px !important;
-    left: 0;
-    margin: auto;
-    background-size: 100%;
-}  
+    .custom_css .ult-overlay-close {
+        height: 40px !important;
+        right: 22px !important;
+        top: -33px !important;
+        width: 40px !important;
+        margin: auto;
+        background-size: 100%;
+    }  
     .form_1 {
         margin-top: 0px !important;
         margin-bottom: 0px !important;
@@ -5508,7 +5519,6 @@ body.page-id-646 footer.site-footer  {
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 500px;
-        margin-left: 115px;
     }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
@@ -5516,13 +5526,8 @@ body.page-id-646 footer.site-footer  {
         left: 0%;
     }
     #overlay_form_3 #inner_message_1 h2 {
-        color: #ffffff;
         font: 25px "oswaldmedium";
-        margin: 0;
-        text-transform: uppercase;
-        text-align: center;
-        padding-bottom: 5px;
-        padding-left: 85px;
+
     }
     #inner_message_1 .msg2 {
         background-color: #ffffff;
@@ -5534,7 +5539,6 @@ body.page-id-646 footer.site-footer  {
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 500px;
-        margin-left: 115px;
         line-height: 31px !important;
     }
     #overlay_form_4 #inner_message_2 {
@@ -5620,7 +5624,6 @@ body.page-id-646 footer.site-footer  {
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 530px;
-        margin-left: 100px;
     }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
@@ -5628,13 +5631,7 @@ body.page-id-646 footer.site-footer  {
         left: 0%;
     }
     #overlay_form_3 #inner_message_1 h2 {
-        color: #ffffff;
         font: 30px "oswaldmedium";
-        margin: 0;
-        text-transform: uppercase;
-        text-align: center;
-        padding-bottom: 25px;
-        padding-left: 85px;
     }
     #inner_message_1 .msg2 {
         background-color: #ffffff;
@@ -5646,7 +5643,6 @@ body.page-id-646 footer.site-footer  {
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 530px;
-        margin-left: 100px;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
@@ -5749,7 +5745,6 @@ body.page-id-646 footer.site-footer  {
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 500px;
-        margin-left: 75px;
     }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
@@ -5762,8 +5757,6 @@ body.page-id-646 footer.site-footer  {
         margin: 0;
         text-transform: uppercase;
         text-align: center;
-        padding-bottom: 5px;
-        padding-left: 85px;
     }
     #inner_message_1 .msg2 {
         background-color: #ffffff;
@@ -5775,7 +5768,6 @@ body.page-id-646 footer.site-footer  {
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 500px;
-        margin-left: 75px;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
@@ -5989,7 +5981,6 @@ body.page-id-646 footer.site-footer  {
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 530px;
-        margin-left: 55px;
     }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
@@ -6004,7 +5995,6 @@ body.page-id-646 footer.site-footer  {
         text-align: center;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 20px;
    
     }
     #inner_message_1 .msg2 {
@@ -6017,7 +6007,6 @@ body.page-id-646 footer.site-footer  {
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 530px;
-        margin-left: 55px;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
@@ -6135,7 +6124,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 400px;
-        margin-left: 80px;
     }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
@@ -6149,7 +6137,6 @@ padding: 0px 10px;
         text-transform: uppercase;
         text-align: center;
         padding-bottom: 5px;
-        padding-left: 85px;
     }
     #inner_message_1 .msg2 {
         background-color: #ffffff;
@@ -6161,7 +6148,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 400px;
-        margin-left: 80px;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
@@ -6417,7 +6403,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 380px;
-        margin-left: 15px;
     }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
@@ -6443,7 +6428,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 380px;
-        margin-left: 15px;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
@@ -6679,7 +6663,6 @@ padding: 0px 10px;
         text-align: center;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 20px;
     }
     #inner_message .msg1 {
         background-color: #ffffff;
@@ -6690,8 +6673,7 @@ padding: 0px 10px;
         text-transform: uppercase;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
-        width: 375px;
-        margin-left: 15px;
+        width: 320px;
     }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
@@ -6706,7 +6688,6 @@ padding: 0px 10px;
         text-align: center;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 20px;
     }
     #inner_message_1 .msg2 {
         background-color: #ffffff;
@@ -6717,8 +6698,7 @@ padding: 0px 10px;
         text-transform: uppercase;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
-        width: 375px;
-        margin-left: 15px;
+        width: 100%;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
@@ -6733,7 +6713,6 @@ padding: 0px 10px;
         text-align: center;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 20px;
     }
     #inner_message_2 .msg3 {
         background-color: #ffffff;
@@ -6745,7 +6724,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 375px;
-        margin-left: 15px;
     }
     #overlay_form_5 #inner_message_3 {
         top: 40%;
@@ -6762,7 +6740,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 375px;
-        margin-left: 15px;
     }
     #overlay_form_5 #inner_message_3 h2 {
         color: #ffffff;
@@ -6772,7 +6749,6 @@ padding: 0px 10px;
         text-align: center;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 20px;
     }
 }
 @media (max-width: 375px) {
@@ -6807,7 +6783,6 @@ padding: 0px 10px;
         text-align: center;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 20px;
     }
     #inner_message .msg1 {
         background-color: #ffffff;
@@ -6819,7 +6794,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 330px;
-        margin-left: 15px;
     }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
@@ -6834,7 +6808,6 @@ padding: 0px 10px;
         text-align: center;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 20px;
     }
     #inner_message_1 .msg2 {
         background-color: #ffffff;
@@ -6846,7 +6819,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 330px;
-        margin-left: 15px;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
@@ -6861,7 +6833,6 @@ padding: 0px 10px;
         text-align: center;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 20px;
     }
     #inner_message_2 .msg3 {
         background-color: #ffffff;
@@ -6873,7 +6844,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 330px;
-        margin-left: 18px;
     }
     #overlay_form_5 #inner_message_3 {
         top: 40%;
@@ -6890,7 +6860,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 330px;
-        margin-left: 18px;
     }
     #overlay_form_5 #inner_message_3 h2 {
         color: #ffffff;
@@ -6900,7 +6869,6 @@ padding: 0px 10px;
         text-align: center;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 20px;
     }
 }
 @media (max-width: 360px) {
@@ -7103,7 +7071,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 320px;
-        margin-left: 15px;
     }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
@@ -7118,7 +7085,6 @@ padding: 0px 10px;
         text-align: center;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 20px;
     }
     #inner_message_1 .msg2 {
         background-color: #ffffff;
@@ -7130,7 +7096,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 320px;
-        margin-left: 15px;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
@@ -7399,7 +7364,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 280px;
-        margin-left: 15px;
     }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
@@ -7425,7 +7389,6 @@ padding: 0px 10px;
         box-shadow: 6px 11px 0px 0px #714705;
         text-align: center;
         width: 280px;
-        margin-left: 15px;
     }
     #overlay_form_4 #inner_message_2 {
         top: 40%;
