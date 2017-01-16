@@ -5749,6 +5749,14 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 640px) {
+
+
+    #dhvcform-60 .dhvc-form-inner{
+            margin-bottom: 19px;
+    }
+
+
+
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
           color: #aeaeae;
           font: 12px "Arial";
