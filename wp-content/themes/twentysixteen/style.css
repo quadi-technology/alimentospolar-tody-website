@@ -4832,7 +4832,7 @@ body.page-id-646 footer.site-footer  {
         color: #000000;
         display: inline-block;
         font: 18px  Arial;
-    font-weight: bold;
+        font-weight: bold;
         text-transform: uppercase;
         background: -webkit-linear-gradient(top, red, #000);
         background: linear-gradient(top, red, #000);
@@ -5045,6 +5045,9 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
+    .mobile_image {
+        padding-left: 0 !important;
+    }
     .vc_column-inner.vc_custom_1480605197629 {
         height: auto !important;
     }
@@ -6279,7 +6282,7 @@ padding: 0px 10px;
         padding: 14px 12px;
         text-transform: uppercase;
         text-align: center;
-        border-radius: 20px;
+       
         margin-left: 21px;
         margin-right: 20px;
     }
@@ -6564,7 +6567,7 @@ padding: 0px 10px;
         padding: 14px 12px;
         text-transform: uppercase;
         text-align: center;
-        border-radius: 20px;
+       
         margin-left: 21px;
         margin-right: 20px;
     }
@@ -6965,7 +6968,7 @@ padding: 0px 10px;
         padding: 14px 12px;
         text-transform: uppercase;
         text-align: center;
-        border-radius: 20px;
+        
         margin-left: 21px;
         margin-right: 20px;
     }
@@ -7162,6 +7165,9 @@ padding: 0px 10px;
     }
 }
 @media (max-width: 320px) {
+    .radio_btn {
+        padding-left: 37px!important;
+    }
     .terms_text {
         width: 100%;
     }
@@ -7240,7 +7246,7 @@ padding: 0px 10px;
         padding: 14px 12px;
         text-transform: uppercase;
         text-align: center;
-        border-radius: 20px;
+       
         margin-left: 21px;
         margin-right: 20px;
     }
