@@ -4787,14 +4787,13 @@ body.page-id-646 footer.site-footer  {
         .rigth_btn {
             float: right !important;
         }
-
 }
 @media (max-width: 1024px) {
     body.page-id-646 footer.site-footer  {
         position: relative !important;
     }
     .terms_popup  .ult-overlay-close  {
-    width: 49px;
+        width: 49px;
     }
     .background #home_top {
         height: auto !important; 
