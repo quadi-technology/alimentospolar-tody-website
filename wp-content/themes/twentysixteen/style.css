@@ -5045,6 +5045,10 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
+    .logo_form figure a img {
+        height: 167px;
+        width: 271px;
+    }
     .background > div:first-child {
         background-position: center center !important;
     }
