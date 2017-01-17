@@ -5045,6 +5045,9 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
+    .background > div:first-child {
+        background-position: center center !important;
+    }
     .radio_btn {
         padding-left: 113px!important;
     }
@@ -5303,7 +5306,7 @@ body.page-id-646 footer.site-footer  {
         padding: 14px 12px;
         text-transform: uppercase;
         text-align: center;
-        border-radius: 20px;
+        border-radius: 9px;
         margin-left: 21px;
         margin-right: 20px;
     }
