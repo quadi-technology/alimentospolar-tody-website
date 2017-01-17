@@ -5483,7 +5483,7 @@ body.page-id-646 footer.site-footer  {
     }
     .custom_css .ult-overlay-close {
         right: 22px !important;
-        top: -10px !important;
+        top: 8px !important;
     }  
     .form_1 {
         margin-top: 0px !important;
@@ -6198,7 +6198,9 @@ padding: 0px 10px;
 }
 
 @media (max-width: 414px) {
-   
+   .custom_css .ult-overlay-close {
+        top: -33px !important;
+    }
     .terms_text {
         width: 74%;
     }
