@@ -99,12 +99,7 @@ jQuery(document).ready(function() {
       }, 1000);
       
   });
-     jQuery('#overlay_form_2').click(function(){
-      jQuery(this).fadeOut(); 
-     });
-     jQuery('#overlay_form_3').click(function(){
-      jQuery(this).fadeOut(); 
-     });
+   
      jQuery('#overlay_form_4').click(function(){
       jQuery(this).fadeOut(); 
      });
