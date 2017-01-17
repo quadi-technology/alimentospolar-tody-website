@@ -5045,7 +5045,7 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
-    .mobile_image {
+    .mobile_image..vc_custom_1484643254712 {
         padding-left: 0 !important;
     }
     .vc_column-inner.vc_custom_1480605197629 {
@@ -5093,7 +5093,7 @@ body.page-id-646 footer.site-footer  {
     max-height: 235px !important;
     }
     .full-width_1 .radio_btn {
-        padding-left: 40px !important;
+        padding-left: 25px !important;
     }
     .reg_1_form .sub_btn button.dhvc-form-submit {
         float: none;
