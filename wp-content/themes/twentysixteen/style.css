@@ -5045,6 +5045,12 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
+    .vc_custom_1480605197629 {
+        height: auto !important;
+    }
+    #dhvcform-60 .dhvc-form-inner {
+      margin-bottom: 22px;
+    }
     .logo_form figure a img {
         height: 167px;
         width: 271px;
