@@ -4791,6 +4791,7 @@ body.page-id-646 footer.site-footer  {
 @media (max-width: 1024px) {
     body.page-id-646 footer.site-footer  {
         position: relative !important;
+        bottom: -28px !important;
     }
     .terms_popup  .ult-overlay-close  {
         width: 49px;
@@ -5035,6 +5036,9 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
+    body.page-id-646 footer.site-footer  {
+        bottom: 0px !important;
+    }
     body.home footer.site-footer {
         height: auto !important;
     }
