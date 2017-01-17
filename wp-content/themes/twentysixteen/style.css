@@ -4596,14 +4596,14 @@ span.dhvc-form-valid {
      color: #FFFFFF !important;
 }
 body.home footer.site-footer {
-   box-shadow: 0 -6px 177px 82px #000000;
+   box-shadow: 0 -6px 177px 42px #000000;
    height: 74px !important;
 }
 body.page-id-662 footer.site-footer {
-    box-shadow: 0 -6px 51px 14px #000000;
+    box-shadow: 0 -6px 51px 0px #000000;
 }
 body.page-id-1153 footer.site-footer {
-    box-shadow: 0 -6px 51px 14px #000000;
+    box-shadow: 0 -6px 51px 0px #000000;
 }
 body.page-id-646 footer.site-footer  {
     position: fixed !important;
@@ -4646,9 +4646,6 @@ body.page-id-646 footer.site-footer  {
             .sub-title .wpb_wrapper > p {
                 width: 30%;
             }
-             .gradiant_text {
-                /*width: 30%;*/
-             }
              .ult-overlay-close {
                 right: 494px !important;
              }
@@ -4698,14 +4695,9 @@ body.page-id-646 footer.site-footer  {
 
     .sub-title .gradiant_text span.background-title {
         font-family: Arial;
-    font-weight: bold;
+        font-weight: bold;
     }
-    
-  
 }
-
-
-
 @media only screen and (min-width: 1232px) and (max-width: 1358px) {
 
     .middle_img figure {
@@ -5042,6 +5034,9 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
+    body.home footer.site-footer {
+        height: auto !important;
+    }
     .desk {
         display: none !important;
         margin: 0 !important;
@@ -5502,16 +5497,6 @@ body.page-id-646 footer.site-footer  {
         width: 100%;
         padding: 0px 160px;
     }
-    /*.gradiant_text {
-        width: 55%;
-    }
-    .sub-title .gradiant_text span.background-title {
-        transform: scaleX(1);
-        padding: 10px 55px;
-        font: 26px  Arial;
-    font-weight: bold;
-    }*/
- 
     .wpb_text_column.wpb_content_element.form_bottom_text {
         width: 22%;
         float: left;
@@ -5613,16 +5598,6 @@ body.page-id-646 footer.site-footer  {
         width: 100%;
         padding: 0px 175px;
     }
-   /* .gradiant_text {
-        width: 52%;
-    }
-    .sub-title .gradiant_text span.background-title {
-        transform: scaleX(1);
-        padding: 10px 45px;
-        font: 26px  Arial;
-    font-weight: bold;
-    }*/
- 
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
@@ -5736,15 +5711,6 @@ body.page-id-646 footer.site-footer  {
     width: 285px;
     padding: 0;
 }
-    /*.gradiant_text {
-        width: 53%;
-    }
-    .sub-title .gradiant_text span.background-title {
-        transform: scaleX(1);
-        padding: 10px 30px;
-        font: 26px  Arial;
-    font-weight: bold;
-    }*/
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
