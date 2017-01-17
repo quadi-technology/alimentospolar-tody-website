@@ -5045,25 +5045,20 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
-
-
+.radio_btn {
+    padding-left: 113px!important;
+}
 .terms_popup .ult_modal.ult-fade.ult-container {
     margin: 0 auto;
     max-width: 720px;
 }
-
-
-
 .desk-f {display: none;}
 .desk-m {display: block;}
 
-
-    .dhvc-form-flat .dhvc-form-input input, .dhvc-form-flat .dhvc-form-file input[type="text"], .dhvc-form-flat .dhvc-form-captcha input, .dhvc-form-flat .dhvc-form-select select, .dhvc-form-flat .dhvc-form-textarea textarea {
+.dhvc-form-flat .dhvc-form-input input, .dhvc-form-flat .dhvc-form-file input[type="text"], .dhvc-form-flat .dhvc-form-captcha input, .dhvc-form-flat .dhvc-form-select select, .dhvc-form-flat .dhvc-form-textarea textarea {
     border-radius: 14px !important;
     height: 45px !important;
 }
-
-
     .mobile_image{
         width: 560px;
         margin: 0 auto;
@@ -5135,8 +5130,8 @@ body.page-id-646 footer.site-footer  {
    
     .custom_css .ult-overlay-close {
         height: 24px !important;
-        right: 20% !important;
-        top: 20% !important;
+        right: 26% !important;
+        top: -31px !important;
         width: 24px !important;
     }
     .terms_logo .wpb_single_image.wpb_content_element.vc_align_left {
@@ -5167,7 +5162,7 @@ body.page-id-646 footer.site-footer  {
         margin: 0 !important;
     }
     .reg_1_logo figure {
-        float: left !important;
+        float: none !important;
     }
     .reg_1_form .sub_btn button.dhvc-form-submit {
        
@@ -5182,9 +5177,7 @@ body.page-id-646 footer.site-footer  {
     .custom_css .ult_modal .ult_modal-content .btn a.button_link {
         padding: 15px 10px;
     }
-    /*.thumb_up_image button.btn-modal {
-        background-position: top center !important;
-    }*/
+  
     .thumb_up_image {
         margin-bottom: 0 !important;
     }
@@ -5207,7 +5200,7 @@ body.page-id-646 footer.site-footer  {
     }
     .sub_btn.top_margin {
         padding-top: 30px;
-        padding-right: 50px;
+        
     }
     .responsive_none {
         display: none !important;
@@ -6221,7 +6214,7 @@ padding: 0px 10px;
     }
     .sub_btn.top_margin {
         padding-top: 30px;
-        padding-right: 50px;
+        
     }
     .responsive_none {
         display: none !important;
@@ -6493,7 +6486,7 @@ padding: 0px 10px;
     }
     .sub_btn.top_margin {
         padding-top: 30px;
-        padding-right: 50px;
+       
     }
     .responsive_none {
         display: none !important;
@@ -6923,7 +6916,7 @@ padding: 0px 10px;
     }
     .sub_btn.top_margin {
         padding-top: 30px;
-        padding-right: 50px;
+        
     }
     .form_section p.form_title {
         font: 44px "oswaldmedium" !important;
