@@ -5053,8 +5053,11 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
+    #inner_message .msg1 {
+        line-height: 31px !important;
+    }
     .fa.fa-caret-down {
-        top: 2px !important; 
+        top: -5px !important; 
     }
     .mobile_image   .vc_custom_1484643254712 {
         padding-left: 0 !important;
@@ -6408,12 +6411,12 @@ padding: 0px 10px;
     }
     #overlay_form_2 #inner_message h2 {
         color: #ffffff;
-        font: 29px "oswaldmedium";
+        font: 28px "oswaldmedium";
         margin: 0;
         text-transform: uppercase;
         text-align: center;
         text-align: center;
-        padding-bottom: 25px;
+        padding-bottom: 5px;
         padding-left: 0;
     }
     #inner_message .msg1 {
@@ -6680,18 +6683,18 @@ padding: 0px 10px;
     }
     #overlay_form_2 #inner_message h2 {
         color: #ffffff;
-        font: 29px "oswaldmedium";
+        font: 23px "oswaldmedium";
         margin: 0;
         text-transform: uppercase;
         text-align: center;
         text-align: center;
-        padding-bottom: 25px;
+        padding-bottom: 5px;
     }
     #inner_message .msg1 {
         background-color: #ffffff;
         border-radius: 20px;
         padding: 20px;
-        font: 24px "oswaldmedium" !important;
+        font: 20px "oswaldmedium" !important;
         color: #714705 !important;
         text-transform: uppercase;
         box-shadow: 6px 11px 0px 0px #714705;
@@ -6805,7 +6808,7 @@ padding: 0px 10px;
         text-transform: uppercase;
         text-align: center;
         text-align: center;
-        padding-bottom: 25px;
+        padding-bottom: 5px;
     }
     #inner_message .msg1 {
         background-color: #ffffff;
@@ -7081,8 +7084,8 @@ padding: 0px 10px;
         text-transform: uppercase;
         text-align: center;
         text-align: center;
-        padding-bottom: 25px;
-        padding-left: 20px;
+        padding-bottom: 5px;
+      
     }
     #inner_message .msg1 {
         background-color: #ffffff;
@@ -7377,8 +7380,8 @@ padding: 0px 10px;
         text-transform: uppercase;
         text-align: center;
         text-align: center;
-        padding-bottom: 25px;
-        padding-left: 20px;
+        padding-bottom: 5px;
+        
     }
     #inner_message .msg1 {
         background-color: #ffffff;
