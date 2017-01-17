@@ -5461,6 +5461,10 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 736px) {
+    .logo_form figure a img {
+        height: 89px;
+        width: 137px;   
+    }
      .radio_btn {
         padding-left: 46px!important;
     }
