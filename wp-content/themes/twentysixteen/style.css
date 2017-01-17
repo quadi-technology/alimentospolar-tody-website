@@ -4793,7 +4793,7 @@ body.page-id-646 footer.site-footer  {
     }
     .terms_popup  .ult-overlay-close  {
     width: 49px;
-}
+    }
     .background #home_top {
         height: auto !important; 
     }
@@ -5468,6 +5468,7 @@ body.page-id-646 footer.site-footer  {
   
 }
 @media (max-width: 736px) {
+
     .logo_form figure a img {
         height: 89px;
         width: 137px;   
@@ -5815,14 +5816,13 @@ body.page-id-646 footer.site-footer  {
 }
 @media (max-width: 640px) {
 
-
-
+.background #home_top {
+    background: url(images/mobile_home_bg.png) !important;
+}
 .terms_popup .ult_modal.ult-fade.ult-container {
     margin: 0 auto;
     max-width: 320px;
 }
-
-
 .terms_popup .ult-overlay-close {
     margin-top: 9px !important;
     margin-right: 15px !important;
