@@ -3496,6 +3496,17 @@ p > video {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'oswaldregularitalic';
+    src: url('fonts/oswald-regularitalic-webfont.eot');
+    src: url('fonts/oswald-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald-regularitalic-webfont.woff2') format('woff2'),
+         url('fonts/oswald-regularitalic-webfont.woff') format('woff'),
+         url('fonts/oswald-regularitalic-webfont.svg#oswaldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .site {
     background-color: #ffffff !important;
     margin: 0 !important;
@@ -4848,9 +4859,6 @@ body.page-id-646 footer.site-footer  {
         float: left;
         width: 16%;
     }
-
-
-
     .terms_and_con_section {
         float: left;
         width: 69%;
@@ -5045,6 +5053,9 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
+    .fa.fa-caret-down {
+        top: 2px !important; 
+    }
     .mobile_image   .vc_custom_1484643254712 {
         padding-left: 0 !important;
     }
