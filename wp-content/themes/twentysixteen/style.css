@@ -4623,6 +4623,14 @@ body.page-id-646 footer.site-footer  {
     width: 48px;
     background-size: 100%;
 }
+ p.mobile_show {
+        display: none !important;
+        margin: 0 !important;
+}
+p.desk {
+        display: block !important;
+        margin: 0 !important;
+}
 
 /* -------------------------Responsive----------------------------------------------*/
 @media only screen and (min-width: 1844px) and (max-width: 1875px) { 
@@ -5034,6 +5042,14 @@ body.page-id-646 footer.site-footer  {
     }
 }
 @media (max-width: 768px) {
+    p.desk {
+        display: none !important;
+        margin: 0 !important;
+    }
+    p.mobile_show {
+        display: block !important;
+        margin: 0 !important;
+    }
     #inner_message .msg1 {
         line-height: 31px !important;
     }
