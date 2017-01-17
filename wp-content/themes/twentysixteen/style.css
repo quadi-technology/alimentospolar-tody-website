@@ -5482,12 +5482,8 @@ body.page-id-646 footer.site-footer  {
         background-position: center center !important;
     }
     .custom_css .ult-overlay-close {
-        height: 40px !important;
         right: 22px !important;
         top: -10px !important;
-        width: 40px !important;
-        margin: auto;
-        background-size: 100%;
     }  
     .form_1 {
         margin-top: 0px !important;
@@ -5820,6 +5816,9 @@ body.page-id-646 footer.site-footer  {
 
 .background #home_top {
     background: url(images/mobile_home_bg.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
 }
 .terms_popup .ult_modal.ult-fade.ult-container {
     margin: 0 auto;
@@ -7151,6 +7150,9 @@ padding: 0px 10px;
     }
 }
 @media (max-width: 320px) {
+    .white_bg p strong {
+        font-size: 18px;
+    }
     .radio_btn {
         padding-left: 37px!important;
     }
