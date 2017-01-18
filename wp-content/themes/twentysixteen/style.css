@@ -4623,6 +4623,10 @@ span#select2-dhvc_form_control_city-container {
 span.select2-container {
     width: 100% !important;
 }
+.unidoas_image {
+    display: inline-block;
+    padding-left: 20px;
+}
 .loader {
     height: 100%;
     position: fixed;
