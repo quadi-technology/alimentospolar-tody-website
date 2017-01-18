@@ -78,7 +78,7 @@ jQuery(document).ready(function() {
   // jQuery('.f1 .dhvc-form-input input').focusout( function() {
   //     jQuery('.f1 span#dhvc_form_control_name-error').hide();
   // });
-      /*jQuery(".add-class-select .dhvc-form-select .dhvc-form-control-city").addClass("js-example-basic-multiple");*/
+      jQuery(".add-class-select .dhvc-form-select .dhvc-form-control-city").addClass("js-example-basic-multiple");
       jQuery(".js-example-basic-single").select2();
      
      jQuery('.scrollbox').enscroll();
