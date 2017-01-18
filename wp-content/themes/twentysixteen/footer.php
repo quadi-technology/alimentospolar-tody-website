@@ -62,6 +62,8 @@
 <?php wp_footer(); ?>
 
 <script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/enscroll-0.6.2.min.js'></script>
+<script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/select2.full.min.js'></script>
+
 <script>
 
 jQuery(document).ready(function() {
