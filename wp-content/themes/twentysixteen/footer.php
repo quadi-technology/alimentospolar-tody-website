@@ -120,6 +120,34 @@ jQuery(document).ready(function() {
       setTimeout(validate_form_msg, 500);
      });
      jQuery('#loading_image_gif').hide();
+
+     jQuery(".close_video .ult-overlay-close").click(function(){
+    
+      
+       var youtubeSrc = jQuery(".close_video .ult_modal-body").find("iframe").attr("src");
+        console.log(youtubeSrc);
+
+    if(jQuery(".close_video .ult_modal-body").find("iframe").length > 0){                     // checking if there is iframe only then it will go to next level
+        jQuery(".close_video .ult_modal-body").find("iframe").attr("src", "");                // removing src on runtime to stop video
+        jQuery(".close_video .ult_modal-body").find("iframe").attr("src", youtubeSrc);        // again passing youtube src value to iframe
+    }
+        
+      
+     });
+     jQuery(".close_video2 .ult-overlay-close").click(function(){
+    
+      
+       var youtubeSrc = jQuery(".close_video2 .ult_modal-body").find("iframe").attr("src");
+        console.log(youtubeSrc);
+
+    if(jQuery(".close_video2 .ult_modal-body").find("iframe").length > 0){                     // checking if there is iframe only then it will go to next level
+        jQuery(".close_video2 .ult_modal-body").find("iframe").attr("src", "");                // removing src on runtime to stop video
+        jQuery(".close_video2 .ult_modal-body").find("iframe").attr("src", youtubeSrc);        // again passing youtube src value to iframe
+    }
+        
+      
+     });
+
 });
 
 function validate_form_msg(){
