@@ -5730,6 +5730,9 @@ svg path, svg rect {
     }
 }
 @media (max-width: 667px) {
+    .form_bottom_img {
+        margin-left: 168px;
+    }
     .select_class .same_width {
         width: 21% !important;
         margin: 0 0px 0 10px !important;
@@ -5846,6 +5849,9 @@ svg path, svg rect {
     }
 }
 @media (max-width: 640px) {
+    .form_bottom_img {
+        margin-left: 132px;
+    }
     #inner_message .bot_msg a {
         margin-right: 20px !important;
     }
@@ -6101,6 +6107,9 @@ svg path, svg rect {
     }
 }
 @media (max-width: 568px) {
+    .form_bottom_img {
+        margin-left: 109px;
+    }
     #inner_message .bot_msg a {
         margin-right: 51px !important;
     }
