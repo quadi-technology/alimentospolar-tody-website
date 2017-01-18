@@ -62,6 +62,7 @@
   		</div>
 	</div>
 <?php endif; ?>
+<div id="loading_image_gif" class="loaderwrap loader"><div class="spinloader"></div></div>
 <div id="page" class="site">
 	<div class="site-inner">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>

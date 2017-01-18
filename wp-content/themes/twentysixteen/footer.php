@@ -119,6 +119,7 @@ jQuery(document).ready(function() {
      jQuery(".dhvc-form-submit").bind( "click", function(){
       setTimeout(validate_form_msg, 500);
      });
+     jQuery('#loading_image_gif').hide();
 });
 
 function validate_form_msg(){

@@ -4383,7 +4383,7 @@ body {
     margin-left: 15px;
 }
 .form_section .radio_btn .dhvc-form-radio label {
-    padding: 3px 0 0 20px;
+    padding: 2px 0 0 20px;
 }
 .form_1 {
     margin-top: -95px !important;
@@ -4622,6 +4622,58 @@ span#select2-dhvc_form_control_city-container {
 }
 span.select2-container {
     width: 100% !important;
+}
+.loader {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+svg path, svg rect {
+    fill: #cf0006;
+}
+.spinloader {
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 0.5s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    background-image: url("images/loader.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 70px;
+    position: relative;
+    top: 45%;
+    width: 70px;
+    margin: 0 auto;
+}
+@keyframes spin{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+@-ms-keyframes spin{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+@-webkit-keyframes spin{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
 /* -------------------------Responsive----------------------------------------------*/
 
