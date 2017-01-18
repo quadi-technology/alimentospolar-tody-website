@@ -6241,7 +6241,7 @@ svg path, svg rect {
         width: 74%;
     }
     .form_bottom_img {
-        margin-left: 60px;
+        margin-left: 34px;
     }
     .ult_modal-header h3.ult_modal-title {
         font-size: 27px;
@@ -6510,6 +6510,9 @@ svg path, svg rect {
     }
 }
 @media (max-width: 412px) {
+    .form_bottom_img {
+        margin-left: 27px;
+    }
     #inner_message .bot_msg a {
         margin-right: 22px !important;
     }
@@ -6777,6 +6780,9 @@ svg path, svg rect {
     }
 }
 @media (max-width: 375px) {
+    .form_bottom_img {
+        margin-left: 18px;
+    }
     #inner_message .bot_msg a {
         margin-right: 0px !important;
     }
@@ -6899,11 +6905,12 @@ svg path, svg rect {
     }
 }
 @media (max-width: 360px) {
+  
     .terms_text {
         width: 86%;
     }
     .form_bottom_img {
-        margin-left: 32px;
+        margin-left: 9px;
     }
     .responsive_none {
         display: none !important;
@@ -7173,6 +7180,14 @@ svg path, svg rect {
     }
 }
 @media (max-width: 320px) {
+       .unidoas_image figure img{
+        height: 72px;
+        width: 146px;
+    }
+      .unidoas_image {
+        padding-left: 7px;
+        padding-top: 5px;
+    }
     .white_bg p strong {
         font-size: 18px;
     }
@@ -7190,7 +7205,7 @@ svg path, svg rect {
         font-size: 12px;
     }
     .form_bottom_img {
-        margin-left: 16px;
+        margin-left: 9px;
     }
     .responsive_none {
         display: none !important;
