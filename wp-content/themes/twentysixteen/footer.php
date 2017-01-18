@@ -63,6 +63,7 @@
 
 <script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/enscroll-0.6.2.min.js'></script>
 <script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/select2.full.min.js'></script>
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/css/select2.min.css">
 
 <script>
 
