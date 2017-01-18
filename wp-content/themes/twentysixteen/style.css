@@ -4630,7 +4630,24 @@ body.page-id-646 footer.site-footer  {
         display: block !important;
         margin: 0 !important;
 }
-
+#dhvc_form_control_city {
+    display: none;
+}
+span.select2-selection__arrow {
+    display: none;
+}
+span.select2-selection  {
+    width: 100% !important;
+    border-radius: 20px !important; 
+    height: 30px !important;
+}
+span#select2-dhvc_form_control_city-container {
+    padding-top: 5px !important;
+    padding-left: 18px !important;
+    color: #787878 !important;
+    font: 13.88px "Arial" !important;
+    text-transform: uppercase !important;
+}
 /* -------------------------Responsive----------------------------------------------*/
 @media only screen and (min-width: 1844px) and (max-width: 1875px) { 
 
