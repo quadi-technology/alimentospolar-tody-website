@@ -73,7 +73,9 @@ jQuery(document).ready(function() {
   // jQuery('.f1 .dhvc-form-input input').focusout( function() {
   //     jQuery('.f1 span#dhvc_form_control_name-error').hide();
   // });
-
+    jQuery(document).ready(function() {
+      jQuery(".js-example-basic-single").select2();
+    });
      jQuery('.scrollbox').enscroll();
 
      jQuery('#dhvc_form_message_60').bind('DOMNodeInserted', function(e) {
@@ -88,7 +90,7 @@ jQuery(document).ready(function() {
         jQuery('.dhvc-form-show').attr('style', 'visibility: hidden !important');
       }, 1000);
       
-  });
+    });
       jQuery('#dhvc_form_message_660').bind('DOMNodeInserted', function(e) {
       var message = jQuery('#dhvc_form_message_660').html();
       var message_array = message.split('$$$');
