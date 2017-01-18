@@ -65,6 +65,10 @@
 <script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/select2.full.min.js'></script>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/css/select2.min.css">
 
+<!-- <script type='text/javascript' src='/js/enscroll-0.6.2.min.js'></script>
+<script type='text/javascript' src='/js/select2.full.min.js'></script>
+<link rel="stylesheet" type="text/css" href="/css/select2.min.css"> -->
+ 
 <script>
 
 jQuery(document).ready(function() {
@@ -74,9 +78,9 @@ jQuery(document).ready(function() {
   // jQuery('.f1 .dhvc-form-input input').focusout( function() {
   //     jQuery('.f1 span#dhvc_form_control_name-error').hide();
   // });
-      jQuery(".add-class-select .dhvc-form-select .dhvc-form-control-city").addClass("js-example-basic-multiple");
+      /*jQuery(".add-class-select .dhvc-form-select .dhvc-form-control-city").addClass("js-example-basic-multiple");*/
       jQuery(".js-example-basic-single").select2();
-    
+     
      jQuery('.scrollbox').enscroll();
 
      jQuery('#dhvc_form_message_60').bind('DOMNodeInserted', function(e) {
