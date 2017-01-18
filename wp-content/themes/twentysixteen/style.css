@@ -5149,6 +5149,7 @@ span.select2-container {
     }
     #inner_message .bot_msg a{
         font-family: "oswaldregularitalic" !important;
+        margin-right: 48px !important;
     }
     #inner_message_1 .bot_msg_1 a{
          font-family: "oswaldregularitalic" !important;
@@ -5498,7 +5499,9 @@ span.select2-container {
   
 }
 @media (max-width: 736px) {
-
+    #inner_message .bot_msg a{
+        margin-right: 63px !important;
+    }
     .logo_form figure a img {
         height: 89px;
         width: 137px;   
@@ -5541,7 +5544,7 @@ span.select2-container {
         text-transform: uppercase;
         text-align: center;
         padding-bottom: 5px;
-        padding-left: 85px;
+        
     }
     #inner_message .msg1 {
         background-color: #ffffff;
@@ -5637,7 +5640,7 @@ span.select2-container {
         text-transform: uppercase;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 85px;
+        
     }
     #inner_message .msg1 {
         background-color: #ffffff;
@@ -5750,7 +5753,7 @@ span.select2-container {
         text-transform: uppercase;
         text-align: center;
         padding-bottom: 5px;
-        padding-left: 85px;
+        
     }
     #inner_message .msg1 {
         background-color: #ffffff;
@@ -5841,6 +5844,9 @@ span.select2-container {
     }
 }
 @media (max-width: 640px) {
+#inner_message .bot_msg a{
+        margin-right: 20px !important;
+    }
 .fa.fa-caret-down {
         top: -5px !important; 
     }
@@ -5919,9 +5925,6 @@ span#select2-dhvc_form_control_city-container {
     font-size: 12px !important;
 }
 
-
-
-
     .terms_text {
         width: 48%;
     }
@@ -5986,7 +5989,7 @@ span#select2-dhvc_form_control_city-container {
 
    
     #overlay_form_2 #inner_message {
-        top: 40%;
+        top: 25%;
         position: absolute;
         left: 0%;
     }
@@ -5998,7 +6001,7 @@ span#select2-dhvc_form_control_city-container {
         text-align: center;
         text-align: center;
         padding-bottom: 25px;
-        padding-left: 20px;
+        
     }
     #inner_message .msg1 {
         background-color: #ffffff;
@@ -6103,6 +6106,9 @@ padding: 0px 10px;
 
 }
 @media (max-width: 568px) {
+      #inner_message .bot_msg a{
+        margin-right: 51px !important;
+    }
     .select_class .same_width {
         width: 20% !important;
         margin: 0 0px 0 12px !important;
@@ -6129,7 +6135,7 @@ padding: 0px 10px;
     }
 
     #overlay_form_2 #inner_message {
-        top: 40%;
+        top: 24%;
         position: absolute;
         left: 0%;
     }
@@ -6140,7 +6146,7 @@ padding: 0px 10px;
         text-transform: uppercase;
         text-align: center;
         padding-bottom: 5px;
-        padding-left: 85px;
+       
     }
     
 
@@ -6235,6 +6241,9 @@ padding: 0px 10px;
 }
 
 @media (max-width: 414px) {
+      #inner_message .bot_msg a{
+        margin-right: 0px !important;
+    }
    .custom_css .ult-overlay-close {
         top: -33px !important;
     }
