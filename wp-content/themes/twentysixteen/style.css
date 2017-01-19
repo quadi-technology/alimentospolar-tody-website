@@ -5848,6 +5848,14 @@ svg path, svg rect {
     }
 }
 @media (max-width: 640px) {
+
+
+
+    .terms_popup .ult_modal.ult-fade.ult-container {
+        max-width: 80%;
+    }
+
+
     .form_bottom_img {
         margin-left: 132px;
     }
