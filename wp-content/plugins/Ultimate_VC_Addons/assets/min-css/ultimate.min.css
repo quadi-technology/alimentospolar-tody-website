@@ -28,10 +28,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
 	.page-id-629 .ult_modal {
 	    top: 456px !important;
-	}
+	}*
 
 
 }
