@@ -187,6 +187,17 @@
 
 
 
+
+$("input[name|='mayor'][value|='0']").click(function() { 
+    document.location = '/registro2/';
+} );
+
+
+$("input[name|='mayor'][value|='1']").click(function() { 
+    document.location = '/registro3/';
+} );
+
+
 	$( document ).ready( function() {
 		body = $( document.body );
 
