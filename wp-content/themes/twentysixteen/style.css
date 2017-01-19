@@ -4048,7 +4048,7 @@ input#dhvc_form_control_0_586356a55f2fb {
 .terms_popup .ult_modal-body {
     color: #ffffff !important;
     font: 16px "Arial" !important;
-    padding: 60px 80px 60px 60px;
+    padding: 40px 80px 40px 60px;
     margin-bottom: 60px;
 }
 .terms_popup .ult_modal-body p {
@@ -4796,7 +4796,7 @@ svg path, svg rect {
 }
 @media only screen and (max-width: 1280px) {
     .terms_popup .ult_modal-body .scrollbox {
-        max-height: 200px;
+        max-height: 250px;
     }
     .ult_modal {
         -webkit-transform: none;
