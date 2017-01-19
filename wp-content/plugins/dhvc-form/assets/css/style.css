@@ -52,10 +52,9 @@
 }
 span.dhvc-form-error{
 	clear: both;
-    color: #d40707;
     display: block;
     float: none;
-    font-size: 12px;
+    font-size: 0px !important;
     width: 100%;
     font-weight: normal;
     padding-top:5px;

@@ -185,6 +185,8 @@
 		} );
 	}
 
+
+
 	$( document ).ready( function() {
 		body = $( document.body );
 

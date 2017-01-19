@@ -4010,7 +4010,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     background-color: transparent !important;
     border-radius: 22px !important;
     border: 3px solid #ffffff !important;
-    padding: 6px 50px !important;
+    padding: 0 50px !important;
     height: 47px !important;
     opacity: 1 !important;
 }
@@ -4019,6 +4019,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     text-transform: uppercase !important;
     color: #ffffff !important;
     letter-spacing: 6px;
+    vertical-align: middle;
 }
 .select_class {
     margin-bottom: 0 !important;
