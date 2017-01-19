@@ -4084,6 +4084,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     width: 100%;
     z-index: 99999;
     display: none;
+    -webkit-overflow-scrolling: touch;
 }
 #overlay_form_3 {
     background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
@@ -4092,7 +4093,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     top: 0;
     width: 100%;
     z-index: 99999;
-    display: none;
+    display: none;-webkit-overflow-scrolling: touch;
 }
 #overlay_form_4 {
     background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
@@ -4100,7 +4101,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 99999;
+    z-index: 99999;-webkit-overflow-scrolling: touch;
 }
 #overlay_form_5 {
     background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
@@ -4108,7 +4109,7 @@ input#dhvc_form_control_0_586356a55f2fb {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 99999;
+    z-index: 99999;-webkit-overflow-scrolling: touch;
 }
 #overlay_form_2 #inner_message {
     top: 30%;
@@ -4232,7 +4233,6 @@ input#dhvc_form_control_0_586356a55f2fb {
     float: right;
     text-align: center;
     margin-top: -6px;
-    font-style: italic;
 }
 #inner_message .bot_msg a {
     background-color: #714705;
@@ -4250,7 +4250,6 @@ input#dhvc_form_control_0_586356a55f2fb {
     -o-border-image: url(images/boton-bg.png) 11 round;
     border-image: url(images/boton-bg.png) 11 round;
     line-height: 0;
-    font-style: italic;
 }
 #inner_message_1 .bot_msg_1 a {
     background-color: #714705;
@@ -4268,7 +4267,6 @@ input#dhvc_form_control_0_586356a55f2fb {
     -o-border-image: url(images/boton-bg.png) 11 round;
     border-image: url(images/boton-bg.png) 11 round;
     line-height: 0;
-    font-style: italic;
 }
 /*#inner_message .bot_msg a:first-child:before {
     content: '';
