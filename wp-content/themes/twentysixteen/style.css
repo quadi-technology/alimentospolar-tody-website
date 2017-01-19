@@ -5111,6 +5111,7 @@ svg path, svg rect {
     .terms_popup .ult_modal.ult-fade.ult-container {
         margin: 0 auto;
         max-width: 720px;
+        width: 80%;
     }
     .desk-f {
         display: none;
