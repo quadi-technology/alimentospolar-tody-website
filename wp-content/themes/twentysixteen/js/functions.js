@@ -188,12 +188,12 @@
 
 
 
-$("input[name|='mayor'][value|='0']").click(function() { 
+$("input[name|='older'][value|='0']").click(function() { 
     document.location = '/registro2/';
 } );
 
 
-$("input[name|='mayor'][value|='1']").click(function() { 
+$("input[name|='older'][value|='1']").click(function() { 
     document.location = '/registro3/';
 } );
 
