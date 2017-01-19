@@ -5881,7 +5881,7 @@ svg path, svg rect {
     }
     .terms_popup .ult_modal.ult-fade.ult-container {
         margin: 0 auto;
-        max-width: 320px;
+        max-width: 90%;
     }
     .terms_popup .ult-overlay-close {
         margin-top: 9px !important;
