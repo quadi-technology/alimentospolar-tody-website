@@ -76,7 +76,7 @@ jQuery(document).ready(function() {
 
     /* enscroll js */
     jQuery('.scrollbox').enscroll();
-    
+
     /* Create popup text on success and unsuccess js */
     jQuery('#dhvc_form_message_60').bind('DOMNodeInserted', function(e) {
         var message = jQuery('#dhvc_form_message_60').html();
@@ -122,10 +122,18 @@ jQuery(document).ready(function() {
         e.preventDefault();
 
     });
+
     jQuery('.close_video2').click(function(e) {
         e.stopPropagation();
         e.preventDefault();
 
+    });
+     var href = window.location.href;
+    jQuery('.close_video .btn a.button_link').click(function(){
+          window.location.href= href+'registro1/';
+    });
+    jQuery('.close_video2 .btn a.button_link').click(function(){
+          window.location.href= href+'registro1/';
     });
     jQuery(".close_video .ult-overlay-close").click(function() {
 
