@@ -68,82 +68,92 @@
 <script>
 
 jQuery(document).ready(function() {
-  jQuery('#button-click-overlay').modal({backdrop: 'static', keyboard: false})  
-  //  jQuery('.f1 .dhvc-form-input input').focusin( function() {
-  //     jQuery('.f1  span#dhvc_form_control_name-error').hide();
-  // });
-  // jQuery('.f1 .dhvc-form-input input').focusout( function() {
-  //     jQuery('.f1 span#dhvc_form_control_name-error').hide();
-  // });
-      /*jQuery(".add-class-select .dhvc-form-select .dhvc-form-control-city").addClass("js-example-basic-multiple");*/
-      jQuery(".add-class-select .dhvc-form-select select.dhvc-form-control-city").select2();
-     
-     jQuery('.scrollbox').enscroll();
+     /* Loder js */
+    jQuery('#loading_image_gif').hide();
 
-     jQuery('#dhvc_form_message_60').bind('DOMNodeInserted', function(e) {
-      var message = jQuery('#dhvc_form_message_60').html();
-      var message_array = message.split('$$$');
-      /*alert(message_array[0]+"==="+message_array[1]);*/
-      jQuery('#overlay_form_2 #inner_message .wrapper_inner_1 h2').html(message_array[0]);
-      jQuery('#overlay_form_2 #inner_message .wrapper_inner_1 .msg1').html(message_array[1]);
-      jQuery('#overlay_form_2').show();
+    /* select2 js */
+    jQuery(".add-class-select .dhvc-form-select select.dhvc-form-control-city").select2();
 
-      setTimeout(function(){
-        jQuery('.dhvc-form-show').attr('style', 'visibility: hidden !important');
-      }, 1000);
-      
-    });
-      jQuery('#dhvc_form_message_660').bind('DOMNodeInserted', function(e) {
-      var message = jQuery('#dhvc_form_message_660').html();
-      var message_array = message.split('$$$');
-      /*alert(message_array[0]+"==="+message_array[1]);*/
-      jQuery('#overlay_form_3 #inner_message_1 .wrapper_inner_1 h2').html(message_array[0]);
-      jQuery('#overlay_form_3 #inner_message_1 .wrapper_inner_1 .msg2').html(message_array[1]);
-      jQuery('#overlay_form_3').show();
-      setTimeout(function(){
-        jQuery('.dhvc-form-show').attr('style', 'visibility: hidden !important');
-      }, 1000);
-      
-  });
-   
-     jQuery('#overlay_form_4').click(function(){
-      jQuery(this).fadeOut(); 
-     });
-     jQuery('#overlay_form_5').click(function(){
-      jQuery(this).fadeOut(); 
-     });
-
-     jQuery(".dhvc-form-submit").bind( "click", function(){
-      setTimeout(validate_form_msg, 500);
-     });
-     jQuery('#loading_image_gif').hide();
-
-     jQuery(".close_video .ult-overlay-close").click(function(){
+    /* enscroll js */
+    jQuery('.scrollbox').enscroll();
     
-      
-       var youtubeSrc = jQuery(".close_video .ult_modal-body").find("iframe").attr("src");
-        console.log(youtubeSrc);
+    /* Create popup text on success and unsuccess js */
+    jQuery('#dhvc_form_message_60').bind('DOMNodeInserted', function(e) {
+        var message = jQuery('#dhvc_form_message_60').html();
+        var message_array = message.split('$$$');
+        /*alert(message_array[0]+"==="+message_array[1]);*/
+        jQuery('#overlay_form_2 #inner_message .wrapper_inner_1 h2').html(message_array[0]);
+        jQuery('#overlay_form_2 #inner_message .wrapper_inner_1 .msg1').html(message_array[1]);
+        jQuery('#overlay_form_2').show();
 
-    if(jQuery(".close_video .ult_modal-body").find("iframe").length > 0){                     // checking if there is iframe only then it will go to next level
-        jQuery(".close_video .ult_modal-body").find("iframe").attr("src", "");                // removing src on runtime to stop video
-        jQuery(".close_video .ult_modal-body").find("iframe").attr("src", youtubeSrc);        // again passing youtube src value to iframe
-    }
-        
-      
-     });
-     jQuery(".close_video2 .ult-overlay-close").click(function(){
-       var youtubeSrc = jQuery(".close_video2 .ult_modal-body").find("iframe").attr("src");
-        console.log(youtubeSrc);
+        setTimeout(function() {
+            jQuery('.dhvc-form-show').attr('style', 'visibility: hidden !important');
+        }, 1000);
 
-    if(jQuery(".close_video2 .ult_modal-body").find("iframe").length > 0){                     // checking if there is iframe only then it will go to next level
-        jQuery(".close_video2 .ult_modal-body").find("iframe").attr("src", "");                // removing src on runtime to stop video
-        jQuery(".close_video2 .ult_modal-body").find("iframe").attr("src", youtubeSrc);        // again passing youtube src value to iframe
-    }
-        
-      
-     });
+    });
+    jQuery('#dhvc_form_message_660').bind('DOMNodeInserted', function(e) {
+        var message = jQuery('#dhvc_form_message_660').html();
+        var message_array = message.split('$$$');
+        /*alert(message_array[0]+"==="+message_array[1]);*/
+        jQuery('#overlay_form_3 #inner_message_1 .wrapper_inner_1 h2').html(message_array[0]);
+        jQuery('#overlay_form_3 #inner_message_1 .wrapper_inner_1 .msg2').html(message_array[1]);
+        jQuery('#overlay_form_3').show();
+        setTimeout(function() {
+            jQuery('.dhvc-form-show').attr('style', 'visibility: hidden !important');
+        }, 1000);
+
+    });
+
+    /* close popup on click js - only for sent mail options popup's */
+    jQuery('#overlay_form_4').click(function() {
+        jQuery(this).fadeOut();
+    });
+    jQuery('#overlay_form_5').click(function() {
+        jQuery(this).fadeOut();
+    });
+    /* validation msg timeout */
+    jQuery(".dhvc-form-submit").bind("click", function() {
+        setTimeout(validate_form_msg, 500);
+    });
+
+    /* prevent close popup on click at overlay - close only at close button and also close video */
+    jQuery('.close_video').click(function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+
+    });
+    jQuery('.close_video2').click(function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+
+    });
+    jQuery(".close_video .ult-overlay-close").click(function() {
+
+        jQuery(".close_video").removeClass('ult-open');
+        var youtubeSrc = jQuery(".close_video .ult_modal-body").find("iframe").attr("src");
+
+
+
+        if (jQuery(".close_video .ult_modal-body").find("iframe").length > 0) { // checking if there is iframe only then it will go to next level
+            jQuery(".close_video .ult_modal-body").find("iframe").attr("src", ""); // removing src on runtime to stop video
+            jQuery(".close_video .ult_modal-body").find("iframe").attr("src", youtubeSrc); // again passing youtube src value to iframe
+        }
+
+
+    });
+    jQuery(".close_video2 .ult-overlay-close").click(function() {
+        jQuery(".close_video2").removeClass('ult-open');
+        var youtubeSrc = jQuery(".close_video2 .ult_modal-body").find("iframe").attr("src");
+
+
+        if (jQuery(".close_video2 .ult_modal-body").find("iframe").length > 0) { // checking if there is iframe only then it will go to next level
+            jQuery(".close_video2 .ult_modal-body").find("iframe").attr("src", ""); // removing src on runtime to stop video
+            jQuery(".close_video2 .ult_modal-body").find("iframe").attr("src", youtubeSrc); // again passing youtube src value to iframe
+        }
+
+
+    });
 });
-
 function validate_form_msg(){
   jQuery('input.dhvc-form-error').each(function(index, value) {
     var message = jQuery("#"+value.id+"-error").html();
