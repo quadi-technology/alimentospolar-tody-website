@@ -68,6 +68,7 @@
 <script>
 
 jQuery(document).ready(function() {
+  jQuery('#button-click-overlay').modal({backdrop: 'static', keyboard: false})  
   //  jQuery('.f1 .dhvc-form-input input').focusin( function() {
   //     jQuery('.f1  span#dhvc_form_control_name-error').hide();
   // });
