@@ -65,10 +65,6 @@
 <script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/select2.full.min.js'></script>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/css/select2.min.css">
 
-<!-- <script type='text/javascript' src='/js/enscroll-0.6.2.min.js'></script>
-<script type='text/javascript' src='/js/select2.full.min.js'></script>
-<link rel="stylesheet" type="text/css" href="/css/select2.min.css"> -->
- 
 <script>
 
 jQuery(document).ready(function() {
@@ -135,8 +131,6 @@ jQuery(document).ready(function() {
       
      });
      jQuery(".close_video2 .ult-overlay-close").click(function(){
-    
-      
        var youtubeSrc = jQuery(".close_video2 .ult_modal-body").find("iframe").attr("src");
         console.log(youtubeSrc);
 
@@ -147,7 +141,6 @@ jQuery(document).ready(function() {
         
       
      });
-
 });
 
 function validate_form_msg(){

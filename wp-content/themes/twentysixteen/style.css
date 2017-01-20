@@ -4011,8 +4011,9 @@ input#dhvc_form_control_0_586356a55f2fb {
     border-radius: 22px !important;
     border: 3px solid #ffffff !important;
     padding: 0 50px !important;
-    height: 47px !important;
+    height: 46px !important;
     opacity: 1 !important;
+    width: 243px;
 }
 .sub_btn button span {
     font: 20px "oswald_regularregular" !important;
@@ -4020,6 +4021,12 @@ input#dhvc_form_control_0_586356a55f2fb {
     color: #ffffff !important;
     letter-spacing: 6px;
     vertical-align: middle;
+    position: absolute;
+    top: 12px;
+    margin: auto;
+    width: 146px;
+    left: 0;
+    right: 0;
 }
 .select_class {
     margin-bottom: 0 !important;
