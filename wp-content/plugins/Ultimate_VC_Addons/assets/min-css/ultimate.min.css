@@ -26,7 +26,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -ms-perspective: 1200px;
     perspective: 1200px;
 }
-
+@media (max-width: 767px) {
+.page-id-629 .ult_modal { 
+	 top: 325px;
+}
+}
 
 /*@media (min-width: 1200px) {
 	.page-id-629 .ult_modal {
