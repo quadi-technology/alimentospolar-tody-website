@@ -4008,17 +4008,17 @@ input#dhvc_form_control_0_586356a55f2fb {
 }
 .sub_btn button {
     background-color: transparent !important;
-    border-radius: 22px !important;
-    border: 3px solid #ffffff !important;
+   /* border-radius: 22px !important;*/
+    border: 3px solid transparent !important;
     padding: 0 50px !important;
-    height: 46px !important;
+    height: 54px !important;
     opacity: 1 !important;
-    width: 243px;
+    width: 264px;
 }
 .sub_btn button span {
     font: 20px "oswald_regularregular" !important;
     text-transform: uppercase !important;
-    color: #ffffff !important;
+    color: transparent !important;
     letter-spacing: 6px;
     vertical-align: middle;
     position: absolute;
@@ -4684,6 +4684,10 @@ svg path, svg rect {
 @-moz-keyframes spin{
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}
+}
+.sub_btn button {
+    background-image: url("images/form_submitt_button.png");
+    background-repeat: no-repeat;
 }
 /* -------------------------Responsive----------------------------------------------*/
 
