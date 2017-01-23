@@ -218,10 +218,10 @@ span.dhvc-form-error{
     overflow: hidden;
     padding: 0 25px;
     text-decoration: none;
-    background: #222;
+    /*background: #222;
      border-radius: 0;
     -moz-border-radius: 0;
-    -webkit-border-radius: 0;
+    -webkit-border-radius: 0;*/
     font-weight: 700;
     -moz-opacity: 0.8;
    -khtml-opacity: 0.8;
