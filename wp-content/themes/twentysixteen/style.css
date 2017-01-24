@@ -4878,10 +4878,11 @@ svg path, svg rect {
     .social_icon {
         float: left;
         width: 16%;
+        margin-left: 20px;
     }
     .terms_and_con_section {
         float: left;
-        width: 69%;
+        width: 66%;
         text-align: center;
     }
     .footer_logo {
@@ -5072,6 +5073,9 @@ svg path, svg rect {
     }
 }
 @media (max-width: 768px) {
+	.social_icon {
+        margin-left: 0px;
+    }
     span#select2-dhvc_form_control_city-container {
         padding-top: 12px !important;
     }
