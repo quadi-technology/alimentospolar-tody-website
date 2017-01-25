@@ -4622,8 +4622,17 @@ body.page-id-646 footer.site-footer {
 #dhvc_form_control_city {
     display: none;
 }
-span.select2-selection__arrow {
-    display: none;
+.add-class-select .dhvc-form-select .fa-caret-down {
+    display: none !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: 14px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-width: 0 9px 8px  !important; 
+}
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+     border-width: 0 9px 8px  !important;    
 }
 span.select2-selection {
     width: 100% !important;
