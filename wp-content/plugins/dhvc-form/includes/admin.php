@@ -448,6 +448,12 @@ class DHVCFormAdmin {
 						"options"=>$this->_get_form_acition_options()
 				),
 				array (
+						"type" => "text",
+						"label" => __ ( "Max Entries", 'dhvc-form' ),
+						"name" => "max_entries",
+						'description' => __('Enter Max registration','dhvc-form')
+				),
+				array (
 					"type" => "checklist",
 					"label" => __ ( "Mailpoet subscribers to These Lists", 'dhvc-form' ),
 					"name" => "mailpoet",

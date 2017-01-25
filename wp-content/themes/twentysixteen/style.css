@@ -3862,10 +3862,24 @@ input#dhvc_form_control_0_586356a55f2fb {
     text-align: center;
     border-radius: 20px;
 }
+.dhvc-form-flat .dhvc-form-select {
+    background-color: #ffffff !important;
+    border-radius: 20px !important; 
+    
+}
+.dhvc-form-flat .dhvc-form-select select{
+    background-color: transparent !important;
+    border: none !important;
+    height: 30px !important;
+    font: 13.88px "Arial" !important;
+    color: #787878 !important;
+    text-transform: uppercase !important;
+    padding-left: 14px;
+    padding-top: 5px;
+}
 .dhvc-form-flat .dhvc-form-input input,
 .dhvc-form-flat .dhvc-form-file input[type="text"],
 .dhvc-form-flat .dhvc-form-captcha input,
-.dhvc-form-flat .dhvc-form-select select,
 .dhvc-form-flat .dhvc-form-textarea textarea {
     border-color: transparent !important;
     border-radius: 20px !important;
@@ -3873,8 +3887,6 @@ input#dhvc_form_control_0_586356a55f2fb {
     font: 13.88px "Arial" !important;
     color: #787878 !important;
     text-transform: uppercase !important;
-    /*font-weight: bold !important;*/
-    
     padding-left: 14px;
     padding-top: 5px;
     height: 30px !important;
@@ -3948,7 +3960,6 @@ input#dhvc_form_control_0_586356a55f2fb {
 }
 .fa.fa-caret-down {
     color: grey !important;
-    z-index: 9999 !important;
     top: -5px !important;
 }
 .select_title p {
