@@ -18,16 +18,16 @@
 /** The name of the database for WordPress */
 //define('WP_CACHE', true); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', '/Volumes/Files/yecidfgomezc/Documents/repositorios/define.qdata.io/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', '833125_todystg');
+define('DB_NAME', '833125_toddyp');
 
 /** MySQL database username */
-define('DB_USER', '833125_todystg');
+define('DB_USER', '833125_toddyp');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'vL=gL6cr5;N6');
+define('DB_PASSWORD', 'r8xr95D)fW-px8Yb');
 
 /** MySQL hostname */
-define('DB_HOST', 'mariadb-135.wc1.ord1.stabletransit.com');
+define('DB_HOST', 'mariadb-134.wc1.ord1.stabletransit.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
