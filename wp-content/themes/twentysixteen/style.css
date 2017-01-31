@@ -4008,6 +4008,10 @@ input#dhvc_form_control_0_586356a55f2fb {
     color: #ffffff !important;
     text-decoration: underline;
 }
+.form_section .check_box .dhvc-form-checkbox label a.privacy {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
 .dhvc-form-flat .check_box input + i::after {
     background-color: red !important;
     height: 9px !important;
