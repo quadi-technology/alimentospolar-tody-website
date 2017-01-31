@@ -34,7 +34,7 @@
 
                        <?php foreach($socials as $social) {  ?>
 
-                        <a href="<?php echo $social['image_icon_link']; ?>"><img src="<?php echo $social['image_icon']; ?>" alt=""></a>
+                        <a href="<?php echo $social['image_icon_link']; ?>" target="_blank"><img src="<?php echo $social['image_icon']; ?>" alt=""></a>
 
                       <?php } ?>
                     
