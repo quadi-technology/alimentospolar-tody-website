@@ -4843,6 +4843,12 @@ svg path, svg rect {
     .ult_modal-header h3.ult_modal-title {
         font: 43px "oswaldmedium";
     }
+    .terms_popup .ult_modal-body .scrollbox {
+        max-height: 425px;
+    }
+    .terms_popup .ult_modal.ult-fade.ult-container {
+        width: 70%;
+    }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
     .rigth_btn {
