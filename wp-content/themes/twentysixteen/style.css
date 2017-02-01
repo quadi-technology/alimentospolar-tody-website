@@ -5551,6 +5551,9 @@ svg path, svg rect {
     }
 }
 @media (max-width: 736px) {
+    .fa.fa-caret-down {
+        z-index: 1 !important;
+    }
     #inner_message .bot_msg a {
         margin-right: 63px !important;
     }
