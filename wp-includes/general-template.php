@@ -1070,7 +1070,7 @@ function _wp_render_title_tag() {
 		return;
 	}
 
-	echo '<title>' . wp_get_document_title() . '</title>' . "\n";
+	echo '<title>Toddy</title>' . "\n";
 }
 
 /**
