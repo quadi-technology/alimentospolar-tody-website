@@ -3514,6 +3514,11 @@ body.ult_modal-body-open {
 .vc_row.wpb_row.vc_row-fluid.vc_custom_1481110290328.vc_row-has-fill.vc_row-no-padding.ult-vc-hide-row {
     /*display: none;*/
 }
+.terms_popup p.bold_sub {
+    color: #ffffff !important;
+    font-weight: bold !important;
+    margin: 10px 0 !important;
+}
 .background #home_top {
     background: url("images/mian_bg.png") !important;
     background-size: cover !important;
