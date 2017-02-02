@@ -4080,6 +4080,9 @@ input#dhvc_form_control_0_586356a55f2fb {
     margin: 0;
     padding: 0 !important;
 }
+.scrollbox.terms_content > p {
+    margin: 0 !important;
+}
 .terms_popup .ult_modal-body .scrollbox {
     width: 100% !important;
     max-height: 500px;
