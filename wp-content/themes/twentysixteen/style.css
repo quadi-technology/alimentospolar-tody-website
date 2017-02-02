@@ -4877,7 +4877,7 @@ svg path, svg rect {
     .custom_css .ult-overlay-close {
         position: absolute !important;
         right: 13% !important;
-        top: 13% !important;
+        /*top: 13% !important;*/
     }
     .reg_1_logo {
         margin: 0 25px !important;
@@ -6589,6 +6589,9 @@ svg path, svg rect {
     }
 }
 @media (max-width: 412px) {
+	 .custom_css .ult-overlay-close {
+        top: 0px !important;
+    }
     .form_bottom_img {
         margin-left: 27px;
     }
