@@ -181,7 +181,7 @@ function validate_form_msg(){
         <div class="wrapper_inner_1">
           <h2></h2>
         <div class="msg1"></div>
-        <div class="bot_msg"><a href="http://megustatoddy.com/">volver al inicio</a></div>
+        <div class="bot_msg"><a href="http://tody.stage.qdata.io/">volver al inicio</a></div>
         <div class="close_btn_cus"></div>
       </div>
       </div>
@@ -191,7 +191,7 @@ function validate_form_msg(){
         <div class="wrapper_inner_1">
           <h2></h2>
         <div class="msg2"></div>
-        <div class="bot_msg_1"><a href="http://megustatoddy.com/">volver al inicio</a></div>
+        <div class="bot_msg_1"><a href="http://tody.stage.qdata.io/">volver al inicio</a></div>
         <div class="close_btn_cus"></div>
       </div>
       </div>
