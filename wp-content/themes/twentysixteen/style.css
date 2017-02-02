@@ -3,7 +3,7 @@ Theme Name: Twenty Sixteen
 Theme URI: https://wordpress.org/themes/twentysixteen/
 Author: the WordPress team
 Author URI: https://wordpress.org/
-Description: Twenty Sixteen is a modernized take on an ever-popular WordPress layout â€” the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Description: Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
 Version: 1.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -4877,7 +4877,7 @@ svg path, svg rect {
     .custom_css .ult-overlay-close {
         position: absolute !important;
         right: 13% !important;
-        top: 13% !important;
+        /*top: 13% !important;*/
     }
     .reg_1_logo {
         margin: 0 25px !important;
@@ -6589,6 +6589,9 @@ svg path, svg rect {
     }
 }
 @media (max-width: 412px) {
+	 .custom_css .ult-overlay-close {
+        top: 0px !important;
+    }
     .form_bottom_img {
         margin-left: 27px;
     }
