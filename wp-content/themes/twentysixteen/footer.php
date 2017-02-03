@@ -68,6 +68,9 @@
 <script>
 
 jQuery(document).ready(function() {
+     jQuery('.custom_css.close_video .ult-overlay-close').click(function(){
+        jQuery('body').removeClass('ult_modal-body-open');
+     });
      /* Loder js */
     jQuery('#loading_image_gif').hide();
 
