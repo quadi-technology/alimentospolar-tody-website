@@ -1050,6 +1050,7 @@ class DHVCForm {
 	 * @throws phpmailerException
 	 */
 	private function _form_handler($form_id, $form_controls, $save_entry = true,$send_notice = true, $autoreply = true,$return=false){
+		global $dhvcform_db;
 		$entry_data = array();
 		$email_data = array();
 		$attachments = array();
@@ -1101,21 +1102,32 @@ class DHVCForm {
 		$save_data = get_post_meta($form_id,'_save_data',true);
 		//save entry
 		$current_user = wp_get_current_user();
-		if($save_data && $save_entry){
-			global $dhvcform_db;
-			$data = array(
-				'entry_data'=>maybe_serialize($entry_data),
-				'submitted'=> current_time('mysql'),
-				'ip_address' => dhvc_form_get_user_ip(),
-				'form_id'=>$form_id,
-				'post_id' => isset($submited_data['post_id']) ? $submited_data['post_id'] : '',
-				'form_url' => isset($submited_data['form_url']) ? $submited_data['form_url'] : '',
-				'referer' => isset($submited_data['referer']) ? $submited_data['referer'] : '',
-				'user_id'=>( isset( $current_user->ID ) ? (int) $current_user->ID : 0 )
-				 
-			);
-			$dhvcform_db->insert_entry_data($data);
-			$last_inserted_id = $dhvcform_db->get_last_insert_entry_data();
+		
+		$entries = $dhvcform_db->get_entries($form_id,$orderby='submitted',$order='desc',$limit = 0);
+		$total_entries = count($entries);
+        $max_entries = dhvc_get_post_meta($form_id,'_max_entries');
+        if($total_entries <= $max_entries){ 
+        	
+			if($save_data && $save_entry){
+
+				$data = array(
+					'entry_data'=>maybe_serialize($entry_data),
+					'submitted'=> current_time('mysql'),
+					'ip_address' => dhvc_form_get_user_ip(),
+					'form_id'=>$form_id,
+					'post_id' => isset($submited_data['post_id']) ? $submited_data['post_id'] : '',
+					'form_url' => isset($submited_data['form_url']) ? $submited_data['form_url'] : '',
+					'referer' => isset($submited_data['referer']) ? $submited_data['referer'] : '',
+					'user_id'=>( isset( $current_user->ID ) ? (int) $current_user->ID : 0 )
+					 
+				);
+					
+				$dhvcform_db->insert_entry_data($data);
+				$last_inserted_id = $dhvcform_db->get_last_insert_entry_data();
+					
+			}
+		}else{
+			echo "limit_reached";exit();
 		}
 		$posted_data = $entry_data;
 		$posted_data['site_url']  = get_site_url();
