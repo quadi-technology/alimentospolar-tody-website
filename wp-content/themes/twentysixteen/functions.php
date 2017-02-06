@@ -470,3 +470,20 @@ add_filter('dhvc_form_validate_messages', 'dhvc_form_custom_validate_messages');
         ));
     } 
 
+//=== START: GET TOTAL ENTRIES FOR ALL FORMS =====//
+function get_total_entries(){
+	global $dhvcform_db;
+
+	$response_data = array();
+	$response_data['status'] = "ok";
+
+	$entries = $dhvcform_db->get_entries($form_id,$orderby='submitted',$order='desc',$limit = 0);
+	$total_entries = count($entries);
+    if($total_entries >= 20000){
+    	$response_data['status'] = "limit_reached";
+    }
+	echo json_encode($response_data);exit;
+}
+add_action( 'wp_ajax_get_total_entries', 'get_total_entries' );
+add_action( 'wp_ajax_nopriv_get_total_entries', 'get_total_entries' );
+//=== END: GET TOTAL ENTRIES FOR ALL FORMS =======//
