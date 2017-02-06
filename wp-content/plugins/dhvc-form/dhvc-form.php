@@ -813,10 +813,25 @@ class DHVCForm {
 		if(!empty($unique_entry) && in_array($unique_value, $unique_entry)){
 			$response_value = 0;
 		}
+
+		if($response_value == 1){
+			$new_response_value = $this->check_for_limit();
+			if(is_numeric($new_response_value) && $new_response_value >= 20000){
+				$response_value = 2;
+			}
+		}
+
 		echo $response_value;
 		die;
 	}
 	
+	public function check_for_limit(){
+		global $dhvcform_db;
+		$entries = $dhvcform_db->get_entries(0, $orderby='submitted', $order='desc', $limit = 0);
+		$total_entries = count($entries);
+		return $total_entries;
+	}
+
 	public function check_recaptcha(){
 		if( !check_ajax_referer('dhvc_form_ajax_nonce', '_ajax_nonce', false) ) {
 			echo 0;
@@ -1103,10 +1118,10 @@ class DHVCForm {
 		//save entry
 		$current_user = wp_get_current_user();
 		
-		$entries = $dhvcform_db->get_entries($form_id,$orderby='submitted',$order='desc',$limit = 0);
-		$total_entries = count($entries);
-        $max_entries = dhvc_get_post_meta($form_id,'_max_entries');
-        if($total_entries <= $max_entries){ 
+		//$entries = $dhvcform_db->get_entries($form_id,$orderby='submitted',$order='desc',$limit = 0);
+		//$total_entries = count($entries);
+        //$max_entries = dhvc_get_post_meta($form_id,'_max_entries');
+        //if($total_entries <= 5){
         	
 			if($save_data && $save_entry){
 
@@ -1126,9 +1141,9 @@ class DHVCForm {
 				$last_inserted_id = $dhvcform_db->get_last_insert_entry_data();
 					
 			}
-		}else{
-			echo "limit_reached";exit();
-		}
+		//}else{
+		//	echo "limit_reached";exit();
+		//}
 		$posted_data = $entry_data;
 		$posted_data['site_url']  = get_site_url();
 		$posted_data['ip_address'] = dhvc_form_get_user_ip();
@@ -1298,9 +1313,11 @@ class DHVCForm {
 			$echo = array();
 			if(false === $result){
 				$echo['success'] = isset($result['success']) ? $result['success'] : 0;
+
 			}else{
 				$echo = $result;
 				$echo['success'] = isset($result['success']) ? $result['success'] : 1;
+				
 			}
 			
 			echo json_encode($echo);
