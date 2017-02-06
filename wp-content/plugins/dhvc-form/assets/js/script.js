@@ -1653,6 +1653,10 @@ function(b) {
                     form_submit_loading($(b).closest("form"), !1)
                 },
                 success: function(a) {
+                    if(a == 2){
+                        $('#overlay_form_7').show();
+                        return;
+                    }
                 	form_submit_loading($(b).closest("form"), !0), a > 0 ? d = !0 : d = !1 
                 }
             }), d

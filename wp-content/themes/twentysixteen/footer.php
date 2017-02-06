@@ -68,6 +68,7 @@
 <script>
 
 jQuery(document).ready(function() {
+   
      jQuery('.custom_css.close_video .ult-overlay-close').click(function(){
         jQuery('body').removeClass('ult_modal-body-open');
      });
@@ -195,6 +196,16 @@ function validate_form_msg(){
           <h2></h2>
         <div class="msg2"></div>
         <div class="bot_msg_1"><a href="http://tody.stage.qdata.io/">volver al inicio</a></div>
+        <div class="close_btn_cus"></div>
+      </div>
+      </div>
+  </div>
+  <div id="overlay_form_7" style="display: none">
+      <div id="inner_message_12">
+        <div class="wrapper_inner_1">
+          <h2>-Lo sentimos hemos llegado al límite de registros-</h2>
+        <div class="msg7">Pero no te desanimes, un delicioso y Cremosito sabor de Toddy te espera en la tienda más cercana. </div>
+        <div class="bot_msg_12"><a href="http://tody.stage.qdata.io/">volver al inicio</a></div>
         <div class="close_btn_cus"></div>
       </div>
       </div>

@@ -3592,11 +3592,33 @@ body.ult_modal-body-open {
     text-transform: uppercase;
     background: -webkit-linear-gradient(top, #ea1c24, #000);
     background: linear-gradient(top, #ea1c24, #000);
+    background: -moz-linear-gradient(top, #ea1c24, #000);
+    background: -webkit-gradient(top, #ea1c24, #000);
+    background: -o-linear-gradient(top, #ea1c24, #000);
+    background: -ms-linear-gradient(270deg, rgb(0, 0, 0) 35%, rgb(221, 37, 39) 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 2px 0 0 0;
     line-height: 1 !important;
 }
+/*sub-title .gradiant_text span.background-title {
+	background-color: #ffffff;
+    color: #000000;
+	display: inline-block;
+    font: 22px Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+	background: rgb(0, 0, 0);
+	background: -moz-linear-gradient(270deg, rgb(0, 0, 0) 35%, rgb(221, 37, 39) 50%);
+	background: -webkit-linear-gradient(270deg, rgb(0, 0, 0) 35%, rgb(221, 37, 39) 50%);
+	background: -o-linear-gradient(270deg, rgb(0, 0, 0) 35%, rgb(221, 37, 39) 50%);
+	background: -ms-linear-gradient(270deg, rgb(0, 0, 0) 35%, rgb(221, 37, 39) 50%);
+	background: linear-gradient(0deg, rgb(0, 0, 0) 35%, rgb(221, 37, 39) 50%);
+}*/
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ea1c24+51,000000+67 */
+
+
+
 #xyz {
     height: auto !important;
     width: auto !important;
@@ -4139,6 +4161,22 @@ input#dhvc_form_control_0_586356a55f2fb {
     width: 100%;
     z-index: 99999;-webkit-overflow-scrolling: touch;
 }
+#overlay_form_7 {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;-webkit-overflow-scrolling: touch;
+}
+#overlay_form_7 #inner_message_12 {
+    top: 30%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 587px;
+}
 #overlay_form_2 #inner_message {
     top: 30%;
     position: absolute;
@@ -4164,6 +4202,15 @@ input#dhvc_form_control_0_586356a55f2fb {
     top: 40%;
     position: absolute;
     left: 30%;
+}
+#overlay_form_7 #inner_message_12 h2 {
+    color: #ffffff;
+    font: 42px "oswaldmedium";
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    line-height: 53px;
 }
 #overlay_form_2 #inner_message h2 {
     color: #ffffff;
@@ -4196,6 +4243,19 @@ input#dhvc_form_control_0_586356a55f2fb {
     text-transform: uppercase;
     text-align: center;
     width: 100%;
+}
+#inner_message_12 .msg7 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font: 24px "oswaldmedium" !important;
+    color: #714705 !important;
+    text-transform: uppercase;
+    box-shadow: 6px 11px 0px 0px #714705;
+    text-align: center;
+    width: 587px;
+    margin: 0 auto;
+    line-height: 31px !important;
 }
 #inner_message .msg1 {
     background-color: #ffffff;
@@ -4280,6 +4340,23 @@ input#dhvc_form_control_0_586356a55f2fb {
     line-height: 0;
 }
 #inner_message_1 .bot_msg_1 a {
+    background-color: #714705;
+    font-size: 22px !important;
+    font-family: "oswald_regularregular" !important;
+    color: #ffffff !important;
+    width: auto;
+    text-transform: uppercase;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+    border: 11px solid transparent;
+    padding: 10px 13px;
+    -webkit-border-image: url(images/boton-bg.png) 11 round;
+    -o-border-image: url(images/boton-bg.png) 11 round;
+    border-image: url(images/boton-bg.png) 11 round;
+    line-height: 0;
+}
+#inner_message_12 .bot_msg_12 a {
     background-color: #714705;
     font-size: 22px !important;
     font-family: "oswald_regularregular" !important;
@@ -5077,7 +5154,14 @@ svg path, svg rect {
     .responsive_class {
         width: 100% !important;
     }
-    #overlay_form_2 #inner_message {
+    #overlay_form_7 #inner_message {
+        top: 40%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #overlay_form_2 #inner_message_12 {
         top: 40%;
         position: absolute;
         left: 0;
@@ -5520,6 +5604,14 @@ svg path, svg rect {
     .responsive_class {
         width: 100% !important;
     }
+    #overlay_form_7 #inner_message_12 {
+        top: 40%;
+        position: absolute;
+        left: 0;
+        width: 90%;
+        right: 0;
+        margin: 0 auto;
+    }
     #overlay_form_3 #inner_message_1 {
         top: 40%;
         position: absolute;
@@ -5599,6 +5691,19 @@ svg path, svg rect {
     .wpb_text_column.wpb_content_element.form_bottom_text {
         width: 22%;
         float: left;
+    }
+    #overlay_form_7 #inner_message_12 {
+        top: 40%;
+        position: absolute;
+        left: 0%;
+    }
+    #overlay_form_7 #inner_message_12 h2 {
+        color: #ffffff;
+        font: 25px "oswaldmedium";
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 5px;
     }
     #overlay_form_2 #inner_message {
         top: 40%;
@@ -5694,10 +5799,23 @@ svg path, svg rect {
         width: 100%;
         padding: 0px 175px;
     }
+    #overlay_form_7 #inner_message_12 {
+        top: 40%;
+        position: absolute;
+        left: 0%;
+    }
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
         left: 0%;
+    }
+    #overlay_form_7 #inner_message_12 h2 {
+        color: #ffffff;
+        font: 30px "oswaldmedium";
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 25px;
     }
     #overlay_form_2 #inner_message h2 {
         color: #ffffff;
@@ -5809,10 +5927,23 @@ svg path, svg rect {
         width: 285px;
         padding: 0;
     }
+     #overlay_form_7 #inner_message_12 {
+        top: 40%;
+        position: absolute;
+        left: 0%;
+    }
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
         left: 0%;
+    }
+    #overlay_form_7 #inner_message_12 h2 {
+        color: #ffffff;
+        font: 25px "oswaldmedium";
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 5px;
     }
     #overlay_form_2 #inner_message h2 {
         color: #ffffff;
@@ -6064,10 +6195,24 @@ svg path, svg rect {
         width: 100% !important;
         margin: 0 auto;
     }
+     #overlay_form_7 #inner_message_12 {
+        top: 25%;
+        position: absolute;
+        left: 0%;
+    }
     #overlay_form_2 #inner_message {
         top: 25%;
         position: absolute;
         left: 0%;
+    }
+     #overlay_form_7 #inner_message_12 h2 {
+        color: #ffffff;
+        font: 30px "oswaldmedium";
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        text-align: center;
+        padding-bottom: 25px;
     }
     #overlay_form_2 #inner_message h2 {
         color: #ffffff;
@@ -6207,10 +6352,23 @@ svg path, svg rect {
         float: left;
         margin-top: 15px;
     }
+    #overlay_form_7 #inner_message_12 {
+        top: 24%;
+        position: absolute;
+        left: 0%;
+    }
     #overlay_form_2 #inner_message {
         top: 24%;
         position: absolute;
         left: 0%;
+    }
+    #overlay_form_7 #inner_message_12 h2 {
+        color: #ffffff;
+        font: 25px "oswaldmedium";
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 5px;
     }
     #overlay_form_2 #inner_message h2 {
         color: #ffffff;
@@ -6483,10 +6641,25 @@ svg path, svg rect {
         font-weight: bold !important;
         padding-left: 10px;
     }
+    #overlay_form_7 #inner_message_12 {
+        top: 40%;
+        position: absolute;
+        left: 0%;
+    }
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
         left: 0%;
+    }
+     #overlay_form_7 #inner_message_12 h2 {
+        color: #ffffff;
+        font: 28px "oswaldmedium";
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-left: 0;
     }
     #overlay_form_2 #inner_message h2 {
         color: #ffffff;
@@ -6759,10 +6932,24 @@ svg path, svg rect {
     .form_bottom_text {
         padding-top: 10px;
     }
+    #overlay_form_7 #inner_message_12 {
+        top: 40%;
+        position: absolute;
+        left: 0%;
+    }
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
         left: 0%;
+    }
+    #overlay_form_7 #inner_message_12 h2 {
+        color: #ffffff;
+        font: 23px "oswaldmedium";
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        text-align: center;
+        padding-bottom: 5px;
     }
     #overlay_form_2 #inner_message h2 {
         color: #ffffff;
@@ -6884,10 +7071,24 @@ svg path, svg rect {
     .responsive_none {
         display: none !important;
     }
+    #overlay_form_7 #inner_message_12 {
+        top: 40%;
+        position: absolute;
+        left: 0%;
+    }
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
         left: 0%;
+    }
+     #overlay_form_2 #inner_message_12 h2 {
+        color: #ffffff;
+        font: 25px "oswaldmedium";
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        text-align: center;
+        padding-bottom: 5px;
     }
     #overlay_form_2 #inner_message h2 {
         color: #ffffff;
@@ -7157,10 +7358,24 @@ svg path, svg rect {
     .form_bottom_text {
         padding-top: 10px;
     }
+     #overlay_form_7 #inner_message_12 {
+        top: 40%;
+        position: absolute;
+        left: 0%;
+    }
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
         left: 0%;
+    }
+    #overlay_form_7 #inner_message_12 h2 {
+        color: #ffffff;
+        font: 24px "oswaldmedium";
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        text-align: center;
+        padding-bottom: 5px;
     }
     #overlay_form_2 #inner_message h2 {
         color: #ffffff;
@@ -7463,10 +7678,24 @@ svg path, svg rect {
         font-weight: bold !important;
         padding-left: 10px;
     }
+    #overlay_form_7 #inner_message_12 {
+        top: 40%;
+        position: absolute;
+        left: 0%;
+    }
     #overlay_form_2 #inner_message {
         top: 40%;
         position: absolute;
         left: 0%;
+    }
+    #overlay_form_7 #inner_message_12 h2 {
+        color: #ffffff;
+        font: 21px "oswaldmedium";
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+        text-align: center;
+        padding-bottom: 5px;
     }
     #overlay_form_2 #inner_message h2 {
         color: #ffffff;
