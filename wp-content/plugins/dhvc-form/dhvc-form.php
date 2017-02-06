@@ -562,7 +562,7 @@ class DHVCForm {
 				'date'=>__("Please enter a valid date.",'dhvc-form'),
 				'dateISO'=>__("Please enter a valid date (ISO).",'dhvc-form'),
 				'number'=>__("Please enter a valid number.",'dhvc-form'),
-				'number2'=>__("Please use only numbers (0-9) or brackets (), dashes â€“ and plus +",'dhvc-form'),
+				'number2'=>__("Please use only numbers (0-9) or brackets (), dashes – and plus +",'dhvc-form'),
 				'unique2'=>__("This field value already used.. Try with another value",'dhvc-form'),
 				'digits'=>__("Please enter only digits.",'dhvc-form'),
 				'creditcard'=>__("Please enter a valid credit card number.",'dhvc-form'),
@@ -816,7 +816,7 @@ class DHVCForm {
 
 		if($response_value == 1){
 			$new_response_value = $this->check_for_limit();
-			if(is_numeric($new_response_value) && $new_response_value >= 7){
+			if(is_numeric($new_response_value) && $new_response_value >= 20000){
 				$response_value = 2;
 			}
 		}
