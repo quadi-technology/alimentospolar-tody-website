@@ -59,7 +59,17 @@
   </div><!-- .site-inner -->
 </div><!-- .site -->
 
-<?php wp_footer(); ?>
+<?php 
+wp_footer(); 
+    $check_entry_count = false;
+    $valid_form_ids = array();
+    $valid_form_ids[] = 629;    // registro2
+    $valid_form_ids[] = 655;    // registro3
+    $current_page_id = get_the_ID();
+    if(in_array($current_page_id, $valid_form_ids)){
+      $check_entry_count = true;
+    }
+?>
 
 <script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/enscroll-0.6.2.min.js'></script>
 <script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/select2.full.min.js'></script>
@@ -164,6 +174,13 @@ jQuery(document).ready(function() {
 
 
     });
+    <?php
+    if($check_entry_count){
+    ?>
+      get_total_entries();
+    <?php
+    }
+    ?>
 });
 function validate_form_msg(){
   jQuery('input.dhvc-form-error').each(function(index, value) {
@@ -176,6 +193,22 @@ function validate_form_msg(){
   jQuery('input.dhvc-form-valid').each(function(index, value) {
     jQuery("#"+value.id+"-error").show();
     jQuery("#"+value.id+"-error").removeClass('dhvc-form-error').addClass('dhvc-form-valid');
+  });
+}
+function get_total_entries(){
+  jQuery.ajax({
+    url: '<?php echo admin_url('admin-ajax.php'); ?>',
+    type: "POST",
+    async: false,
+    data: {
+      'action':'get_total_entries'
+    },
+    success: function(resp) {
+      var response_obj = jQuery.parseJSON(resp);
+      if(response_obj.status == "limit_reached"){
+        jQuery('#overlay_form_7').show();
+      }
+    }
   });
 }
 </script>
@@ -202,8 +235,8 @@ function validate_form_msg(){
   <div id="overlay_form_7" style="display: none">
       <div id="inner_message_12">
         <div class="wrapper_inner_1">
-          <h2>-Lo sentimos hemos llegado al l√≠mite de registros-</h2>
-        <div class="msg7">Pero no te desanimes, un delicioso y Cremosito sabor de Toddy te espera en la tienda m√°s cercana. </div>
+          <h2>-Lo sentimos hemos llegado al lÌmite de registros-</h2>
+        <div class="msg7">Pero no te desanimes, un delicioso y Cremosito sabor de Toddy te espera en la tienda m·s cercana. </div>
         <div class="bot_msg_12"><a href="http://megustatoddy.com/">volver al inicio</a></div>
         <div class="close_btn_cus"></div>
       </div>
