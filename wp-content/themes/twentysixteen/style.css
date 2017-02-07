@@ -5195,6 +5195,9 @@ svg path, svg rect {
     }
 }
 @media (max-width: 768px) {
+	.bot_msg_12 {
+		margin-right: 52px !important;
+	}
 	.social_icon {
         margin-left: 0px;
     }
@@ -6043,13 +6046,12 @@ svg path, svg rect {
 }
 @media (max-width: 640px) {
 
-
-
+	.bot_msg_12 {
+		margin-right: 0px !important;
+	}
     .terms_popup .ult_modal.ult-fade.ult-container {
         max-width: 80%;
     }
-
-
     .form_bottom_img {
         margin-left: 132px;
     }
@@ -6322,6 +6324,11 @@ svg path, svg rect {
     }
 }
 @media (max-width: 568px) {
+	#inner_message_12 .msg7 {
+		width: 100%;
+		line-height: 22px !important;
+		font: 21px "oswaldmedium" !important;
+	}
     .form_bottom_img {
         margin-left: 109px;
     }
