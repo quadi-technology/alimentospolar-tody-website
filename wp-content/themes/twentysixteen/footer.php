@@ -187,6 +187,7 @@ function validate_form_msg(){
     var message = jQuery("#"+value.id+"-error").html();
     /*jQuery("#"+value.id+"-error").hide();.css('visibility', 'hidden !important');*/
     jQuery("#"+value.id+"-error").html('');
+    jQuery("span.dhvc-form-valid").hide();
     value.placeholder = message;
   });
 
@@ -235,8 +236,8 @@ function get_total_entries(){
   <div id="overlay_form_7" style="display: none">
       <div id="inner_message_12">
         <div class="wrapper_inner_1">
-          <h2>-Lo sentimos hemos llegado al límite de registros-</h2>
-        <div class="msg7">Pero no te desanimes, un delicioso y Cremosito sabor de Toddy te espera en la tienda más cercana. </div>
+          <h2>-Lo sentimos hemos llegado al lï¿½mite de registros-</h2>
+        <div class="msg7">Pero no te desanimes, un delicioso y Cremosito sabor de Toddy te espera en la tienda mï¿½s cercana. </div>
         <div class="bot_msg_12"><a href="http://megustatoddy.com/">volver al inicio</a></div>
         <div class="close_btn_cus"></div>
       </div>
