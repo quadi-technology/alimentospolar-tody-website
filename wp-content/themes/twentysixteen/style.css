@@ -4804,6 +4804,9 @@ svg path, svg rect {
 .check_box.top span.dhvc-form-error {
 	top: 31px !important;
 }
+.label_hide label {
+	display: none !important;
+}
 /* -------------------------Responsive----------------------------------------------*/
 
 @media only screen and (min-width: 1844px) and (max-width: 1875px) {
