@@ -3595,11 +3595,13 @@ body.ult_modal-body-open {
     background: -moz-linear-gradient(top, #ea1c24, #000);
     background: -webkit-gradient(top, #ea1c24, #000);
     background: -o-linear-gradient(top, #ea1c24, #000);
-    background: -ms-linear-gradient(270deg, rgb(0, 0, 0) 35%, rgb(221, 37, 39) 50%);
+   /* background: -ms-linear-gradient(top, #ea1c24, #000);*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 2px 0 0 0;
     line-height: 1 !important;
+
+
 }
 /*sub-title .gradiant_text span.background-title {
 	background-color: #ffffff;
