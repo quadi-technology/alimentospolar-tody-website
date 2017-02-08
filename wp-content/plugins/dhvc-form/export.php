@@ -64,11 +64,16 @@ if ( isset($_GET['form_id']) && $_GET['form_id'] != '0' )
 						$j++;
 					}
 				}
-				array_unshift($data_row,$entry->form_url,mysql2date( 'd M Y (H:i)',$entry->submitted,true ));
+				//print_r($data_row);
+				//array_unshift($data_row,$entry->form_url,mysql2date( 'd M Y (H:i)',$entry->submitted,true ));
+				// as request we have removed location column form the excel
+				array_unshift($data_row, mysql2date( 'd M Y (H:i)',$entry->submitted,true ));
 				$data_export_line[$i] = $data_row;
 				$i++;
 			}
-			array_unshift($data_export_title,'Location','Submitted');
+			//array_unshift($data_export_title,'Location','Submitted');
+			// as request we have removed location column form the excel
+			array_unshift($data_export_title,'Submitted');
 			//export
 			$data_export = $data_export_line;
 			array_unshift($data_export,$data_export_title);
