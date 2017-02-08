@@ -4798,16 +4798,12 @@ svg path, svg rect {
     background-image: url("images/form_submitt_button.png");
     background-repeat: no-repeat;
 }
-.check_box .dhvc-form-error {
-    margin-top: -23px !important;
+.check_box span.dhvc-form-error, .check_box.bottom span.dhvc-form-error  {
+	top: 31px !important;
 }
-.check_box.top .dhvc-form-error {
-    margin-top: 0px !important;
+.check_box.top span.dhvc-form-error {
+	top: 31px !important;
 }
-.check_box.bottom .dhvc-form-error {
-    margin-top: 0px !important;
-}
-
 /* -------------------------Responsive----------------------------------------------*/
 
 @media only screen and (min-width: 1844px) and (max-width: 1875px) {
