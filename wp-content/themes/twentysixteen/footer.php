@@ -190,6 +190,7 @@ function validate_form_msg(){
     var message = jQuery("#"+value.id+"-error").html();
     /*jQuery("#"+value.id+"-error").hide();.css('visibility', 'hidden !important');*/
     jQuery("#"+value.id+"-error").html('');
+    jQuery("span.dhvc-form-valid").hide();
     value.placeholder = message;
   });
 
