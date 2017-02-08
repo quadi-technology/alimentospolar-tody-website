@@ -4799,7 +4799,7 @@ svg path, svg rect {
     background-repeat: no-repeat;
 }
 .check_box span.dhvc-form-error, .check_box.bottom span.dhvc-form-error  {
-	top: 31px !important;
+	top: 3px !important;
 }
 .check_box.top span.dhvc-form-error {
 	top: 31px !important;
