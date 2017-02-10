@@ -18,6 +18,7 @@ function outputCSV($data) {
 	$outputBuffer = fopen("php://output", 'w');
 	foreach($data as $val) 
 	{
+		fputs($outputBuffer, $bom =( chr(0xEF) . chr(0xBB) . chr(0xBF) ));
 		fputcsv($outputBuffer, $val);
 	}
 	fclose($outputBuffer);
@@ -59,10 +60,10 @@ if ( isset($_GET['form_id']) && $_GET['form_id'] != '0' )
 							$data_export_title[] = $control_label;
 						}
 						if(isset($entry_data[$control->control_name])){
-							if($control->control_name == 'numero1'){
-								$data_row[$j] = $entry_data['numero1'].','.$entry_data['numero2'].','.$entry_data['numero3'];
+							if($control->control_name == 'Direcciones'){
+								$data_row[$j] = $entry_data['Direcciones'].','.$entry_data['numero1'].','.$entry_data['numero2'].','.$entry_data['numero3'];
 							}else{
-								if($control->control_name != 'numero2' && $control->control_name != 'numero3'){
+								if($control->control_name != 'numero1' && $control->control_name != 'numero2' && $control->control_name != 'numero3'){
 									$data_row[$j] = $entry_data[$control->control_name];
 
 								}
