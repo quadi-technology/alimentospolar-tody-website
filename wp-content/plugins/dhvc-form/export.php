@@ -37,6 +37,7 @@ if ( isset($_GET['form_id']) && $_GET['form_id'] != '0' )
 		exit;
 	}
 	
+	
 	global $dhvcform_db;
 	foreach ($forms as $form){
 		$form_control = get_post_meta($form->ID,'_form_control',true);
@@ -50,6 +51,7 @@ if ( isset($_GET['form_id']) && $_GET['form_id'] != '0' )
 				$entry_data = (array) maybe_unserialize($entry->entry_data);
 				$j=0;
 				$data_row=array();
+				$numero = array();
 				foreach ($form_control_arr as $control){
 					if ($control->control_name !='' && $control->tag !='dhvc_form_recaptcha' && $control->tag != 'dhvc_form_captcha' && $control->tag != 'dhvc_form_submit_button'){
 						$control_label = ucwords($control->control_label);
@@ -57,19 +59,35 @@ if ( isset($_GET['form_id']) && $_GET['form_id'] != '0' )
 							$data_export_title[] = $control_label;
 						}
 						if(isset($entry_data[$control->control_name])){
-							$data_row[$j] = $entry_data[$control->control_name];
+							if($control->control_name == 'numero1'){
+								$data_row[$j] = $entry_data['numero1'].','.$entry_data['numero2'].','.$entry_data['numero3'];
+							}else{
+								if($control->control_name != 'numero2' && $control->control_name != 'numero3'){
+									$data_row[$j] = $entry_data[$control->control_name];
+
+								}
+							}
 						}else{
 							$data_row[$j] = '';
 						}
 						$j++;
 					}
+
 				}
-				array_unshift($data_row,$entry->form_url,mysql2date( 'd M Y (H:i)',$entry->submitted,true ));
+				
+				//$data_row[] = implode(',', $numero);
+				//array_unshift($data_row,$entry->form_url,mysql2date( 'd M Y (H:i)',$entry->submitted,true ));
+				// as request we have removed location column form the excel
+				array_unshift($data_row, mysql2date( 'd M Y (H:i)',$entry->submitted,true ));
 				$data_export_line[$i] = $data_row;
 				$i++;
 			}
-			array_unshift($data_export_title,'Location','Submitted');
+
+			//array_unshift($data_export_title,'Location','Submitted');
+			// as request we have removed location column form the excel
+			array_unshift($data_export_title,'Submitted');
 			//export
+
 			$data_export = $data_export_line;
 			array_unshift($data_export,$data_export_title);
 			$line = $data_export;
