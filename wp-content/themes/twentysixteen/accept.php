@@ -35,9 +35,9 @@ if(isset($_GET['entrie_id']) && !empty($_GET['entrie_id'])){
 			$message = "success";
 		}	
 		elseif(isset($_GET['accepted']) && $_GET['accepted'] == 'Decline'){			
-			$deletet_sql = "DELETE FROM wp_dhvc_form_entry_data WHERE md5(id) = %d";
-			$result = $wpdb->query($wpdb->prepare($deletet_sql, $entry_id));	
-			$message = "decline";
+			$deletet_sql = "DELETE FROM wp_dhvc_form_entry_data WHERE md5(id) = '".$entry_id."'"; 
+		  	$result = $wpdb->query($deletet_sql);  
+		   	$message = "decline";
 		}
 			
 	}else{
