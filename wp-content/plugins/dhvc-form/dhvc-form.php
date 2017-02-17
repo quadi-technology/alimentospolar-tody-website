@@ -816,7 +816,7 @@ class DHVCForm {
 
 		if($response_value == 1){
 			$new_response_value = $this->check_for_limit();
-			if(is_numeric($new_response_value) && $new_response_value >= 40000){
+			if(is_numeric($new_response_value) && $new_response_value >= 120000){
 				$response_value = 2;
 			}
 		}
