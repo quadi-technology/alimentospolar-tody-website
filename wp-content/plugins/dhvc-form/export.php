@@ -78,7 +78,7 @@ if ( isset($_GET['form_id']) && $_GET['form_id'] != '0' )
 
 				//array_unshift($data_row,$entry->form_url,mysql2date( 'd M Y (H:i)',$entry->submitted,true ));
 				// as request we have removed location column form the excel
-				array_unshift($data_row, mysql2date( 'd M Y (H:i)',$entry->submitted,true ));
+				array_unshift($data_row, $entry->id, mysql2date( 'd M Y (H:i)',$entry->submitted,true ));
 				$data_export_line[$i] = $data_row;
 				$i++;
 			}
