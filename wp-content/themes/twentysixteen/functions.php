@@ -480,7 +480,7 @@ function get_total_entries(){
 	$entries = $dhvcform_db->get_entries($form_id,$orderby='submitted',$order='desc',$limit = 0);
 	$total_entries = count($entries);
     if($total_entries >= 80000){
-    	$response_data['status'] = "limit_reached";
+    	//$response_data['status'] = "limit_reached";
     }
 	echo json_encode($response_data);exit;
 }
