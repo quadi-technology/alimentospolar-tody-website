@@ -15,6 +15,8 @@ if(!function_exists('dhvc_form_is_xhr')){
 }
 
 function outputCSV($data) {
+	ini_set('max_execution_time', 0);
+	ini_set('memory_limit','1000M');
 	$outputBuffer = fopen("php://output", 'w');
 	foreach($data as $val) 
 	{
@@ -85,7 +87,7 @@ if ( isset($_GET['form_id']) && $_GET['form_id'] != '0' )
 
 			//array_unshift($data_export_title,'Location','Submitted');
 			// as request we have removed location column form the excel
-			array_unshift($data_export_title,'Submitted');
+			array_unshift($data_export_title,'Entry ID','Submitted');
 			//export
 
 			$data_export = $data_export_line;
