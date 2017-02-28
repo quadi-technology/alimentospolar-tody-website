@@ -241,8 +241,8 @@ function get_total_entries(){
   <div id="overlay_form_7" style="display: block">
       <div id="inner_message_12">
         <div class="wrapper_inner_1">
-          <h2>-Lo sentimos hemos llegado al límite de registros-</h2>
-        <div class="msg7">Pero no te desanimes, un delicioso y Cremosito sabor de Toddy te espera en la tienda más cercana.</div>
+          <h2>-Lo sentimos hemos llegado al limite de registros-</h2>
+        <div class="msg7">Pero no te desanimes, un delicioso y Cremosito sabor de Toddy te espera en la tienda mas cercana.</div>
         <div class="bot_msg_12"><a href="http://tody.stage.qdata.io/">volver al inicio</a></div>
         <div class="close_btn_cus"></div>
       </div>
