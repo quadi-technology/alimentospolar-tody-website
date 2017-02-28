@@ -233,7 +233,7 @@ function get_total_entries(){
       </div>
       </div>
   </div>
-  <div id="overlay_form_7" style="display: block">
+  <div id="overlay_form_7" style="display: none;">
       <div id="inner_message_12">
         <div class="wrapper_inner_1">
           <h2>-Lo sentimos hemos llegado al limite de registros-</h2>
