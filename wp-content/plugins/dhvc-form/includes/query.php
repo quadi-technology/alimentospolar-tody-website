@@ -212,6 +212,18 @@ class DHVCFormQuery {
 		$sql = "DELETE FROM " .  $this->get_form_entry_data_table_name() . " WHERE form_id = %d";
 		return $wpdb->query($wpdb->prepare($sql, $form_id));
 	}
+	
+	public function mb_unserialize($string) {
+        $string = preg_replace_callback(
+            '!s:(\d+):"(.*?)";!s',
+            function ($matches) {
+                if ( isset( $matches[2] ) )
+                    return 's:'.strlen($matches[2]).':"'.$matches[2].'";';
+            },
+            $string
+        );
+        return unserialize($string);
+    }
 }
 
 global $dhvcform_db;
