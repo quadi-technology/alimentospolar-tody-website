@@ -1685,7 +1685,7 @@ class DHVCFormAdmin {
 					<div class="inside">
 						<div class="dhvcform_options">
 							<?php if($form_control):?>
-							<?php $entry_data =  maybe_unserialize($entry->entry_data)?>
+							<?php $entry_data =  $dhvcform_db->mb_unserialize($entry->entry_data)?>
 							<?php $form_control_arr = json_decode($form_control)?>
 							<?php foreach ($form_control_arr as $control):?>
 								<?php if(property_exists($control, 'control_name')):?>
