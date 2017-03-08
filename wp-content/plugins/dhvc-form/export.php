@@ -71,7 +71,9 @@ if ( isset($_GET['form_id']) && $_GET['form_id'] != '0' )
 								}
 							}
 						}else{
-							$data_row[$j] = '';
+							if($control->control_name != 'numero1' && $control->control_name != 'numero2' && $control->control_name != 'numero3'){
+								$data_row[$j] = '';
+							}
 						}
 						$j++;
 					}
