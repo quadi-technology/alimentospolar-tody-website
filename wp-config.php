@@ -18,16 +18,16 @@ ini_set('memory_limit','250M');
 /** The name of the database for WordPress */
 //define('WP_CACHE', true); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', '/Volumes/Files/yecidfgomezc/Documents/repositorios/define.qdata.io/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', '833125_todystg');
+define('DB_NAME', '6178_stgtodydb');
 
 /** MySQL database username */
-define('DB_USER', '833125_todystg');
+define('DB_USER', '6178_stgtodyuser');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'vL=gL6cr5;N6');
+define('DB_PASSWORD', 'zxxn8qnGT9myTeAG');
 
 /** MySQL hostname */
-define('DB_HOST', 'mariadb-135.wc1.ord1.stabletransit.com');
+define('DB_HOST', 'mariadb.whosting.website');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
