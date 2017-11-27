@@ -17,14 +17,14 @@ pipelines:
         production:
             - step:
                 script:
-                    - export HOST=$FTPHOST
-                    - export TARGETFOLDER=$FTPFOLDER
+                    - export HOST=$FTPHOSTP
+                    - export TARGETFOLDER=$FTPFOLDERP
                     - export FTPUSER=$FTPUSERP
                     - export FTPPSWD=$FTPPSWDP
                     #- mv -f .env.production .env
                     #- composer install
                     - python -V
-                    - python /cmdtools/deploytools/deploy.py -v -un -m ftp -u $FTPUSERP -p $FTPPSWDP -s $FTPHOST -f $FTPFOLDER -g .
+                    - python /cmdtools/deploytools/deploy.py -v -un -m ftp -u $FTPUSERP -p $FTPPSWDP -s $FTPHOSTP -f $FTPFOLDERP -g .
                     #- php artisan migrate --force
     default:
         - step:
